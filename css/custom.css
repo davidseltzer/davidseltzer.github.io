@@ -1,0 +1,19 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+	display: none !important;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+	min-height: 120px;
+}
+
+.youtube-container {
+	background-color: black;
+}
+
+.improv-team__type-and-date {
+	margin-bottom: 40px;
+}
+
+.contact__email-address {
+	color: white;
+}
