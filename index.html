@@ -68,23 +68,11 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <!--<li>-->
-                        <!--<a class="page-scroll" href="#services">Services</a>-->
-                    <!--</li>-->
                     <li>
-                        <a class="page-scroll" href="#improv">Improv</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#standup">Stand Up</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#film">Film</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Training</a>
+                        <a class="page-scroll" href="#resume">Resume</a>
                     </li>
                     <!--<li>-->
-                        <!--<a class="page-scroll" href="#team">Headshots</a>-->
+                        <!--<a class="page-scroll" href="#standup">Stand Up</a>-->
                     <!--</li>-->
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -102,218 +90,175 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Actor, Improvisor, and Comedian</div>
                 <div class="intro-heading">David John Seltzer</div>
-                <a href="#portfolio" class="page-scroll btn btn-xl">Comedy</a>
+                <a href="#resume" class="page-scroll btn btn-xl">Resume</a>
             </div>
         </div>
     </header>
 
-    <!-- Services Section -->
-    <!--<section id="services">-->
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-12 text-center">-->
-                    <!--<h2 class="section-heading">Services</h2>-->
-                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="row text-center">-->
-                <!--<div class="col-md-4">-->
-                    <!--<span class="fa-stack fa-4x">-->
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>-->
-                        <!--<i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>-->
-                    <!--</span>-->
-                    <!--<h4 class="service-heading">E-Commerce</h4>-->
-                    <!--<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>-->
-                <!--</div>-->
-                <!--<div class="col-md-4">-->
-                    <!--<span class="fa-stack fa-4x">-->
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>-->
-                        <!--<i class="fa fa-laptop fa-stack-1x fa-inverse"></i>-->
-                    <!--</span>-->
-                    <!--<h4 class="service-heading">Responsive Design</h4>-->
-                    <!--<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>-->
-                <!--</div>-->
-                <!--<div class="col-md-4">-->
-                    <!--<span class="fa-stack fa-4x">-->
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>-->
-                        <!--<i class="fa fa-lock fa-stack-1x fa-inverse"></i>-->
-                    <!--</span>-->
-                    <!--<h4 class="service-heading">Web Security</h4>-->
-                    <!--<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</section>-->
-
-    <div id="portfolio">
-
-        <!-- Improv Grid Section -->
-        <section id="improv" class="bg-light-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Improv</h2>
-                        <h3 class="section-subheading text-muted">Long form improv teams and shows</h3>
-
-                        <!--improv team panels-->
-                        <div ng-if="ctrl.isLoaded" class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-                            <!--team-->
-                            <div ng-repeat="team in ctrl.data.improvTeams" class="panel panel-default">
-
-                                <!--name-->
-                                <div class="panel-heading" role="tab" id="improv-team-heading-{{$index}}">
-                                    <h4 class="panel-title">
-                                        <a ng-class="{'collapsed': !$first}" role="button" data-toggle="collapse" data-parent="#accordion"
-                                           href="#improv-team-{{$index}}" aria-expanded="true" aria-controls="improv-team-{{$index}}">
-                                            {{team.name}}
-                                        </a>
-                                    </h4>
-                                </div>
-
-                                <!--panel-->
-                                <div id="improv-team-{{$index}}" class="panel-collapse collapse" ng-class="{'in': $first}" role="tabpanel"
-                                     aria-labelledby="improv-team-heading-{{$index}}">
-                                    <div class="panel-body">
-
-                                        <h5 class="improv-team__type-and-date">{{team.type}} ({{team.dateRange}})</h5>
-
-                                        <!--shows-->
-                                        <a ng-if="ctrl.isLoaded" ng-repeat="media in team.shows" ng-href="{{::media.youtubeLink}}" target="_blank"
-                                           class="col-md-4 col-sm-6 portfolio-item" ng-cloak>
-
-                                            <!--youtube video embed-->
-                                            <div class="youtube-container embed-responsive embed-responsive-16by9">
-                                                <iframe class="embed-responsive-item" ng-src="{{::media.youtubeEmbed}}" allowfullscreen></iframe>
-                                            </div>
-
-                                            <!--title / description-->
-                                            <div class="portfolio-caption">
-                                                <h4 ng-bind="::media.title"></h4>
-                                                <p class="text-muted" ng-bind="::media.subtitle"></p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Stand up Grid Section -->
-        <section id="standup" class="bg-light-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Stand Up</h2>
-                        <h3 class="section-subheading text-muted">Stand up comedy sets</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <a ng-if="ctrl.isLoaded" ng-repeat="media in ctrl.data.standUpShows" ng-href="{{::media.youtubeLink}}" target="_blank"
-                       class="col-md-4 col-sm-6 portfolio-item" ng-cloak>
-                        <!--<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">-->
-                        <!--<div class="portfolio-hover">-->
-                        <!--<div class="portfolio-hover-content">-->
-                        <!--<i class="fa fa-plus fa-3x"></i>-->
-                        <!--</div>-->
-                        <!--</div>-->
-                        <!--<img src="img/portfolio/roundicons.png" class="img-responsive" alt="">-->
-                        <div class="youtube-container embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" ng-src="{{::media.youtubeEmbed}}" allowfullscreen></iframe>
-                        </div>
-                        <!--</a>-->
-                        <div class="portfolio-caption">
-                            <h4 ng-bind="::media.title"></h4>
-                            <p class="text-muted" ng-bind="::media.subtitle"></p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Film Grid Section -->
-        <section id="film" class="bg-light-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Film</h2>
-                        <h3 class="section-subheading text-muted">Acting in film</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <a ng-if="ctrl.isLoaded" ng-repeat="media in ctrl.data.film" ng-href="{{::media.youtubeLink}}" target="_blank"
-                       class="col-md-4 col-sm-6 portfolio-item" ng-cloak>
-                        <!--<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">-->
-                        <!--<div class="portfolio-hover">-->
-                        <!--<div class="portfolio-hover-content">-->
-                        <!--<i class="fa fa-plus fa-3x"></i>-->
-                        <!--</div>-->
-                        <!--</div>-->
-                        <!--<img src="img/portfolio/roundicons.png" class="img-responsive" alt="">-->
-                        <div class="youtube-container embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" ng-src="{{::media.youtubeEmbed}}" allowfullscreen></iframe>
-                        </div>
-                        <!--</a>-->
-                        <div class="portfolio-caption">
-                            <h4 ng-bind="::media.title"></h4>
-                            <p class="text-muted" ng-bind="::media.subtitle"></p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-    </div>
-
-    <!-- About Section -->
-    <section id="about">
+    <!-- Resume Section -->
+    <section id="resume">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Training</h2>
+                    <h2 class="section-heading">Resume</h2>
                     <h3 class="section-subheading text-muted">Actor with a background in long form improv</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li ng-if="ctrl.isLoaded" ng-repeat="section in ctrl.data.training"
-                            ng-class="{'timeline-inverted': ($index % 2 !== 0)}" ng-cloak>
-                            <div class="timeline-image">
-	                            <i class="fa {{::section.icon}}" aria-hidden="true"></i>
-                                <!--<img class="img-circle img-responsive" src="img/about/1.jpg" alt="">-->
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <!--<h4 ng-bind="::section.dateRange"></h4>-->
-                                    <h4 class="subheading" ng-bind="::section.heading"></h4>
-	                                <h5 class="subheading text-muted" ng-bind="::section.location"></h5>
-                                </div>
-                                <div class="timeline-body">
-                                    <p ng-repeat="item in section.items" class="text-muted" ng-bind-html="::item"></p>
-                                </div>
-                            </div>
-                        </li>
-                        <!--<li>-->
-                            <!--<div class="timeline-image alternate-color">-->
-	                            <!--&lt;!&ndash;<h4>Download Resume</h4>&ndash;&gt;-->
-	                            <!--&lt;!&ndash;<i class="fa fa-download" aria-hidden="true"></i>&ndash;&gt;-->
-                            <!--</div>-->
-	                        <!--<div class="timeline-panel">-->
-		                        <!--<div class="timeline-heading">-->
-			                        <!--&lt;!&ndash;<h5 class="subheading text-muted">Download Resume</h5>&ndash;&gt;-->
-		                        <!--</div>-->
-	                        <!--</div>-->
-                        <!--</li>-->
-                    </ul>
+
+                    <!--student films-->
+                    <h4>Student Films</h4>
+                    <table class="table">
+                        <tr>
+                            <td>Changing (2017)</td>
+                            <td>Lead</td>
+                            <td>Academy of Arts University</td>
+                            <td>Dir: Quintin Walker</td>
+                        </tr>
+                    </table>
+
+                    <!--improv troupes-->
+                    <h4>Improv Troupes</h4>
+                    <table class="table">
+                        <tr>
+                            <td>Dave & Rhonda <small>(current)</small></td>
+                            <td>Duo Indie Team</td>
+                        </tr>
+                        <tr>
+                            <td>Rapscallion <small>(current)</small></td>
+                            <td>Indie Team</td>
+                        </tr>
+                        <tr>
+                            <td>Vision Quest</td>
+                            <td>Endgames House Team</td>
+                        </tr>
+                        <tr>
+                            <td>The Professionals</td>
+                            <td>Leela House Team</td>
+                        </tr>
+                    </table>
+
+                    <!--training (acting)-->
+                    <h4>Training <small>Acting</small></h4>
+                    <table class="table">
+                        <tr>
+                            <td>Acting for the Camera</td>
+                            <td>ACT - American Conservatory Theater</td>
+                            <td>Liz Anderson</td>
+                        </tr>
+                        <tr>
+                            <td>Audition Technique</td>
+                            <td>ACT - American Conservatory Theater</td>
+                            <td>Mark Rafael</td>
+                        </tr>
+                        <tr>
+                            <td>Act II</td>
+                            <td>ACT - American Conservatory Theater</td>
+                            <td>Jessica Kitchens</td>
+                        </tr>
+                        <tr>
+                            <td>Act I</td>
+                            <td>ACT - American Conservatory Theater</td>
+                            <td>Heidi Carlsen</td>
+                        </tr>
+                        <tr>
+                            <td>Introduction To Acting</td>
+                            <td>ACT - American Conservatory Theater</td>
+                            <td>Rebecca Struch</td>
+                        </tr>
+                    </table>
+
+                    <!--training (improv)-->
+                    <h4>Training <small>Improv</small></h4>
+                    <table class="table">
+                        <tr>
+                            <td>Improv 101: Improv Basics</td>
+                            <td>UCB – Upright Citizen’s Brigade</td>
+                            <td>Gilli Nissim</td>
+                        </tr>
+                        <tr>
+                            <td>imp 501: The Harold</td>
+                            <td>Endgames Improv</td>
+                            <td>Kaeli Quick</td>
+                        </tr>
+                        <tr>
+                            <td>imp 401: Advanced Scene Work</td>
+                            <td>Endgames Improv</td>
+                            <td>Kaeli Quick</td>
+                        </tr>
+                        <tr>
+                            <td>imp 301: Scene Work</td>
+                            <td>Endgames Improv</td>
+                            <td>Kaeli Quick</td>
+                        </tr>
+                        <tr>
+                            <td>imp 201: Character</td>
+                            <td>Endgames Improv</td>
+                            <td>Sean Geary</td>
+                        </tr>
+                        <tr>
+                            <td>imp 101: Group Dynamics</td>
+                            <td>Endgames Improv</td>
+                            <td>Chris Blair</td>
+                        </tr>
+                        <tr>
+                            <td>Improv IV: Top of Your Intelligence</td>
+                            <td>Leela Improv</td>
+                            <td>Liz Anderson</td>
+                        </tr>
+                        <tr>
+                            <td>Improv III: Commitment to Craft</td>
+                            <td>Leela Improv</td>
+                            <td>Doug Kassel</td>
+                        </tr>
+                        <tr>
+                            <td>Improv II: Authentic Relationships</td>
+                            <td>Leela Improv</td>
+                            <td>Liz Anderson</td>
+                        </tr>
+                        <tr>
+                            <td>Improv I: Let’s Play!</td>
+                            <td>Leela Improv</td>
+                            <td>Diana Brown</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Stand up Grid Section -->
+    <!--<section id="standup" class="bg-light-gray">-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-lg-12 text-center">-->
+                    <!--<h2 class="section-heading">Stand Up</h2>-->
+                    <!--<h3 class="section-subheading text-muted">Stand up comedy sets</h3>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<a ng-if="ctrl.isLoaded" ng-repeat="media in ctrl.data.standUpShows" ng-href="{{::media.youtubeLink}}" target="_blank"-->
+                   <!--class="col-md-4 col-sm-6 portfolio-item" ng-cloak>-->
+                    <!--&lt;!&ndash;<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="portfolio-hover">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="portfolio-hover-content">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<i class="fa fa-plus fa-3x"></i>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<img src="img/portfolio/roundicons.png" class="img-responsive" alt="">&ndash;&gt;-->
+                    <!--<div class="youtube-container embed-responsive embed-responsive-16by9">-->
+                        <!--<iframe class="embed-responsive-item" ng-src="{{::media.youtubeEmbed}}" allowfullscreen></iframe>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;</a>&ndash;&gt;-->
+                    <!--<div class="portfolio-caption">-->
+                        <!--<h4 ng-bind="::media.title"></h4>-->
+                        <!--<p class="text-muted" ng-bind="::media.subtitle"></p>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
 
     <!-- Headshots Section -->
     <!--<section id="team" class="bg-light-gray">-->
