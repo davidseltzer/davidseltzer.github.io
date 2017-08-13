@@ -17,3 +17,43 @@
 .contact__email-address {
 	color: white;
 }
+
+.reel-iframe {
+	width: 290px;
+	height: 163px;
+}
+
+@media (min-width: 500px) {
+	.reel-iframe {
+		width: 470px;
+		height: 264px;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+/*@media (min-width: @screen-sm-min)*/
+@media (min-width: 768px) {
+	.reel-iframe {
+		width: 738px;
+		height: 415px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+/*@media (min-width: @screen-md-min)*/
+/*@media (min-width: 992px) {*/
+	/*.reel-iframe {*/
+		/*width: 962px;*/
+		/*height: 541px;*/
+	/*}*/
+/*}*/
+
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: @screen-lg-min)*/
+/*
+@media (min-width: 1200px) {
+	.reel-iframe {
+		width: 1170px;
+		height: 658px;
+	}
+}*/
