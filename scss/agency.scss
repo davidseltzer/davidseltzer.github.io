@@ -370,27 +370,17 @@ section {
             }
         }
         .timeline-image {
-            line-height: 5.5;
             left: 0;
             margin-left: 0;
             width: 80px;
             height: 80px;
             position: absolute;
             z-index: 100;
-            background-color: $gray-dark;
+            background-color: $theme-primary;
             color: white;
             border-radius: 100%;
             border: 7px solid #f1f1f1;
             text-align: center;
-
-          &.alternate-color {
-            background-color: $theme-primary;
-          }
-
-          .fa {
-            font-size: 34px;
-          }
-
             h4 {
                 font-size: 10px;
                 margin-top: 12px;
@@ -450,16 +440,10 @@ section {
                 text-align: right;
             }
             .timeline-image {
-              line-height: 7.5;
                 width: 100px;
                 height: 100px;
                 left: 50%;
                 margin-left: -50px;
-
-              .fa {
-                font-size: 50px;
-              }
-
                 h4 {
                     font-size: 13px;
                     margin-top: 16px;
@@ -483,15 +467,9 @@ section {
                 padding: 0 20px 20px;
             }
             .timeline-image {
-                line-height: 12.5;
                 width: 150px;
                 height: 150px;
                 margin-left: -75px;
-
-                .fa {
-                    font-size: 80px;
-                }
-
                 h4 {
                     font-size: 18px;
                     margin-top: 30px;
@@ -513,15 +491,9 @@ section {
                 padding: 0 20px 20px 100px;
             }
             .timeline-image {
-                line-height: 14.5;
                 width: 170px;
                 height: 170px;
                 margin-left: -85px;
-
-              .fa {
-                font-size: 90px;
-              }
-
                 h4 {
                     margin-top: 40px;
                 }

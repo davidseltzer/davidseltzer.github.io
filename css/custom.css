@@ -2,10 +2,6 @@
 	display: none !important;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
-	min-height: 120px;
-}
-
 .youtube-container {
 	background-color: black;
 }
@@ -16,6 +12,23 @@
 
 .contact__email-address {
 	color: white;
+}
+
+.portfolio-hover {
+	cursor: pointer;
+}
+
+.portfolio-item {
+	display: flex;
+}
+
+.portfolio-link .img-fluid {
+	max-width: 100%;
+	max-height: 300px;
+}
+
+.portfolio-modal .modal-content img {
+	max-height: 600px;
 }
 
 .reel-iframe {
