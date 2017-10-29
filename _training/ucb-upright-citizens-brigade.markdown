@@ -1,5 +1,5 @@
 ---
-title: UCB – UPRIGHT CITIZEN’S BRIGADE
+title: UCB – Upright Citizen’s Brigade
 date: 2017-10-29 08:09:00 Z
 position: 0
 city: Los Angeles
