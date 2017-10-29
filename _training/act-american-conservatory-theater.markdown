@@ -1,5 +1,5 @@
 ---
-title: ACT - AMERICAN CONSERVATORY THEATER
+title: ACT - American Conservatory Theater
 date: 2017-10-29 08:10:00 Z
 position: 1
 city: San Francisco
