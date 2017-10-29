@@ -5,6 +5,9 @@ collections:
   acting:
     title: Acting
     output: true
+  improv:
+    title: Improv
+    output: true
   posts:
     title: Posts
     output: true
