@@ -11,6 +11,9 @@ sections:
   - title: Changing (2017)
     role: Lead / Chris
     director: Quintin Walker
+  - title: Rookie in Real Estate
+    role: Supporting / DJ Fizz
+    director: Russ Dunn
 - title: Web Series
   credits:
   - title: Subletters (2017)
