@@ -16,11 +16,11 @@ sections:
     director: Russ Dunn
 - title: Web Series
   credits:
-  - title: Subletters (2017)
-    role: Guest Star / David
-    director: Alex Jacobs & D'arby Rose
   - title: Kings are Wild (2017)
     role: Series Regular / David
     director: Sachin Medhekar
+  - title: Subletters (2017)
+    role: Guest Star / David
+    director: Alex Jacobs & D'arby Rose
 ---
 
