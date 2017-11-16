@@ -5,10 +5,10 @@ position: 0
 sections:
 - title: Film
   credits:
-  - title: Turning Tables (2017)
+  - title: Turning Tables
     role: Principal / Young Will
     director: Hilary Davidson
-  - title: Changing (2017)
+  - title: Changing
     role: Lead / Chris
     director: Quintin Walker
   - title: Rookie in Real Estate
@@ -16,10 +16,10 @@ sections:
     director: Russ Dunn
 - title: Web Series
   credits:
-  - title: Kings are Wild (2017)
+  - title: Kings are Wild
     role: Series Regular / David
     director: Sachin Medhekar
-  - title: Subletters (2017)
+  - title: Subletters
     role: Guest Star / David
     director: Alex Jacobs & D'arby Rose
 ---
