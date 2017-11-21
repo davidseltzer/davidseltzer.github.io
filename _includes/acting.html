@@ -17,13 +17,19 @@
 							{% for credit in section.credits %}
 
 								<tr>
+									<!--title-->
 									<td>{{credit.title}}</td>
-									<td>{{credit.role}}</td>
+
+									<!--role & character-->
+									<td>{{credit.role}}
+										{% if credit.character %}
+											<span> / {{credit.character}}</span>
+										{% endif %}
+									</td>
+
+									<!--director-->
 									<td>Dir: {{credit.director}}</td>
 
-									{% if credit.production %}
-										<td>{{credit.production}}</td>
-									{% endif %}
 								</tr>
 							{% endfor %}
 						</table>
