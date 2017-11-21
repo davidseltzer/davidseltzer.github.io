@@ -3,7 +3,7 @@ title: Credits
 date: 2017-11-09 04:40:00 Z
 position: 0
 sections:
-- title: Film
+- title: Short Films
   credits:
   - title: The Boardroom
     role: Principal
