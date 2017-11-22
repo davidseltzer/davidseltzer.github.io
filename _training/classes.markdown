@@ -2,13 +2,13 @@
 title: Classes
 date: 2017-11-22 01:58:00 Z
 facilities:
-- facility: Upright Citizen's Brigade
+- name: Upright Citizen's Brigade
   type: Improv
   city: Los Angeles
   teachers:
   - Betsy Stover
   - Gilli Nissim
-- facility: American Conservatory Theater
+- name: American Conservatory Theater
   type: Acting
   city: San Francisco
   teachers:
@@ -17,7 +17,7 @@ facilities:
   - Jessica Kitchens
   - Heidi Carlsen
   - Rebecca Struch
-- facility: Endgames
+- name: Endgames
   type: Improv
   city: San Francisco
   teachers:
@@ -25,7 +25,7 @@ facilities:
   - Kaeli Quick
   - Sean Geary
   - Rebecca Sorell
-- facility: Leela
+- name: Leela
   type: Improv
   city: San Francisco
   teachers:
