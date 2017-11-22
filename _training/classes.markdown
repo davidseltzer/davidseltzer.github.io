@@ -1,7 +1,7 @@
 ---
 title: Classes
 date: 2017-11-22 01:58:00 Z
-Field name:
+facilities:
 - facility: Upright Citizen's Brigade
   type: Improv
   city: Los Angeles
