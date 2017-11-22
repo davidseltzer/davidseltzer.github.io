@@ -2,28 +2,30 @@
 	<div class="my-auto">
 		<h2 class="mb-5">Training</h2>
 
-		{% for school in site.training %}
+		{% for trainingPage in site.training %}
+			{% for school in trainingPage.schools %}
 
-			<div class="resume-item d-flex flex-column flex-md-row mb-5">
-				<div class="resume-content mr-auto">
+				<div class="resume-item d-flex flex-column flex-md-row mb-5">
+					<div class="resume-content mr-auto">
 
-					<!--institution-->
-					<h3 class="mb-0">{{school.title}}</h3>
+						<!--institution-->
+						<h3 class="mb-0">{{school.name}}</h3>
 
-					<!--classes-->
-					<div class="subheading mb-3">{{school.classes}}</div>
+						<!--classes-->
+						<div class="subheading mb-3">{{school.type}}</div>
 
-					<!--teachers-->
-					<div>{{school.teachers}}</div>
+						<!--teachers-->
+						<div>{{school.teachers | join:', '}}</div>
 
-					<!--<p></p>-->
+						<!--<p></p>-->
+					</div>
+					<div class="resume-date text-md-right">
+
+						<!--city-->
+						<span class="text-primary">{{school.city}}</span>
+					</div>
 				</div>
-				<div class="resume-date text-md-right">
-
-					<!--city-->
-					<span class="text-primary">{{school.city}}</span>
-				</div>
-			</div>
+			{% endfor %}
 		{% endfor %}
 
 	</div>
