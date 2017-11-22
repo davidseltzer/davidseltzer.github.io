@@ -7,7 +7,7 @@ Field name:
   city: Los Angeles
   teachers:
   - Betsy Stover
-  - Gilli Nissi
+  - Gilli Nissim
 - facility: American Conservatory Theater
   type: Acting
   city: San Francisco
