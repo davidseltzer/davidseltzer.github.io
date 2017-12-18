@@ -17,6 +17,10 @@ sections:
     role: Lead
     character: Chris
     director: Quintin Walker
+  - title: Directing Ricky O’Day
+    role: Supporting
+    character: A.D.
+    director: Tharan Nesbit
   - title: Rookie in Real Estate
     role: Supporting
     character: DJ Fizz
@@ -31,5 +35,9 @@ sections:
     role: Guest Star
     character: David
     director: Alex Jacobs & D'arby Rose
+  - title: The Agency
+    role: Co-Star
+    character: Hacker
+    director: Russ Dunn
 ---
 
