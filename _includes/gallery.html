@@ -2,39 +2,14 @@
 	<div class="my-auto">
 		<h2 class="mb-5">Gallery</h2>
 
-		<div class="album row">
+		<div class="album row justify-content-center">
 
-			<div class="card">
-				<img class="card-img-top" src="/img/gallery/headshot-1.jpg">
-			</div>
+			{% for image in page.gallery-images %}
 
-			<div class="card">
-				<img class="card-img-top" src="/img/gallery/headshot-2.jpg">
-			</div>
-
-			<div class="card">
-				<img class="card-img-top" src="/img/gallery/headshot-3.jpg">
-			</div>
-
-			<div class="card">
-				<img class="card-img-top" src="/img/gallery/headshot-4.jpg">
-			</div>
-
-			<div class="card">
-				<img class="card-img-top" src="/img/gallery/improv/david-john-seltzer-ucb-1.jpg">
-			</div>
-
-			<div class="card">
-				<img class="card-img-top" src="/img/gallery/subletters-1.png">
-			</div>
-
-			<div class="card">
-				<img class="card-img-top" src="/img/gallery/subletters-2.png">
-			</div>
-
-			<div class="card">
-				<img class="card-img-top" src="/img/gallery/subletters-3.png">
-			</div>
+				<div class="card col-10 col-md-5 col-lg-4">
+					<img class="card-img-top" src="{{ image }}">
+				</div>
+			{% endfor %}
 
 		</div>
 	</div>
