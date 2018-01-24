@@ -5,14 +5,15 @@ position: 0
 sections:
 - title: Short Films
   credits:
-  - title: The Boardroom
-    role: Principal
-    character: Bro
-    director: J Thomas Mayfield
   - title: Turning Tables
     role: Principal
     character: Young Will
     director: Hilary Davidson
+    imdb-link: http://www.imdb.com/title/tt7632306/
+  - title: The Boardroom
+    role: Principal
+    character: Bro
+    director: J Thomas Mayfield
   - title: Changing
     role: Lead
     character: Chris
@@ -35,6 +36,7 @@ sections:
     role: Guest Star
     character: David
     director: Alex Jacobs & D'arby Rose
+    imdb-link: http://www.imdb.com/title/tt7913686
   - title: The Agency
     role: Co-Star
     character: Hacker
