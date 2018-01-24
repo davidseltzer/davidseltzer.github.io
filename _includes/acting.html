@@ -18,7 +18,13 @@
 
 								<tr>
 									<!--title-->
-									<td>{{credit.title}}</td>
+									<td>
+										{% if credit.imdb-link %}
+											<a href="{{ credit.imdb-link }}" target="_blank">{{credit.title}}</a>
+										{% else %}
+											<span>{{credit.title}}</span>
+										{% endif %}
+									</td>
 
 									<!--role & character-->
 									<td>{{credit.role}}
