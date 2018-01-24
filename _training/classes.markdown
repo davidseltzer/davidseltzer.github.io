@@ -6,6 +6,7 @@ schools:
   type: Improv
   city: Los Angeles
   teachers:
+  - Paul Welsh
   - Betsy Stover
   - Gilli Nissim
 - name: American Conservatory Theater
