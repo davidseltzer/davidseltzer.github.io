@@ -1,3 +1,9 @@
+@import "../variables";
+
 .pointer {
   cursor: pointer;
+}
+
+.imdb-yellow {
+  color: $imdb-yellow;
 }
