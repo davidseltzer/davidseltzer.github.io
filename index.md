@@ -40,8 +40,8 @@ acting:
     imdb-link: http://www.imdb.com/title/tt7913686
   - title: The Agency
     role: Co-Star
-    director: Hacker
-    character: Russ Dunn
+    character: Hacker
+    director: Russ Dunn
 training:
 - name: Upright Citizen's Brigade
   type: Improv
