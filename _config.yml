@@ -2,9 +2,6 @@
 title: davidseltzer.com
 timezone: UTC
 collections:
-  acting:
-    title: Acting
-    output: true
   posts:
     title: Posts
     output: true
