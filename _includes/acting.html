@@ -2,46 +2,44 @@
 	<div class="my-auto">
 		<h2 class="mb-5">Acting</h2>
 
-		{% for actingPage in site.acting %}
-			{% for section in actingPage.sections %}
+		{% for section in page.acting %}
 
-				<div class="resume-item d-flex flex-column flex-md-row mb-5">
-					<div class="resume-content mr-auto">
+			<div class="resume-item d-flex flex-column flex-md-row mb-5">
+				<div class="resume-content mr-auto">
 
-						<!--type-->
-						<h3 class="mb-0">{{section.title}}</h3>
+					<!--type-->
+					<h3 class="mb-0">{{section.title}}</h3>
 
-						<!--credits-->
-						<table class="table">
+					<!--credits-->
+					<table class="table">
 
-							{% for credit in section.credits %}
+						{% for credit in section.credits %}
 
-								<tr>
-									<!--title-->
-									<td>
-										{% if credit.imdb-link %}
-											<a href="{{ credit.imdb-link }}">{{credit.title}}</a>
-										{% else %}
-											<span>{{credit.title}}</span>
-										{% endif %}
-									</td>
+							<tr>
+								<!--title-->
+								<td>
+									{% if credit.imdb-link %}
+										<a href="{{ credit.imdb-link }}">{{credit.title}}</a>
+									{% else %}
+										<span>{{credit.title}}</span>
+									{% endif %}
+								</td>
 
-									<!--role & character-->
-									<td>{{credit.role}}
-										{% if credit.character %}
-											<span> / {{credit.character}}</span>
-										{% endif %}
-									</td>
+								<!--role & character-->
+								<td>{{credit.role}}
+									<!--{% if credit.character %}
+										<span> / {{credit.character}}</span>
+									{% endif %}-->
+								</td>
 
-									<!--director-->
-									<td>Dir: {{credit.director}}</td>
+								<!--director-->
+								<td>Dir: {{credit.director}}</td>
 
-								</tr>
-							{% endfor %}
-						</table>
-					</div>
+							</tr>
+						{% endfor %}
+					</table>
 				</div>
-			{% endfor %}
+			</div>
 		{% endfor %}
 
 	</div>
