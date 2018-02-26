@@ -1,5 +1,12 @@
 ---
 title: Home
+gallery-images:
+- "/uploads/david-john-seltzer-headshot-3.jpg"
+- "/uploads/david-john-seltzer-headshot-1.jpg"
+- "/uploads/david-john-seltzer-headshot-4.jpg"
+- "/uploads/david-john-seltzer-headshot-2.jpg"
+- "/uploads/david-john-seltzer-ucb-1.jpg"
+- "/uploads/david-john-seltzer-the-agency-set.jpg"
 acting:
 - title: Short Films
   credits:
@@ -35,13 +42,6 @@ acting:
     role: Co-Star
     director: Hacker
     character: Russ Dunn
-gallery-images:
-- "/uploads/david-john-seltzer-headshot-1.jpg"
-- "/uploads/david-john-seltzer-headshot-3.jpg"
-- "/uploads/david-john-seltzer-headshot-4.jpg"
-- "/uploads/david-john-seltzer-headshot-2.jpg"
-- "/uploads/david-john-seltzer-ucb-1.jpg"
-- "/uploads/david-john-seltzer-the-agency-set.jpg"
 training:
 - name: Upright Citizen's Brigade
   type: Improv
@@ -74,6 +74,23 @@ training:
   - Liz Anderson
   - Doug Kassel
   - Diana Brown
+improv-teams:
+- name: Dave & Rhonda
+  type: Indie Duo
+  city: San Francisco
+  dates: April 2017 - September 2017
+- name: Rapscallion
+  type: Indie Team
+  city: San Francisco
+  dates: September 2016 - September 2017
+- name: Vision Quest
+  type: Endgames House Team
+  city: San Francisco
+  dates: April 2017 - June 2017
+- name: The Professionals
+  type: Leela House Team
+  city: San Francisco
+  dates: September 2016 - April 2017
 layout: index
 ---
 
