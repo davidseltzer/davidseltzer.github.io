@@ -21,6 +21,10 @@ acting:
     role: Lead
     character: Chris
     director: Quintin Walker
+  - title: Tonight's Special
+    role: Supporting
+    character: Trey
+    director: Kenyon Feenstra
   - title: Directing Ricky O'Day
     role: Supporting
     character: A.D.
