@@ -13,9 +13,9 @@ social-media:
   imdb: http://www.imdb.com/name/nm9420509/
 profile-photo: "/uploads/david-john-seltzer-profile.jpg"
 site-preview:
-  photo: "/uploads/og-preview.jpg"
-  photo-height: 538
-  photo-width: 1024
+  photo: "/uploads/david-john-seltzer-og-preview.png"
+  photo-height: 735
+  photo-width: 1400
 sections:
 - title: Reel
   videos:
