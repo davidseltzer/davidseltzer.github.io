@@ -12,6 +12,7 @@ social-media:
   linked: h
   vimeo: h
   twitter: h
+  instagram: h
 profile-photo: "/uploads/david-john-seltzer-profile.jpg"
 sections:
 - title: Reel
