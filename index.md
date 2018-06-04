@@ -96,6 +96,17 @@ gallery-images:
 - "/uploads/david-john-seltzer-ucb-1.jpg"
 - "/uploads/david-john-seltzer-the-agency-set.jpg"
 acting:
+- title: 
+  credits:
+  - title: 
+    role: 
+    character: 
+    director: 
+    imdb-link: 
+  - title: 
+    role: 
+    character: 
+    director: 
 - title: Short Films
   credits:
   - title: Turning Tables
@@ -186,3 +197,4 @@ improv-teams:
 layout: index
 ---
 
+hey I'm david
