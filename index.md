@@ -26,6 +26,62 @@ sections:
     - - The Charm
       - Lead
       - 'Dir: LS Hozbor'
+    - - Changing
+      - Lead
+      - 'Dir: Quintin Walker'
+    - - Tonight's Special
+      - Supporting
+      - 'Dir: Kenyon Feenstra'
+    - - Directing Ricky O'Day
+      - Supporting
+      - 'Dir: Tharan Nesbit'
+    - - The Audition
+      - Supporting
+      - 'Dir: Gloria Bali'
+    - - Rookie in Real Estate
+      - Supporting
+      - 'Dir: Russ Dunn'
+  - heading: Web Series
+    rows:
+    - - Kings Are Wild
+      - Series Regular / Creator
+      - 'Dir: Gabe Lewis'
+    - - Subletters
+      - Guest Star
+      - 'Dir: Alex Jacobs & D’arby Rose'
+    - - The Agency
+      - Co-Star
+      - 'Dir: Russ Dunn'
+  - heading: Training
+    rows:
+    - - Upright Citizen’s Brigade
+      - Improv
+      - Los Angeles
+    - - American Conservatory Theater
+      - Acting
+      - San Francisco
+    - - Endgames Improv
+      - Improv
+      - San Francisco
+    - - Leela Improv
+      - Improv
+      - San Francisco
+  - heading: Comedy
+    rows:
+    - - Improv
+      - Performed on several house & indie teams
+      - San Francisco
+    - - Stand-up
+      - Flappers Comedy Club
+      - Los Angeles
+    - - 
+      - Clusterfunk
+      - San Francisco
+  - heading: Immersive Theater
+    rows:
+    - - Murder Mystery Co.
+      - Murder Mystery Party
+      - Los Angeles
 - title: Gallery
   photos:
   - "/uploads/david-john-seltzer-headshot-3.jpg"
