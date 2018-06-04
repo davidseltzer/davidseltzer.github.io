@@ -1,28 +1,30 @@
 <head>
 
+	{% include util/profile-fullname.html %}
+	{% include util/profile-firstmiddlename.html %}
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="">
 
 	<!--title-->
-	<title>David John Seltzer</title>
-	<meta property="og:title" content="David John Seltzer" />
+	<title>{{ profile_fullname }}</title>
+	<meta property="og:title" content="{{ profile_fullname }}" />
 
 	<!--description-->
 	<meta name="description" content="Actor, Improvisor, and Comedian">
 	<meta property="og:description" content="Actor, Improvisor, and Comedian" />
 
 	<!--open graph image-->
-	<meta property="og:url" content="http://davidseltzer.com/" />
-	<meta property="og:image" content="http://davidseltzer.com/img/og/og-preview.jpg" />
+	<meta property="og:url" content="{{ site.deployed-url }}" />
+	<meta property="og:image" content="https://davidseltzer.com/img/og/og-preview.jpg" />
 	<meta property="og:image:height" content="538" />
 	<meta property="og:image:width" content="1024" />
 
 	<!--profile-->
 	<meta property="og:type" content="profile" />
-	<meta property="profile:first_name" content="David John" />
-	<meta property="profile:last_name" content="Seltzer" />
-	<meta property="profile:gender" content="male" />
+	<meta property="profile:first_name" content="{{ profile_firstmiddlename }}" />
+	<meta property="profile:last_name" content="{{ page.profile-name.last }}" />
 
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

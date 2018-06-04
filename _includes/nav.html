@@ -11,7 +11,9 @@
 	<!--profile image / scroll to top-->
 	<a class="navbar-brand js-scroll-trigger" href="#page-top">
 
-		<span class="d-block d-lg-none">{{page.profile-name.first}} {{page.profile-name.middle}} {{page.profile-name.last}}</span>
+		{% include util/profile-fullname.html %}
+
+		<span class="d-block d-lg-none">{{ profile_fullname }}</span>
 		<span class="d-none d-lg-block">
 
 			{% if page.profile-photo != blank %}
