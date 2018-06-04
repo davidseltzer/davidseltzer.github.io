@@ -8,6 +8,24 @@ sections:
 - title: Reel
   videos:
   - https://player.vimeo.com/video/227994295
+- title: Resume
+  resume:
+  - heading: Feature Films
+    rows:
+    - - Killer Looks
+      - Supporting
+      - 'Dir: Christopher Krueger'
+  - heading: Short Films
+    rows:
+    - - Turning Tables
+      - Lead
+      - 'Dir: Hilary Davidson'
+    - - The Boardroom
+      - Lead
+      - 'Dir: J Thomas Mayfield'
+    - - The Charm
+      - Lead
+      - 'Dir: LS Hozbor'
 - title: Gallery
   photos:
   - "/uploads/david-john-seltzer-headshot-3.jpg"
