@@ -1,5 +1,6 @@
 ---
 title: Home
+primary-color: "#e83e8c"
 full-name: David John Seltzer
 social-media:
   imdb: http://www.imdb.com/name/nm9420509/
