@@ -5,7 +5,7 @@ profile-name:
   first: David
   middle: John
   last: Seltzer
-profile-contact:
+profile-bullet-points:
 - Actor
 - Los Angeles
 - contact [AT] davidseltzer.com
