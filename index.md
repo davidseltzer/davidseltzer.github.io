@@ -3,12 +3,6 @@ title: Home
 full-name: David John Seltzer
 social-media:
   imdb: http://www.imdb.com/name/nm9420509/
-  instagram: https://www.instagram.com/dseltzer/
-  twitter: h
-  vimeo: h
-  facebook: h
-  linkedin: h
-  youtube: h
 gallery-images:
 - "/uploads/david-john-seltzer-headshot-3.jpg"
 - "/uploads/david-john-seltzer-headshot-4.jpg"
