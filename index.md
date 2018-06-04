@@ -1,5 +1,6 @@
 ---
 title: Home
+full-name: David John Seltzer
 gallery-images:
 - "/uploads/david-john-seltzer-headshot-3.jpg"
 - "/uploads/david-john-seltzer-headshot-4.jpg"
