@@ -101,6 +101,3 @@ sections:
 layout: index
 ---
 
-test this
-## big heading
-how about now
