@@ -1,6 +1,6 @@
 ---
 title: Home
-primary-color: "#e83e8c"
+primary-color: "#006073"
 profile-name:
   first: David
   middle: John
