@@ -197,4 +197,3 @@ improv-teams:
 layout: index
 ---
 
-hey I'm david
