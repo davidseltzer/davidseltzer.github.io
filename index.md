@@ -98,7 +98,7 @@ sections:
   body: |-
     You can find me at
 
-    **blah blah**
+    ## **blah blah**
     got it?
 layout: index
 ---
