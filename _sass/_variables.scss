@@ -1,11 +1,5 @@
 // Variables
 
-// jaguars palette
-$jaguar-black: #101820 !default;
-$jaguar-dark-gold: #A17925 !default;
-$jaguar-gold: #D9A318 !default;
-$jaguar-teal: #006073 !default;
-
 // my palette
 $brilliant-azure: #3abeff !default;
 
@@ -47,8 +41,8 @@ $cyan:    #17a2b8 !default;
 // other colors from palette
 $terra-cotta:   #ED6A5A !default;
 
-$primary:       $jaguar-teal !default;
-$secondary:     $jaguar-black !default;
+$primary:       $blue !default;
+$secondary:     $gray-900 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
