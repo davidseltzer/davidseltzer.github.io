@@ -11,14 +11,15 @@
 	<title>{{ profile_fullname }}</title>
 	<meta property="og:title" content="{{ profile_fullname }}" />
 
-	<!--description-->
-	<meta name="description" content="{{ content | escape }}">
-	<meta property="og:description" content="{{ content | escape }}" />
-
 	<!--open graph image-->
 	<meta property="og:url" content="{{ '/' | absolute_url }}" />
 
 	{% if page.site-preview %}
+
+		{% if page.site-preview.description-tag %}
+			<meta name="description" content="{{ page.site-preview.description-tag | escape }}">
+			<meta property="og:description" content="{{ page.site-preview.description-tag | escape }}" />
+		{% endif %}
 
 		{% if page.site-preview.photo %}
 			<meta property="og:image" content="{{ page.site-preview.photo | absolute_url }}" />
