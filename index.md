@@ -3,10 +3,14 @@ title: Home
 full-name: David John Seltzer
 social-media:
   imdb: http://www.imdb.com/name/nm9420509/
+profile-photo: 
 sections:
 - title: Reel
   videos:
   - https://player.vimeo.com/video/227994295
+- title: Gallery
+  photos:
+  - 
 gallery-images:
 - "/uploads/david-john-seltzer-headshot-3.jpg"
 - "/uploads/david-john-seltzer-headshot-4.jpg"
