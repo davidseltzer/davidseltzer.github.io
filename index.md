@@ -7,6 +7,11 @@ profile-name:
   last: Seltzer
 social-media:
   imdb: http://www.imdb.com/name/nm9420509/
+  facebook: h
+  youtube: h
+  linked: h
+  vimeo: h
+  twitter: h
 profile-photo: "/uploads/david-john-seltzer-profile.jpg"
 sections:
 - title: Reel
