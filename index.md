@@ -94,6 +94,12 @@ sections:
   photos:
   - "/uploads/david-john-seltzer-headshot-3.jpg"
   - "/uploads/david-john-seltzer-ucb-1.jpg"
+- title: Contact
+  body: |-
+    You can find me at
+
+    **blah blah**
+    got it?
 layout: index
 ---
 
