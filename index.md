@@ -1,7 +1,7 @@
 ---
 title: Home
 primary-color: "#e83e8c"
-name:
+profile-name:
   first: David
   middle: John
   last: Seltzer
