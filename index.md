@@ -5,14 +5,12 @@ profile-name:
   first: David
   middle: John
   last: Seltzer
+profile-contact:
+- Actor
+- Los Angeles
+- contact [AT] davidseltzer.com
 social-media:
   imdb: http://www.imdb.com/name/nm9420509/
-  facebook: h
-  youtube: h
-  linkedin: h
-  vimeo: h
-  twitter: h
-  instagram: h
 profile-photo: "/uploads/david-john-seltzer-profile.jpg"
 sections:
 - title: Reel
