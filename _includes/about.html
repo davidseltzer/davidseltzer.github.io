@@ -45,9 +45,9 @@
 		<!--contact info-->
 		<div class="subheading mb-5">
 
-			{% for contact_item in page.profile-contact %}
+			{% for bullet_point in page.profile-bullet-points %}
 
-				<span>{{ contact_item }}</span>
+				<span>{{ bullet_point }}</span>
 
 				{% unless forloop.last %}<span>·</span>{% endunless %}
 
