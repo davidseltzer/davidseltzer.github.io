@@ -1,0 +1,61 @@
+<ul class="list-inline list-social-icons mb-0">
+
+	{% for media in page.social-media %}
+
+		{%- assign social_media_type = media[0] -%}
+		{%- assign social_media_link = media[1] -%}
+
+		{% case social_media_type %}
+
+			<!--facebook-->
+			{% when 'facebook' %}
+				{%- assign icon_class = 'fa-facebook-square' -%}
+				{%- assign color_class = 'facebook-blue' -%}
+
+			<!--imdb-->
+			{% when 'imdb' %}
+				{%- assign icon_class = 'fa-imdb' -%}
+				{%- assign color_class = 'imdb-black' -%}
+
+			<!--instagram-->
+			{% when 'instagram' %}
+				{%- assign icon_class = 'fa-instagram' -%}
+				{%- assign color_class = 'instagram-purple' -%}
+
+			<!--linkedin-->
+			{% when 'linkedin' %}
+				{%- assign icon_class = 'fa-linkedin-square' -%}
+				{%- assign color_class = 'linkedin-blue' -%}
+
+			<!--twitter-->
+			{% when 'twitter' %}
+				{%- assign icon_class = 'fa-twitter-square' -%}
+				{%- assign color_class = 'twitter-blue' -%}
+
+			<!--vimeo-->
+			{% when 'vimeo' %}
+				{%- assign icon_class = 'fa-vimeo-square' -%}
+				{%- assign color_class = 'vimeo-blue' -%}
+
+			<!--youtube-->
+			{% when 'youtube' %}
+				{%- assign icon_class = 'fa-youtube-square' -%}
+				{%- assign color_class = 'youtube-red' -%}
+
+			<!--other-->
+			{% else %}
+				{%- assign icon_class = 'fa-globe' -%}
+				{%- assign color_class = '' -%}
+		{% endcase %}
+
+		<li class="list-inline-item">
+			<a href="{{ social_media_link }}" target="_blank" class="{{ color_class }}">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-stack-1x fa-inverse {{ icon_class }}"></i>
+          </span>
+			</a>
+		</li>
+
+	{% endfor %}
+</ul>
