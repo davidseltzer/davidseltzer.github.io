@@ -9,7 +9,7 @@ social-media:
   imdb: http://www.imdb.com/name/nm9420509/
   facebook: h
   youtube: h
-  linked: h
+  linkedin: h
   vimeo: h
   twitter: h
   instagram: h
