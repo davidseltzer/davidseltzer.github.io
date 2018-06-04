@@ -10,7 +10,8 @@ sections:
   - https://player.vimeo.com/video/227994295
 - title: Gallery
   photos:
-  - 
+  - "/uploads/david-john-seltzer-headshot-3.jpg"
+  - "/uploads/david-john-seltzer-ucb-1.jpg"
 gallery-images:
 - "/uploads/david-john-seltzer-headshot-3.jpg"
 - "/uploads/david-john-seltzer-headshot-4.jpg"
