@@ -11,7 +11,7 @@ profile-bullet-points:
 - contact@davidseltzer.com
 social-media:
   imdb: http://www.imdb.com/name/nm9420509/
-profile-photo: "/uploads/david-seltzer-profile.jpg"
+profile-photo: "/uploads/david-seltzer-profile-51be80.jpg"
 site-preview:
   photo: "/uploads/david-john-seltzer-og-preview.png"
   photo-height: 735
