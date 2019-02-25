@@ -1,13 +1,14 @@
 // Variables
 
+// jaguars palette
+$jaguar-black: #101820 !default;
+$jaguar-dark-gold: #A17925 !default;
+$jaguar-gold: #D9A318 !default;
+$jaguar-teal: #006073 !default;
+
 // Color overrides
-
-// Set a custom color
-$orange: #f4623a !default;
-$brown: #5c4d42 !default;
-
-// Set primary color to orange
-$primary: $orange !default;
+$primary: $jaguar-teal !default;
+$secondary: $jaguar-black !default;
 
 // Font overrides
 $font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
