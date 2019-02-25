@@ -1,15 +1,13 @@
 <head>
 
-	{% include util/profile-fullname.html %}
-	{% include util/profile-firstmiddlename.html %}
-
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="{{ profile_fullname }}">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
 	<!--title-->
-	<title>{{ profile_fullname }}</title>
-	<meta property="og:title" content="{{ profile_fullname }}" />
+	<title>David John Seltzer</title>
+	<meta property="og:title" content="David John Seltzer" />
 
 	<!--open graph image-->
 	<meta property="og:url" content="{{ '/' | absolute_url }}" />
@@ -36,8 +34,8 @@
 
 	<!--profile-->
 	<meta property="og:type" content="profile" />
-	<meta property="profile:first_name" content="{{ profile_firstmiddlename }}" />
-	<meta property="profile:last_name" content="{{ page.profile-name.last }}" />
+	<meta property="profile:first_name" content="David John" />
+	<meta property="profile:last_name" content="Seltzer" />
 
 	{% include head-css.html %}
 

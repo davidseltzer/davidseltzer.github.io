@@ -1,55 +1,25 @@
-{% if page.primary-color != blank and page.primary-color != nil %}
-	{%- assign primary_color_exists = true %}
-{% endif %}
-
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top"
-     {% if primary_color_exists %}
-	     style="background-color: {{ page.primary-color }};"
-     {% endif %}
-     id="sideNav">
-
-	<!--profile image / scroll to top-->
-	<a class="navbar-brand js-scroll-trigger" href="#page-top">
-
-		{% include util/profile-fullname.html %}
-
-		<span class="d-block d-lg-none">{{ profile_fullname }}</span>
-		<span class="d-none d-lg-block">
-
-			{% if page.profile-photo != blank %}
-				<img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-	               src="{{ page.profile-photo }}"
-	               alt="">
-			{% endif %}
-
-        </span>
-	</a>
-
-	<!--mobile nav trigger-->
-	<button class="navbar-toggler"
-	        type="button"
-	        data-toggle="collapse"
-	        data-target="#navbarSupportedContent"
-	        aria-controls="navbarSupportedContent"
-	        aria-expanded="false"
-	        aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-
-	<!--menu-->
-	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav">
-
-			{% for section in page.sections %}
-
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+	<div class="container">
+		<a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+		        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto my-2 my-lg-0">
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="#section-{{ forloop.index0 }}">
-						{{ section.title}}
-					</a>
+					<a class="nav-link js-scroll-trigger" href="#about">About</a>
 				</li>
-
-			{% endfor %}
-
-		</ul>
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger" href="#services">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
 	</div>
 </nav>

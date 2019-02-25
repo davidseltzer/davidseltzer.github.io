@@ -5,35 +5,31 @@
 
 <body id="page-top">
 
-{% include nav.html %}
+	<!-- Navigation -->
+	{% include nav.html %}
 
-<div class="container-fluid p-0">
+	<!-- Masthead -->
+	{% include masthead.html %}
 
-	{% include about.html %}
+	<!-- About Section -->
+	{% include sections/about.html %}
 
-	{% for section in page.sections %}
+	<!-- Services Section -->
+	{% include sections/services.html %}
 
-		<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="section-{{ forloop.index0 }}">
-			<div class="my-auto">
+	<!-- Portfolio Section -->
+	{% include sections/portfolio.html %}
 
-				<h2 class="mb-5">{{ section.title }}</h2>
+	<!-- Call to Action Section -->
+	{% include sections/call-to-action.html %}
 
-				{% include sections/videos.html %}
+	<!-- Contact Section -->
+	{% include sections/contact.html %}
 
-				{% include sections/photos.html %}
+	<!-- Footer -->
+	{% include footer.html %}
 
-				{% include sections/resume.html %}
-
-				{{ section.body | markdownify }}
-
-			</div>
-		</section>
-
-	{% endfor %}
-
-</div>
-
-{% include javascript.html %}
+	{% include javascript.html %}
 
 </body>
 </html>
