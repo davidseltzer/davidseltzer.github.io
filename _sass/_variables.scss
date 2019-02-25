@@ -1,14 +1,24 @@
 // Variables
 
-// jaguars palette
+// unsplash palm trees image palette
+$palm-trees-teal-light: #128397 !default;
+$palm-trees-teal-dark: #074a5c !default;
+$palm-trees-pink: #da808f !default;
+
+// miami heat (vice) palette
+$heat-vice-blue: #38B5E6 !default;
+$heat-vice-pink: #E13CB0 !default;
+$heat-vice-black: #000000 !default;
+
+// jacksonville jaguars palette
 $jaguar-black: #101820 !default;
 $jaguar-dark-gold: #A17925 !default;
 $jaguar-gold: #D9A318 !default;
 $jaguar-teal: #006073 !default;
 
 // Color overrides
-$primary: $jaguar-teal !default;
-$secondary: $jaguar-black !default;
+$primary: $palm-trees-teal-light !default;
+$secondary: $palm-trees-pink !default;
 
 // Font overrides
 $font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
