@@ -2,15 +2,7 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - #{$navbar-height});
-  // replace the masthead.jpg image in the /img directory to change the image
-  // if the image name change, make sure to update the url path below!
-  background: linear-gradient(to bottom,
-          #{fade-out(#999, .8)} 0%,
-          #{fade-out(#999, .8)} 100%),
-          url('../img/unsplash/roberto-nickson-1348835-unsplash.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background: black;
   background-size: cover;
 
   .masthead__title {
@@ -25,8 +17,9 @@ header.masthead {
   }
 
   h1 {
-    font-size: 2.25rem;
+    font-size: 3rem;
   }
+
   @include media-breakpoint-up(lg) {
     height: 100vh;
     min-height: 40rem;
@@ -36,7 +29,7 @@ header.masthead {
       font-size: 1.15rem;
     }
     h1 {
-      font-size: 3rem;
+      font-size: 5rem;
     }
   }
   @include media-breakpoint-up(xl) {

@@ -1,3 +1,5 @@
+@import "variables";
+
 // Global styling for this template
 body,
 html {
@@ -19,6 +21,26 @@ hr.divider {
 
 hr.light {
   border-color: $white;
+}
+
+.text-shadow-primary {
+  text-shadow: 3px 3px $primary;
+}
+
+.text-white-alt {
+  color: $white-alt !important;
+}
+
+.text-white-alt-dark {
+  color: darken($white-alt, 10%) !important;
+}
+
+.text-primary-light {
+  color: lighten($primary, 10%) !important;
+}
+
+a.text-primary-light:hover {
+  color: lighten($primary, 20%) !important;
 }
 
 // Button restyling

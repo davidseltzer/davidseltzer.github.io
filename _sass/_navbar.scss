@@ -1,20 +1,23 @@
+@import "variables";
+
 // Base styling for the navbar
 #mainNav {
   box-shadow: $box-shadow;
-  background-color: $white;
+  background-color: $accent;
   transition: background-color 0.2s ease;
   .navbar-brand {
     font-family: $font-family-sans-serif;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-normal;
     color: $gray-900;
+    font-size: 1.5rem;
   }
   .navbar-nav {
     .nav-item {
       .nav-link {
         color: $gray-600;
         font-family: $font-family-sans-serif;
-        font-weight: $font-weight-bold;
-        font-size: 0.9rem;
+        font-weight: $font-weight-normal;
+        font-size: 1.5rem;
         padding: 0.75rem 0;
         &:hover,
         &:active {

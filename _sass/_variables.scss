@@ -18,12 +18,13 @@ $jaguar-gold: #D9A318 !default;
 $jaguar-teal: #006073 !default;
 
 // Color overrides
-$primary: $palm-trees-teal-light !default;
-$secondary: $palm-trees-black !default;
-$accent: #da808f !default;
+$primary: $jaguar-teal !default;
+$secondary: black !default;
+$accent: lightgray !default;
+$white-alt: lightgray !default;
 
 // Font overrides
-$font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+$font-family-sans-serif: "futura-pt-condensed", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
 
 $font-family-serif: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
 
