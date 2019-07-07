@@ -12,6 +12,10 @@ html {
   color: fade-out($white, .25);
 }
 
+.text-handwritten {
+  font-family: 'Yellowtail', cursive;
+}
+
 // Custom horizontal rules
 hr.divider {
   max-width: 3.25rem;

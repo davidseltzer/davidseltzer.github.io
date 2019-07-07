@@ -1,12 +1,20 @@
 // Styling for the masthead
 header.masthead {
+
+  // size
+  height: 100vh;
   padding-top: 10rem;
   padding-bottom: calc(10rem - #{$navbar-height});
-  background: black;
-  background-size: cover;
+
+  // background image
+  background: linear-gradient(to bottom, #{fade-out(black, .5)} 0%,#{fade-out(black, .5)} 100%), url('../img/movie-poster-grid.jpg');
+  background-position: top left;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: contain;
 
   .masthead__title {
-    background-color: rgba(0, 0, 0, 0.4);
+    //background-color: rgba(0, 0, 0, 0.4);
     padding-top: 2em;
     padding-bottom: 2em;
     padding-left: 1em;
@@ -20,7 +28,7 @@ header.masthead {
     font-size: 3rem;
   }
 
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(md) {
     height: 100vh;
     min-height: 40rem;
     padding-top: $navbar-height;
@@ -29,12 +37,7 @@ header.masthead {
       font-size: 1.15rem;
     }
     h1 {
-      font-size: 5rem;
-    }
-  }
-  @include media-breakpoint-up(xl) {
-    h1 {
-      font-size: 3.5rem;
+      font-size: 6rem;
     }
   }
 }
