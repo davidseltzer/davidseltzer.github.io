@@ -12,7 +12,7 @@ profile-bullet-points:
 social-media:
   imdb: http://www.imdb.com/name/nm9420509/
 site-preview:
-  photo: "/uploads/movie-poster-grid-og-preview.png"
+  photo: "/uploads/movie-poster-grid-og-preview.jpg"
   photo-height: 699
   photo-width: 1331
 sections:
