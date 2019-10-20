@@ -1,3 +1,7 @@
+.web-series__info {
+  border-bottom: solid 1px $primary;
+}
+
 .web-series__banner {
   height: calc(60vh - #{$navbar-height});
   width: 100%;
