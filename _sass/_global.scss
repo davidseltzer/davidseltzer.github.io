@@ -65,3 +65,16 @@ a.text-primary-light:hover {
 .page-section {
   padding: 8rem 0;
 }
+
+// acting section
+.bg-movieposters {
+  background: linear-gradient(to bottom, #{fade-out(black, .5)} 0%,#{fade-out(black, .5)} 100%), url('../img/movie-poster-grid.jpg');
+  background-position: top left;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: 40rem;
+}
+
+.bg-black {
+  background-color: black;
+}

@@ -1,0 +1,5 @@
+.reel-iframe {
+  width: 100%;
+  height: calc(100vh - #{$navbar-height});
+  padding-bottom: 5em;
+}
