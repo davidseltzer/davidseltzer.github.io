@@ -12,8 +12,14 @@ html {
   color: fade-out($white, .25);
 }
 
-.text-handwritten {
-  font-family: 'Yellowtail', cursive;
+.text-barry {
+  font-family: #{$font-family-barry};
+  text-transform: uppercase;
+  letter-spacing: -0.13em;
+}
+
+.text-youtube {
+  font-family: #{$font-family-youtube};
 }
 
 // Custom horizontal rules
