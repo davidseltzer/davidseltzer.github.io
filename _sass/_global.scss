@@ -22,6 +22,10 @@ html {
   font-family: #{$font-family-youtube};
 }
 
+.text-youtube-player {
+  font-family: #{$font-family-youtube-player};
+}
+
 // Custom horizontal rules
 hr.divider {
   max-width: 3.25rem;
@@ -51,6 +55,10 @@ hr.light {
 
 a.text-primary-light:hover {
   color: lighten($primary, 20%) !important;
+}
+
+.text-youtube-share {
+  color: #{$youtube-player-share} !important;
 }
 
 // Button restyling
@@ -83,4 +91,8 @@ a.text-primary-light:hover {
 
 .bg-black {
   background-color: black;
+}
+
+.bg-youtube-player-dark {
+  background-color: #{$youtube-player-background};
 }

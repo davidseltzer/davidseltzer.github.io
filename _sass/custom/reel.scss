@@ -1,5 +1,20 @@
+$reel-iframe-buffer: 80px;
+
+.reel-section {
+  height: calc(100vh);
+}
+
 .reel-iframe {
   width: 100%;
-  height: calc(100vh - #{$navbar-height});
-  padding-bottom: 5em;
+  height: calc(100vw * 138 / 249);
+  max-height: calc(100vh - #{$navbar-height} - #{$reel-iframe-buffer});
+  max-width: calc(100vh * 249 / 138 - #{$reel-iframe-buffer});
+}
+
+.reel__title {
+  font-size: 1.25rem;
+}
+
+.reel__watch-on-youtube {
+
 }
