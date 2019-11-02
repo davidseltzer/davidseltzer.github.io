@@ -3,8 +3,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<meta name="description" content="actor. comedian. cool guy.">
-	<meta property="og:description" content="actor. comedian. cool guy." />
 
 	<meta name="keywords" content="actor,comedian,cool guy,web series,kings are wild,reel,imdb,improv,stand up,television,film,credits,movie,star,celebrity,verified,official,david john seltzer,david seltzer,seltzer">
 
@@ -15,27 +13,13 @@
 	<meta property="og:title" content="David John Seltzer" />
 
 	<!--open graph image-->
+	<meta name="description" content="actor. comedian. cool guy.">
+	<meta property="og:description" content="actor. comedian. cool guy." />
 	<meta property="og:url" content="{{ '/' | absolute_url }}" />
-
-	{% if page.site-preview %}
-
-		{% if page.site-preview.description-tag %}
-			<meta name="description" content="{{ page.site-preview.description-tag | escape }}">
-			<meta property="og:description" content="{{ page.site-preview.description-tag | escape }}" />
-		{% endif %}
-
-		{% if page.site-preview.photo %}
-			<meta property="og:image" content="{{ page.site-preview.photo | absolute_url }}" />
-		{% endif %}
-
-		{% if page.site-preview.photo-height %}
-			<meta property="og:image" content="{{ page.site-preview.photo-height }}" />
-		{% endif %}
-
-		{% if page.site-preview.photo-width %}
-			<meta property="og:image" content="{{ page.site-preview.photo-width }}" />
-		{% endif %}
-	{% endif %}
+	<meta property="og:image" content="/img/og/david-john-seltzer-preview.png" />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:width" content="1400" />
+	<meta property="og:image:height" content="737" />
 
 	<!--profile-->
 	<meta property="og:type" content="profile" />
