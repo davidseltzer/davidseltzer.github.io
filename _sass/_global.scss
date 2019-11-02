@@ -15,7 +15,12 @@ html {
 .text-barry {
   font-family: #{$font-family-barry};
   text-transform: uppercase;
-  letter-spacing: -0.13em;
+  letter-spacing: -0.09em;
+}
+
+.text-barry-lower {
+  font-family: #{$font-family-barry};
+  text-transform: lowercase;
 }
 
 .text-youtube {

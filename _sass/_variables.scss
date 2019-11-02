@@ -1,15 +1,14 @@
 // Variables
 
-// unsplash palm trees image palette
-$palm-trees-teal-light: #128397 !default;
-$palm-trees-teal-dark: #074a5c !default;
-$palm-trees-pink: #da808f !default;
-$palm-trees-black: #021d1f !default;
+// miami dolphins - throwback palette
+$dolphins-throwback-aqua: #005F61 !default;
+$dolphins-throwback-orange: #FA4616 !default;
+$dolphins-throwback-blue: #041E42 !default;
 
-// miami heat (vice) palette
-$heat-vice-blue: #38B5E6 !default;
-$heat-vice-pink: #E13CB0 !default;
-$heat-vice-black: #000000 !default;
+// miami dolphins palette
+$dolphins-aqua: #008E97 !default;
+$dolphins-orange: #FC4C02 !default;
+$dolphins-blue: #005778 !default;
 
 // jacksonville jaguars palette
 $jaguar-black: #101820 !default;
@@ -22,9 +21,9 @@ $youtube-player-background: #1F1F1F !default;
 $youtube-player-share: #909090 !default;
 
 // Color overrides
-$primary: $jaguar-teal !default;
-$secondary: black !default;
-$accent: lightgray !default;
+$primary: $dolphins-aqua !default;
+$secondary: $dolphins-orange !default;
+$accent: $dolphins-blue !default;
 $white-alt: lightgray !default;
 
 // Font overrides

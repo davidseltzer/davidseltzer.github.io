@@ -1,28 +1,29 @@
 // Styling for the masthead
 header.masthead {
 
+  // background image
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+
+  // 1200
+  background-image: url("/img/masthead/david-john-seltzer-kings-are-wild-still-masthead-1200.png");
+
+  // 1800
+  @media (min-height: 1200px) {
+    background-image: url("/img/masthead/david-john-seltzer-kings-are-wild-still-masthead-1800.png");
+  }
+
+  // original size
+  @media (min-height: 1800px) {
+    background-image: url("/img/masthead/david-john-seltzer-kings-are-wild-still-masthead.png");
+  }
+
   // size
   height: 100vh;
   padding-top: 10rem;
   padding-bottom: calc(10rem - #{$navbar-height});
-
-  // background image
-  background: linear-gradient(to bottom, #{fade-out(black, .5)} 0%,#{fade-out(black, .5)} 100%), url('../img/movie-poster-grid.jpg');
-  background-position: top left;
-  background-repeat: repeat;
-  background-attachment: scroll;
-  background-size: contain;
-
-  .masthead__title {
-    //background-color: rgba(0, 0, 0, 0.4);
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-left: 1em;
-    padding-right: 1em;
-    border-radius: 0.2em;
-    margin-left: 1em;
-    margin-right: 1em;
-  }
 
   h1 {
     font-size: 3rem;
