@@ -12,6 +12,10 @@ html {
   color: fade-out($white, .25);
 }
 
+.text-bold {
+  font-weight: bold;
+}
+
 .text-barry {
   font-family: #{$font-family-barry};
   text-transform: uppercase;
@@ -110,5 +114,25 @@ section {
   h2 {
     color: $primary;
     font-size: 3rem;
+  }
+
+  .progressive {
+
+    position: static;
+
+    img {
+      height: calc(60vh - #{$navbar-height});
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  /* Small devices (tablets, 768px and up) */
+  /*@media (min-width: @screen-sm-min)*/
+  @media (min-width: 768px) {
+    .progressive img {
+      height: calc(100vh - #{$navbar-height});
+    }
   }
 }
