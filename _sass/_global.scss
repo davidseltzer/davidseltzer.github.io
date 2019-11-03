@@ -98,6 +98,10 @@ a.text-primary-light:hover {
   background-color: black;
 }
 
+.bg-accent {
+  background-color: $accent;
+}
+
 .bg-youtube-player-dark {
   background-color: #{$youtube-player-background};
 }
