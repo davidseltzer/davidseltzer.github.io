@@ -4,10 +4,16 @@
     border-bottom: solid 1px $primary;
   }
 
-  .web-series__banner {
-    height: calc(60vh - #{$navbar-height});
-    width: 100%;
-    object-fit: cover;
+  .web-series__banner.progressive {
+
+    position: static;
+
+    img {
+      height: calc(60vh - #{$navbar-height});
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
   }
 
   @media (min-width: 500px) {
@@ -17,11 +23,10 @@
   /* Small devices (tablets, 768px and up) */
   /*@media (min-width: @screen-sm-min)*/
   @media (min-width: 768px) {
-    .web-series__banner {
+    .web-series__banner.progressive img {
       height: calc(100vh - #{$navbar-height});
     }
   }
-
 
   .web-series__watch-on {
     font-size: 1.3em;
