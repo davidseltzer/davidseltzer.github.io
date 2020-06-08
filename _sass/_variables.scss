@@ -1,30 +1,15 @@
 // Variables
 
-// miami dolphins - throwback palette
-$dolphins-throwback-aqua: #005F61 !default;
-$dolphins-throwback-orange: #FA4616 !default;
-$dolphins-throwback-blue: #041E42 !default;
-
-// miami dolphins palette
-$dolphins-aqua: #008E97 !default;
-$dolphins-orange: #FC4C02 !default;
-$dolphins-blue: #005778 !default;
-
-// jacksonville jaguars palette
-$jaguar-black: #101820 !default;
-$jaguar-dark-gold: #A17925 !default;
-$jaguar-gold: #D9A318 !default;
-$jaguar-teal: #006073 !default;
-
-// youtube
-$youtube-player-background: #1F1F1F !default;
-$youtube-player-share: #909090 !default;
+// color palette
+$eerie-black:       #1C1F26;
+$isabelline:        #F2F1E9;
+$metallic-sunburst: #A68953;
+$kobe:              #8C2D18;
+$cinnabar:          #D95043;
 
 // Color overrides
-$primary: $dolphins-aqua !default;
-$secondary: $dolphins-orange !default;
-$accent: $dolphins-blue !default;
-$white-alt: lightgray !default;
+$primary: $metallic-sunburst !default;
+$secondary: $cinnabar !default;
 
 // Font overrides
 $font-family-sans-serif: "futura-pt-condensed", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
@@ -34,12 +19,6 @@ $font-family-serif: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI
 $font-family-base: $font-family-serif !default;
 
 $headings-font-family: $font-family-sans-serif !default;
-
-$font-family-youtube: "HelveticaNeue-CondensedBold", "Helvetica Neue", "Helvetica", Arial, sans-serif !default;
-
-$font-family-youtube-player: "Roboto", Arial, sans-serif !default;
-
-$font-family-barry: "Futura-Bold", "HelveticaNeue-CondensedBold", "Futura", "Helvetica Neue", "Helvetica", Arial, sans-serif !default;
 
 // Custom variables
 $navbar-height: 78px;

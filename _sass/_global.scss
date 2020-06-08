@@ -7,67 +7,10 @@ html {
   height: 100%;
 }
 
-// Typography
-.text-white-75 {
-  color: fade-out($white, .25);
-}
-
-.text-bold {
-  font-weight: bold;
-}
-
-.text-barry {
-  font-family: #{$font-family-barry};
-  text-transform: uppercase;
-  letter-spacing: -0.09em;
-}
-
-.text-barry-lower {
-  font-family: #{$font-family-barry};
-  text-transform: lowercase;
-}
-
-.text-youtube {
-  font-family: #{$font-family-youtube};
-}
-
-.text-youtube-player {
-  font-family: #{$font-family-youtube-player};
-}
-
 // Custom horizontal rules
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: $secondary;
-}
-
-hr.light {
-  border-color: $white;
-}
-
-.text-shadow-primary {
-  text-shadow: 2px 2px $primary;
-}
-
-.text-white-alt {
-  color: $white-alt !important;
-}
-
-.text-white-alt-dark {
-  color: darken($white-alt, 10%) !important;
-}
-
-.text-primary-light {
-  color: lighten($primary, 10%) !important;
-}
-
-a.text-primary-light:hover {
-  color: lighten($primary, 20%) !important;
-}
-
-.text-youtube-share {
-  color: #{$youtube-player-share} !important;
 }
 
 // Button restyling
@@ -89,30 +32,8 @@ a.text-primary-light:hover {
   padding: 8rem 0;
 }
 
-// acting section
-.bg-movieposters {
-  background: linear-gradient(to bottom, #{fade-out(black, .5)} 0%,#{fade-out(black, .5)} 100%), url('../img/movie-poster-grid.jpg');
-  background-position: top left;
-  background-repeat: repeat;
-  background-attachment: scroll;
-  background-size: 40rem;
-}
-
-.bg-black {
-  background-color: black;
-}
-
-.bg-accent {
-  background-color: $accent;
-}
-
-.bg-youtube-player-dark {
-  background-color: #{$youtube-player-background};
-}
-
 section {
   h2 {
-    color: $primary;
     font-size: 3rem;
   }
 

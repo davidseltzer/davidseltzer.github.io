@@ -2,11 +2,9 @@
 @import "creative";
 
 // custom
-@import "custom/accent";
+@import "custom/color-palette";
 @import "custom/brands";
-@import "custom/reel";
-@import "custom/stand-up";
-@import "custom/web-series";
 
-// sections
-//@import "custom/global";
+// pages
+@import "custom/reel";
+@import "custom/web-series";
