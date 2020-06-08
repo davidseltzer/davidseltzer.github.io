@@ -1,0 +1,22 @@
+@import "../variables";
+
+.font-boomville {
+  font-family: $font-family-boomville;
+}
+
+.font-moriston-bold {
+  font-family: $font-family-moriston;
+  font-weight: bold;
+}
+
+.font-sign-painter {
+  font-family: $font-family-sign-painter;
+}
+
+.btn {
+  font-family: $font-family-sign-painter;
+}
+
+h1, .h1 {
+  font-size: 4rem;
+}
