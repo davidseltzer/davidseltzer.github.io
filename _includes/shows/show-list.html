@@ -1,0 +1,34 @@
+{% for show in site.data.shows %}
+	<div class="row mt-5">
+
+		<!--date-->
+		<div class="col-6 col-md-2 offset-md-2 order-2 order-md-1 mt-3 mt-md-0 pt-1">
+			<span class="h4">{{ show.date }}</span>
+		</div>
+
+		<div class="col-12 col-md-4 order-1 order-md-2">
+
+			<!--city-->
+			<div>
+				<span class="h2 text-secondary">{{ show.city }}</span>
+			</div>
+
+			<!--venue-->
+			<div>
+				<span class="h3">{{ show.venue }}</span>
+			</div>
+		</div>
+
+		<!--tickets-->
+		<div class="col-6 col-md-2 order-3 mt-3 mt-md-0 pt-1 text-right">
+
+			<!--sold out-->
+			{% if show.soldout == "TRUE" %}
+			<span class="font-sign-painter h4">Sold Out</span>
+			{% elsif show.tickets %}
+			<a href="{{ show.tickets }}" class="btn btn-secondary btn-lg">Tickets</a>
+			{% endif %}
+		</div>
+
+	</div>
+{% endfor %}

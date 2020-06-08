@@ -1,0 +1,18 @@
+[
+	{
+		"label": "Shows",
+		"url": "/shows"
+	},
+	{
+		"label": "Acting",
+		"url": "/acting"
+	},
+	{
+		"label": "Bio",
+		"url": "/bio"
+	},
+	{
+		"label": "Contact",
+		"url": "/contact"
+	}
+]

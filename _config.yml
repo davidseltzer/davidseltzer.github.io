@@ -7,4 +7,3 @@ baseurl:
 url: 
 markdown: kramdown
 theme: minima
-plugins:

@@ -1,0 +1,4 @@
+date,soldout,city,venue,tickets
+"January 11, 2020",FALSE,"Los Angeles, CA","The Comedy Store","https://tickets.com"
+"February 21, 2020",TRUE,"New York, NY","The Comedy Cellar","https://tickets.com"
+"March 7, 2020",FALSE,"Detroit, MI","Detroit Funny-bone","https://tickets.com"

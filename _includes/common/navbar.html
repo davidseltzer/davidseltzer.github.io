@@ -15,17 +15,14 @@
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto my-2 my-lg-0">
 
-				<li class="nav-item">
-					<a class="nav-link" href="/shows">shows</a>
-				</li>
+				{% for item in site.data.navbar %}
 
-				<li class="nav-item">
-					<a class="nav-link" href="/reel">reel</a>
-				</li>
+					<li class="nav-item">
+						<a class="nav-link{% if page.url == item.url %} active{% endif %}"
+						   href="{{ item.url }}">{{ item.label }}</a>
+					</li>
 
-				<li class="nav-item">
-					<a class="nav-link" href="/contact">contact</a>
-				</li>
+				{% endfor %}
 			</ul>
 		</div>
 	</div>
