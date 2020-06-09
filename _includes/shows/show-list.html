@@ -10,7 +10,7 @@
 
 			<!--city-->
 			<div>
-				<span class="h2 text-secondary">{{ show.city }}</span>
+				<span class="h2 text-theme-red">{{ show.city }}</span>
 			</div>
 
 			<!--venue-->
@@ -26,7 +26,7 @@
 			{% if show.soldout == "TRUE" %}
 				<span class="font-sign-painter h4">Sold Out</span>
 			{% elsif show.tickets %}
-				<a href="{{ show.tickets }}" class="btn btn-secondary btn-lg">Tickets</a>
+				<a href="{{ show.tickets }}" class="btn btn-theme-red btn-lg">Tickets</a>
 			{% endif %}
 		</div>
 

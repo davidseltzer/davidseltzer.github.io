@@ -12,8 +12,23 @@ $theme-gold:        $metallic-sunburst;
 $theme-dark-red:    $kobe;
 $theme-red:         $cinnabar;
 
-// copied from boostrap
-$box-shadow:        0 .5rem 1rem rgba($eerie-black, .15) !default;
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "theme-black":    $theme-black,
+    "theme-white":    $theme-white,
+    "theme-gold":     $theme-gold,
+    "theme-dark-red": $theme-dark-red,
+    "theme-red":      $theme-red,
+    "primary":        $theme-red,
+    "secondary":      $theme-gold
+  ),
+  $theme-colors
+);
+
+// copied from boostrap -> changed to theme black
+$box-shadow:        0 .5rem 1rem rgba($theme-black, .15) !default;
 
 // body
 body,
