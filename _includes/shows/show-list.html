@@ -2,7 +2,7 @@
 	<div class="row mt-5">
 
 		<!--date-->
-		<div class="col-6 col-md-2 offset-md-2 order-2 order-md-1 mt-3 mt-md-0 pt-1">
+		<div class="col-6 col-md-2 offset-md-2 order-2 order-md-1 mt-4 mt-md-0 pt-1">
 			<span class="h4">{{ show.date }}</span>
 		</div>
 
@@ -20,13 +20,13 @@
 		</div>
 
 		<!--tickets-->
-		<div class="col-6 col-md-2 order-3 mt-3 mt-md-0 pt-1 text-right">
+		<div class="col-6 col-md-2 order-3 pt-1 text-right">
 
 			<!--sold out-->
 			{% if show.soldout == "TRUE" %}
-			<span class="font-sign-painter h4">Sold Out</span>
+				<span class="font-sign-painter h4">Sold Out</span>
 			{% elsif show.tickets %}
-			<a href="{{ show.tickets }}" class="btn btn-secondary btn-lg">Tickets</a>
+				<a href="{{ show.tickets }}" class="btn btn-secondary btn-lg">Tickets</a>
 			{% endif %}
 		</div>
 

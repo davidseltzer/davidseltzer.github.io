@@ -1,0 +1,12 @@
+// theme
+@import "theme/color-palette";
+@import "theme/font";
+
+// creative - theme
+@import "./global.scss";
+@import "./navbar.scss";
+
+// pages
+@import "pages/acting";
+@import "custom/reel";
+@import "custom/web-series";

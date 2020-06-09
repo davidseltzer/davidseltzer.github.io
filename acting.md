@@ -1,0 +1,4 @@
+---
+permalink: /acting
+layout: acting
+---

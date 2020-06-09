@@ -1,17 +1,4 @@
-// Variables
-
-// color palette
-$eerie-black:       #1C1F26;
-$isabelline:        #F2F1E9;
-$metallic-sunburst: #A68953;
-$kobe:              #8C2D18;
-$cinnabar:          #D95043;
-
-// Color overrides
-$primary: $metallic-sunburst !default;
-$secondary: $cinnabar !default;
-
-// Load fonts
+// load fonts
 @font-face {
   font-family: 'SignPainter-HouseSlant-Regular';
   src: url('/font/SignPainter-HouseSlant-Regular.ttf');
@@ -36,10 +23,52 @@ $font-family-boomville: "Boomville", "Merriweather", -apple-system, BlinkMacSyst
 $font-family-moriston: "Moriston Personal", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
 $font-family-sign-painter: "SignPainter-HouseSlant-Regular", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
 
-// set fonts
-$font-family-sans-serif: $font-family-sign-painter !default;
-$font-family-base: $font-family-moriston !default;
-$headings-font-family: $font-family-sans-serif !default;
+.font-boomville {
+  font-family: $font-family-boomville;
+}
 
-// Custom variables
-$navbar-height: 78px;
+.font-moriston {
+  font-family: $font-family-moriston;
+}
+
+.font-moriston-bold {
+  font-family: $font-family-moriston;
+  font-weight: bold;
+}
+
+.font-sign-painter {
+  font-family: $font-family-sign-painter;
+}
+
+// body
+body,
+html {
+  font-family: $font-family-moriston;
+}
+
+// heading
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5 {
+  font-family: $font-family-sign-painter;
+}
+
+// button
+.btn {
+  font-family: $font-family-sign-painter;
+}
+
+// navbar
+.navbar-brand {
+  font-family: $font-family-sign-painter;
+}
+
+.navbar-nav {
+  .nav-item {
+    .nav-link {
+      font-family: $font-family-sign-painter;
+    }
+  }
+}
