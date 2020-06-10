@@ -1,6 +1,6 @@
 @import "../../vendor/bootstrap-4.5.0/scss/functions";
 @import "../../vendor/bootstrap-4.5.0/scss/mixins/hover";
-@import "color-palette";
+@import "../colors/color-palette";
 
 $input-btn-focus-width:       .2rem !default;
 $btn-focus-width:             $input-btn-focus-width !default;

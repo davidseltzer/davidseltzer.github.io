@@ -6,10 +6,10 @@ $reel-iframe-buffer: 80px;
 }
 
 .reel-iframe {
-  width: 95%;
-  height: calc(95vw * 138 / 249);
-  max-height: calc(95vh - #{$navbar-height} - #{$reel-iframe-buffer});
-  max-width: calc(95vh * 249 / 138 - #{$reel-iframe-buffer});
+  width: 75%;
+  height: calc(75vw * 138 / 249);
+  max-height: calc(75vh - #{$navbar-height} - #{$reel-iframe-buffer});
+  max-width: calc(75vh * 249 / 138 - #{$reel-iframe-buffer});
 }
 
 .reel__title {

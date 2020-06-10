@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-	$("iframe.progressive-iframe").each(function() {
+	$("iframe[data-src]").each(function() {
 
 		var srcValue = $(this).data('src');
 		$(this).prop('src', srcValue);

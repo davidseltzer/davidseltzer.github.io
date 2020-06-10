@@ -1,12 +1,16 @@
 // theme
-@import "theme/brands";
-@import "theme/buttons";
-@import "theme/color-palette";
-@import "theme/font";
-@import "theme/navbar.scss";
-@import "theme/sizes";
+@import "colors/brands";
+@import "colors/color-palette";
+@import "font/font";
+@import "elements/buttons";
+@import "elements/iframe";
+@import "elements/navbar";
+@import "sizes/height";
+@import "sizes/text-sizes";
+@import "sizes/width";
 
 // pages
 @import "pages/acting";
-@import "custom/reel";
+
+// deprecated
 @import "custom/web-series";

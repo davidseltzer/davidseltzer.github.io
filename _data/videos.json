@@ -1,0 +1,8 @@
+{
+	"actingreel": {
+		"platform": "YouTube",
+		"url": "https://www.youtube.com/watch?v=9w6QEtSGA_8",
+		"embed": "https://www.youtube.com/embed/9w6QEtSGA_8?rel=0",
+		"embedallow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+	}
+}
