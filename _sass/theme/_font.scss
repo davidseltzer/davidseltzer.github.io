@@ -10,30 +10,61 @@
 }
 
 @font-face {
-  font-family: 'Moriston Personal';
+  font-family: 'Moriston Personal Regular';
+  src: url('/font/MoristonPersonal-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Moriston Personal Medium';
+  src: url('/font/MoristonPersonal-Medium.otf');
+}
+
+@font-face {
+  font-family: 'Moriston Personal Semibold';
+  src: url('/font/MoristonPersonal-Semibold.otf');
+}
+
+@font-face {
+  font-family: 'Moriston Personal Bold';
   src: url('/font/MoristonPersonal-Bold.otf');
 }
 
 @font-face {
-  font-family: 'Moriston Personal';
-  src: url('/font/MoristonPersonal-Medium.otf');
+  font-family: 'Moriston Personal Black';
+  src: url('/font/MoristonPersonal-Black.otf');
 }
 
 $font-family-boomville: "Boomville", "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji';
-$font-family-moriston: "Moriston Personal", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+$font-family-moriston: "Moriston Personal Medium", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
 $font-family-sign-painter: "SignPainter-HouseSlant-Regular", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
 
 .font-boomville {
   font-family: $font-family-boomville;
 }
 
-.font-moriston {
+.font-moriston-regular {
+  font-family: "Moriston Personal Regular", sans-serif;
+  font-weight: normal;
+}
+
+.font-moriston-medium {
   font-family: $font-family-moriston;
+  font-weight: 500;
+}
+
+.font-moriston-semi-bold {
+  font-family: "Moriston Personal Semibold", sans-serif;
+  font-weight: 600;
 }
 
 .font-moriston-bold {
-  font-family: $font-family-moriston;
+  font-family: "Moriston Personal Bold", sans-serif;
   font-weight: bold;
+}
+
+.font-moriston-black {
+  font-family: "Moriston Personal Black", sans-serif;
+  font-weight: 900;
 }
 
 .font-sign-painter {
@@ -44,6 +75,7 @@ $font-family-sign-painter: "SignPainter-HouseSlant-Regular", "Merriweather Sans"
 body,
 html {
   font-family: $font-family-moriston;
+  font-weight: 500;
 }
 
 // heading

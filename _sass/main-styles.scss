@@ -1,11 +1,10 @@
 // theme
+@import "theme/brands";
+@import "theme/buttons";
 @import "theme/color-palette";
 @import "theme/font";
-@import "theme/buttons";
-
-// creative - theme
-@import "./global.scss";
-@import "./navbar.scss";
+@import "theme/navbar.scss";
+@import "theme/sizes";
 
 // pages
 @import "pages/acting";
