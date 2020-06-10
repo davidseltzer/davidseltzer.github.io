@@ -1,6 +1,14 @@
+@import "../colors/color-palette";
+
+// copied from boostrap -> changed to theme black
+$box-shadow:        0 .5rem 1rem rgba($theme-black, .15) !default;
+
 .navbar {
 
+  box-shadow: $box-shadow;
+
   .navbar-brand {
+    color: $theme-white;
     font-size: 1.5rem;
   }
 
@@ -10,6 +18,17 @@
       .nav-link {
         font-size: 1.5rem;
         padding: 0.75rem 0;
+
+        color: $theme-white;
+
+        &:hover,
+        &:active {
+          color: $theme-red;
+        }
+
+        &.active {
+          color: $theme-red !important;
+        }
       }
     }
   }

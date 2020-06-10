@@ -1,0 +1,15 @@
+@import "../colors/color-palette";
+
+body,
+html {
+  color: $theme-black;
+  background-color: $theme-white;
+}
+
+h1 {
+  color: $theme-black;
+}
+
+h2 {
+  color: $theme-red;
+}

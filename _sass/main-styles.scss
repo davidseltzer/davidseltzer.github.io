@@ -1,16 +1,19 @@
 // theme
+@import "colors/backgrounds";
 @import "colors/brands";
-@import "colors/color-palette";
+
 @import "font/font";
+
 @import "elements/buttons";
+@import "elements/default-element-colors";
+@import "elements/hr";
 @import "elements/iframe";
 @import "elements/navbar";
+@import "elements/text";
+
 @import "sizes/height";
 @import "sizes/text-sizes";
 @import "sizes/width";
 
 // pages
 @import "pages/acting";
-
-// deprecated
-@import "custom/web-series";

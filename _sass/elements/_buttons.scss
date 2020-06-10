@@ -1,64 +1,10 @@
 @import "../../vendor/bootstrap-4.5.0/scss/functions";
+@import "../../vendor/bootstrap-4.5.0/scss/mixins/box-shadow";
+@import "../../vendor/bootstrap-4.5.0/scss/mixins/buttons";
+@import "../../vendor/bootstrap-4.5.0/scss/mixins/gradients";
 @import "../../vendor/bootstrap-4.5.0/scss/mixins/hover";
+@import "../bootstrap-variables-defaults";
 @import "../colors/color-palette";
-
-$input-btn-focus-width:       .2rem !default;
-$btn-focus-width:             $input-btn-focus-width !default;
-
-// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
-$yiq-contrasted-threshold:  150 !default;
-
-// bootstrap
-$white:    #fff !default;
-$gray-900: #212529 !default;
-
-// Customize the light and dark text colors for use in our YIQ color contrast function.
-$yiq-text-dark:             $gray-900 !default;
-$yiq-text-light:            $white !default;
-
-// copied mixin
-@mixin button-variant($background, $border, $hover-background: darken($background, 7.5%), $hover-border: darken($border, 10%), $active-background: darken($background, 10%), $active-border: darken($border, 12.5%)) {
-  color: color-yiq($background);
-  background-color: $background;
-  border-color: $border;
-
-  @include hover() {
-    color: color-yiq($hover-background);
-    background-color: $hover-background;
-    border-color: $hover-border;
-  }
-
-  &:focus,
-  &.focus {
-    color: color-yiq($hover-background);
-    background-color: $hover-background;
-    border-color: $hover-border;
-    // Avoid using mixin so we can pass custom focus shadow properly
-    box-shadow: 0 0 0 $btn-focus-width rgba(mix(color-yiq($background), $border, 15%), .5);
-  }
-
-  // Disabled comes first so active can properly restyle
-  &.disabled,
-  &:disabled {
-    color: color-yiq($background);
-    background-color: $background;
-    border-color: $border;
-  }
-
-  &:not(:disabled):not(.disabled):active,
-  &:not(:disabled):not(.disabled).active,
-  .show > &.dropdown-toggle {
-    color: color-yiq($active-background);
-    background-color: $active-background;
-    border-color: $active-border;
-
-    &:focus {
-      // Avoid using mixin so we can pass custom focus shadow properly
-      box-shadow: 0 0 0 $btn-focus-width rgba(mix(color-yiq($background), $border, 15%), .5);
-    }
-  }
-}
-//
 
 @each $color, $value in $theme-colors {
   .btn-#{$color} {

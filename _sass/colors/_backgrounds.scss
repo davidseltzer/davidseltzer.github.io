@@ -1,0 +1,9 @@
+@import "../../vendor/bootstrap-4.5.0/scss/mixins/background-variant";
+@import "../../vendor/bootstrap-4.5.0/scss/mixins/deprecate";
+@import "../../vendor/bootstrap-4.5.0/scss/mixins/hover";
+@import "../bootstrap-variables-defaults";
+@import "color-palette";
+
+@each $color, $value in $theme-colors {
+  @include bg-variant(".bg-#{$color}", $value, true);
+}

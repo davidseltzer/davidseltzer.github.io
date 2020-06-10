@@ -1,0 +1,13 @@
+@import "../../vendor/bootstrap-4.5.0/scss/mixins/deprecate";
+@import "../../vendor/bootstrap-4.5.0/scss/mixins/text-emphasis";
+@import "../bootstrap-variables-defaults";
+@import "../colors/color-palette";
+
+@each $color, $value in $theme-colors {
+  @include text-emphasis-variant(".text-#{$color}", $value, true);
+}
+
+// anchor
+a {
+  text-decoration: none !important;
+}

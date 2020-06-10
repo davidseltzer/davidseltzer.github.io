@@ -1,0 +1,21 @@
+@import "../colors/color-palette";
+
+hr.divider-theme-black {
+  border-color: $theme-black;
+}
+
+hr.divider-theme-dark-red {
+  border-color: $theme-dark-red;
+}
+
+hr.divider-theme-gold {
+  border-color: $theme-gold;
+}
+
+hr.divider-theme-red {
+  border-color: $theme-red;
+}
+
+hr.divider-theme-white {
+  border-color: $theme-white;
+}
