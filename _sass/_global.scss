@@ -18,12 +18,14 @@ html {
 
 .text-barry {
   font-family: #{$font-family-barry};
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: -0.09em;
 }
 
 .text-barry-lower {
   font-family: #{$font-family-barry};
+  font-weight: 800;
   text-transform: lowercase;
 }
 
