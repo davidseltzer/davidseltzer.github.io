@@ -8,17 +8,26 @@
 	<!-- navigation -->
 	{% include common/navbar.html %}
 
-	<!--title-->
-	{% include common/title/page-title.html title="Acting" %}
+	<section class="bg-name-banner">
+		<div class="bg-theme-white container page-section">
 
-	<!--kings are wild-->
-	{% include acting/kings-are-wild.html %}
+			<!--title-->
+			{% include common/title/page-title.html title="Acting" %}
+
+			<!--kings are wild-->
+			{% include acting/kings-are-wild.html %}
+
+		</div>
+	</section>
+
+	<!--no more 54-->
+	{% include acting/no-more-54.html %}
 
 	<!--acting reel-->
 	{% include acting/reel.html %}
 
 	<!-- footer -->
-	{% include common/footer.html %}
+	{% include common/footer/footer.html %}
 	{% include common/javascript.html %}
 </body>
 </html>

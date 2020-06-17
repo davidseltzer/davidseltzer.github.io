@@ -4,8 +4,9 @@
 
 @import "font/font";
 
+@import "elements/body-color";
+@import "elements/borders";
 @import "elements/buttons";
-@import "elements/default-element-colors";
 @import "elements/hr";
 @import "elements/iframe";
 @import "elements/navbar";
@@ -17,3 +18,4 @@
 
 // pages
 @import "pages/acting";
+@import "pages/home";

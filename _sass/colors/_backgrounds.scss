@@ -7,3 +7,8 @@
 @each $color, $value in $theme-colors {
   @include bg-variant(".bg-#{$color}", $value, true);
 }
+
+.bg-name-banner {
+  background-image: url("/img/profile/name-background-sqaure.jpg");
+  background-repeat: repeat;
+}

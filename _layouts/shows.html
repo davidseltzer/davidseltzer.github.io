@@ -8,19 +8,26 @@
 	<!-- navigation -->
 	{% include common/navbar.html %}
 
-	<!--title-->
-	{% include common/title/page-title.html title="Stand-up Shows" %}
+	<section class="bg-name-banner">
+		<div class="container page-section bg-theme-white">
 
-	<section class="page-section pt-0">
-		<div class="container">
+			<!--title-->
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+
+					<h1 class="mt-0">Shows</h1>
+					<hr class="divider divider-theme-gold my-4">
+				</div>
+			</div>
 
 			<!--shows-->
 			{% include shows/show-list.html %}
+
 		</div>
 	</section>
 
 	<!-- footer -->
-	{% include common/footer.html %}
+	{% include common/footer/footer.html %}
 	{% include common/javascript.html %}
 </body>
 </html>

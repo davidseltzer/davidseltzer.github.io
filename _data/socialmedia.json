@@ -1,12 +1,32 @@
 {
-	"instagram": {
-		"handle": "@davidjohnseltzer",
-		"url": "https://www.instagram.com/davidjohnseltzer/"
+	"email": {
+		"label": "Email",
+		"url": "mailto:contact@davidseltzer.com",
+		"icon": "fas fa-envelope",
+		"color": "text-theme-gold"
+	},
+	"facebook": {
+		"label": "Facebook",
+		"url": "https://www.facebook.com/davidjohnseltzer",
+		"icon": "fab fa-facebook",
+		"color": "facebook-blue"
 	},
 	"imdb": {
-		"url": "https://www.imdb.com/name/nm9420509/"
+		"label": "IMDb",
+		"url": "https://www.imdb.com/name/nm9420509/",
+		"icon": "fab fa-imdb",
+		"color": "imdb-black"
 	},
-	"email": {
-		"general": "contact@davidseltzer.com"
+	"instagram": {
+		"label": "Instagram",
+		"url": "https://www.instagram.com/davidjohnseltzer/",
+		"icon": "fab fa-instagram",
+		"color": "instagram-purple"
+	},
+	"twitter": {
+		"label": "Twitter",
+		"url": "https://twitter.com/davidseltzer",
+		"icon": "fab fa-twitter",
+		"color": "twitter-blue"
 	}
 }

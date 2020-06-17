@@ -1,42 +1,19 @@
-<section class="page-section pt-4">
-	<div class="container">
+<!--social media-->
+<div class="w-100 d-flex flex-row justify-content-center pt-3">
 
-		<div class="row">
+	<!--imdb-->
+	{% include contact/contact-link.html socialmedia=site.data.socialmedia.imdb %}
 
-			<!--social media-->
-			<div class="col-md-4 offset-md-4 mb-5 mb-md-0 d-flex flex-column justify-content-center">
+	<!--instagram-->
+	{% include contact/contact-link.html socialmedia=site.data.socialmedia.instagram %}
 
-				<div class="row justify-content-center">
+	<!--twitter-->
+	{% include contact/contact-link.html socialmedia=site.data.socialmedia.twitter %}
 
-					<!--imdb-->
-					<div class="text-center mx-4">
-						<h4>IMDb</h4>
-						<a href="{{ site.data.socialmedia.imdb.url }}"
-						   target="_blank">
-							<i class="fab fa-imdb fa-3x imdb-black"></i>
-						</a>
-					</div>
+	<!--facebook-->
+	{% include contact/contact-link.html socialmedia=site.data.socialmedia.facebook %}
 
-					<!--instagram-->
-					<div class="text-center mx-4">
-						<h4>Instagram</h4>
-						<a href="{{ site.data.socialmedia.instagram.url }}"
-						   target="_blank">
-							<i class="fab fa-instagram fa-3x instagram-purple"></i>
-						</a>
-					</div>
+	<!--email-->
+	{% include contact/contact-link.html socialmedia=site.data.socialmedia.email %}
 
-					<!--email-->
-					<div class="text-center mx-4">
-						<h4>Email</h4>
-						<a href="mailto:{{ site.data.socialmedia.email.general }}">
-							<i class="fas fa-envelope fa-3x text-theme-gold"></i>
-						</a>
-					</div>
-				</div>
-			</div>
-
-		</div>
-
-	</div>
-</section>
+</div>

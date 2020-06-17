@@ -4,18 +4,23 @@ html {
   height: 100%;
 }
 
-h1, .h1 {
-  font-size: 4rem;
-}
-
 section {
+
+  h1, .h1 {
+    font-size: 4rem;
+  }
+
   h2 {
     font-size: 3rem;
-  }
-}
 
-p {
-  font-size: 1.25rem;
+    &.small {
+      font-size: 2.5rem;
+    }
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
 }
 
 hr.divider {

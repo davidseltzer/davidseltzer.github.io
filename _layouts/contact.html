@@ -8,14 +8,23 @@
 	<!-- navigation -->
 	{% include common/navbar.html %}
 
-	<!--title-->
-	{% include common/title/page-title.html title="Contact" %}
+	<section class="bg-name-banner">
+		<div class="bg-theme-white container page-section">
 
-	<!--contact links-->
-	{% include contact/contact-links.html %}
+			<!--title-->
+			{% include common/title/page-title.html title="Contact" %}
+
+			<!--contact links-->
+			{% include contact/contact-links.html %}
+
+		</div>
+
+		<!--extend page-->
+		<div class="bg-theme-white container page-section pt-0"></div>
+	</section>
 
 	<!-- footer -->
-	{% include common/footer.html %}
+	{% include common/footer/footer.html %}
 	{% include common/javascript.html %}
 </body>
 </html>

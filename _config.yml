@@ -1,11 +1,9 @@
 ---
 title: davidseltzer.com
 timezone: UTC
-collections:
-description: 
-baseurl: 
-url: 
 markdown: kramdown
 theme: minima
 sass:
   style: compressed
+plugins:
+  - jekyll-sitemap

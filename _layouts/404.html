@@ -12,27 +12,32 @@
 	{% include common/head/css.html %}
 
 </head>
+<body>
 
-<body id="page-top">
+	<!-- navigation -->
+	{% include common/navbar.html %}
 
-<div class="container-fluid p-0">
+	<!--title-->
+	{% include common/title/page-title.html title="404" %}
 
-	<section class="resume-section p-3 p-lg-5 d-flex flex-column">
-		<div class="my-auto">
+	<section class="page-section pt-5">
+		<div class="container">
 
-			<h1 class="text-center">404</h1>
+			<div class="mx-3">
+				<p><strong>Page not found :(</strong></p>
+				<p>The requested page could not be found.</p>
 
-			<p><strong>Page not found :(</strong></p>
-			<p>The requested page could not be found.</p>
-
-			<a href="/">Go home</a>
+				<a href="/" class="text-theme-dark-red">Go home</a>
+			</div>
 
 		</div>
 	</section>
 
-</div>
+	<!--extend page-->
+	<section class="page-section py-4"></section>
 
-{% include common/javascript.html %}
+	{% include common/footer/footer.html %}
+	{% include common/javascript.html %}
 
 </body>
 </html>

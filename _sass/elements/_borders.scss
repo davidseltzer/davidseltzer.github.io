@@ -1,0 +1,12 @@
+@import "../colors/color-palette";
+
+@each $color, $value in $theme-colors {
+  .border-#{$color} {
+    border-color: $value !important;
+  }
+}
+
+.border-5px {
+  border-width: 5px;
+  border-style: solid;
+}
