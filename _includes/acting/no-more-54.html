@@ -19,16 +19,7 @@
 			</p>
 
 			<!--link to youtube-->
-			<a href="{{ site.data.videos.nomore54.url }}" target="_blank">
-				<div class="col text-center py-5">
-
-					<!--watch on-->
-					<div class="acting__youtube-icon__label text-theme-black pb-2">watch on</div>
-
-					<!--youtube logo-->
-					<img class="acting__youtube-icon" src="/img/youtube/yt_logo_rgb_light.png">
-				</div>
-			</a>
+			{% include acting/watch-on-youtube.html url=site.data.videos.nomore54.url %}
 		</div>
 
 		<!--photo-->
