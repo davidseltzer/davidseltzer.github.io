@@ -2,20 +2,10 @@
 	<div class="container">
 		<div class="row justify-content-center">
 
-			<!--imdb-->
-			{% include common/footer/footer-link.html socialmedia=site.data.socialmedia.imdb %}
+			{% for item in site.data.socialmedia %}
 
-			<!--instagram-->
-			{% include common/footer/footer-link.html socialmedia=site.data.socialmedia.instagram %}
-
-			<!--twitter-->
-			{% include common/footer/footer-link.html socialmedia=site.data.socialmedia.twitter %}
-
-			<!--facebook-->
-			{% include common/footer/footer-link.html socialmedia=site.data.socialmedia.facebook %}
-
-			<!--email-->
-			{% include common/footer/footer-link.html socialmedia=site.data.socialmedia.email %}
+				{% include common/footer/footer-link.html socialmedia=item %}
+			{% endfor %}
 
 		</div>
 	</div>

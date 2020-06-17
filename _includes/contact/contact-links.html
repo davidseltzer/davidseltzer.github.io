@@ -1,19 +1,9 @@
 <!--social media-->
 <div class="w-100 d-flex flex-row justify-content-center pt-3">
 
-	<!--imdb-->
-	{% include contact/contact-link.html socialmedia=site.data.socialmedia.imdb %}
+	{% for item in site.data.socialmedia %}
 
-	<!--instagram-->
-	{% include contact/contact-link.html socialmedia=site.data.socialmedia.instagram %}
-
-	<!--twitter-->
-	{% include contact/contact-link.html socialmedia=site.data.socialmedia.twitter %}
-
-	<!--facebook-->
-	{% include contact/contact-link.html socialmedia=site.data.socialmedia.facebook %}
-
-	<!--email-->
-	{% include contact/contact-link.html socialmedia=site.data.socialmedia.email %}
+		{% include contact/contact-link.html socialmedia=item %}
+	{% endfor %}
 
 </div>
