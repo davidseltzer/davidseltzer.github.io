@@ -1,36 +1,25 @@
 // brand colors
-$facebook-blue:  #3b5998 !default;
-$imdb-black:    #0c0b00 !default;
+$facebook-blue:    #3b5998 !default;
+$imdb-black:       #0c0b00 !default;
+$imdb-yellow:      #F5C518 !default;
 $instagram-purple: #8a3ab9 !default;
-$linkedin-blue:  #007bb5 !default;
-$twitter-blue:   #55acee !default;
-$vimeo-blue:     #45bbff !default;
-$youtube-red:    #ff0000 !default;
+$linkedin-blue:    #007bb5 !default;
+$twitter-blue:     #55acee !default;
+$vimeo-blue:       #45bbff !default;
+$youtube-red:      #ff0000 !default;
 
-.facebook-blue, a.facebook-blue {
-  color: $facebook-blue;
-}
-
-.imdb-black, a.imdb-black {
-  color: $imdb-black;
-}
-
-.instagram-purple, a.instagram-purple {
-  color: $instagram-purple;
-}
-
-.linkedin-blue, a.linkedin-blue {
-  color: $linkedin-blue;
-}
-
-.twitter-blue, a.twitter-blue {
-  color: $twitter-blue;
-}
-
-.vimeo-blue, a.vimeo-blue {
-  color: $vimeo-blue;
-}
-
-.youtube-red, a.youtube-red {
-  color: $youtube-red;
-}
+$brand-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$brand-colors: map-merge(
+  (
+    "facebook-blue":    $facebook-blue,
+    "imdb-black":       $imdb-black,
+    "imdb-yellow":      $imdb-yellow,
+    "instagram-purple": $instagram-purple,
+    "linkedin-blue":    $linkedin-blue,
+    "twitter-blue":     $twitter-blue,
+    "vimeo-blue":       $vimeo-blue,
+    "youtube-red":      $youtube-red,
+  ),
+  $brand-colors
+);

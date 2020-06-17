@@ -3,25 +3,25 @@
 		"label": "IMDb",
 		"url": "https://www.imdb.com/name/nm9420509/",
 		"icon": "fab fa-imdb",
-		"color": "imdb-black"
+		"color": "text-imdb-black"
 	},
 	{
 		"label": "Instagram",
 		"url": "https://www.instagram.com/davidjohnseltzer/",
 		"icon": "fab fa-instagram",
-		"color": "instagram-purple"
+		"color": "text-instagram-purple"
 	},
 	{
 		"label": "Twitter",
 		"url": "https://twitter.com/davidseltzer",
 		"icon": "fab fa-twitter",
-		"color": "twitter-blue"
+		"color": "text-twitter-blue"
 	},
 	{
 		"label": "Facebook",
 		"url": "https://www.facebook.com/davidjohnseltzer",
 		"icon": "fab fa-facebook",
-		"color": "facebook-blue"
+		"color": "text-facebook-blue"
 	},
 	{
 		"label": "Email",

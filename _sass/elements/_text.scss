@@ -1,9 +1,14 @@
 @import "../../vendor/bootstrap-4.5.0/scss/mixins/deprecate";
 @import "../../vendor/bootstrap-4.5.0/scss/mixins/text-emphasis";
 @import "../bootstrap-variables-defaults";
+@import "../colors/brands";
 @import "../colors/color-palette";
 
 @each $color, $value in $theme-colors {
+  @include text-emphasis-variant(".text-#{$color}", $value, true);
+}
+
+@each $color, $value in $brand-colors {
   @include text-emphasis-variant(".text-#{$color}", $value, true);
 }
 
