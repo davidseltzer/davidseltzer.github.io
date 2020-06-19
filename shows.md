@@ -1,4 +1,0 @@
----
-permalink: /shows
-layout: shows
----
