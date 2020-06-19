@@ -3,8 +3,9 @@
   src: url('/font/SignPainter-HouseSlant-Regular.ttf');
 }
 
-$font-family-permanent-marker: "Permanent Marker", cursive, sans-serif !default;
-$font-family-sign-painter: "SignPainter-HouseSlant-Regular", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+$font-family-permanent-marker: "Permanent Marker", Arial, sans-serif !default;
+$font-family-sign-painter: "SignPainter-HouseSlant-Regular", Arial, sans-serif !default;
+$font-family-source-sans-pro: "Source Sans Pro", Arial, sans-serif !default;
 
 .font-permanent-marker {
   font-family: $font-family-permanent-marker;
@@ -14,20 +15,18 @@ $font-family-sign-painter: "SignPainter-HouseSlant-Regular", "Merriweather Sans"
   font-family: $font-family-sign-painter;
 }
 
-$font-family-moriston: "Moriston Personal Regular", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+.font-source-sans-pro {
+  font-family: $font-family-source-sans-pro;
+}
 
 // body
 body,
 html {
-  font-family: $font-family-moriston;
-  font-weight: normal;
+  font-family: $font-family-source-sans-pro;
 }
 
 // heading
-h1, .h1 {
-  font-family: $font-family-permanent-marker;
-}
-
+h1, .h1,
 h2, .h2,
 h3, .h3,
 h4, .h4,
@@ -41,120 +40,14 @@ h5, .h5 {
 }
 
 // navbar
+.navbar-brand {
+  font-family: $font-family-permanent-marker;
+}
+
 .navbar-nav {
   .nav-item {
     .nav-link {
       font-family: $font-family-sign-painter;
     }
   }
-}
-
-/////
-/// testing fonts
-/////
-
-@font-face {
-  font-family: 'Boomville';
-  src: url('/font/Boomville.otf');
-}
-
-@font-face {
-  font-family: 'Helvetica';
-  src: url('/font/Helvetica-400.ttf');
-}
-
-@font-face {
-  font-family: 'Helvetica Medium';
-  src: url('/font/Helvetica-Medium.ttf');
-}
-
-@font-face {
-  font-family: 'Moriston Personal Regular';
-  src: url('/font/MoristonPersonal-Regular.otf');
-}
-
-@font-face {
-  font-family: 'Moriston Personal Medium';
-  src: url('/font/MoristonPersonal-Medium.otf');
-}
-
-@font-face {
-  font-family: 'Moriston Personal Semibold';
-  src: url('/font/MoristonPersonal-Semibold.otf');
-}
-
-@font-face {
-  font-family: 'Moriston Personal Bold';
-  src: url('/font/MoristonPersonal-Bold.otf');
-}
-
-@font-face {
-  font-family: 'Moriston Personal Black';
-  src: url('/font/MoristonPersonal-Black.otf');
-}
-
-$font-family-boomville: "Boomville", "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji';
-$font-family-comfortaa: "Comfortaa", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
-$font-family-helvetica: "Helvetica Medium", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
-
-
-.font-boomville {
-  font-family: $font-family-boomville;
-}
-
-.font-comfortaa {
-  font-family: $font-family-comfortaa;
-  font-weight: 500;
-}
-
-.font-helvetica {
-  font-family: $font-family-helvetica;
-  font-weight: 500;
-}
-
-.font-cabin {
-  font-family: "Cabin";
-  font-weight: 500;
-}
-
-
-
-.font-source-sans-pro {
-  font-family: "Source Sans Pro";
-  font-weight: 400;
-}
-
-.font-roboto {
-  font-family: "Roboto";
-  font-weight: 500;
-}
-
-.font-spartan {
-  font-family: "Spartan";
-  font-weight: 500;
-}
-
-.font-moriston-regular {
-  font-family: "Moriston Personal Regular", sans-serif;
-  font-weight: normal;
-}
-
-.font-moriston-medium {
-  font-family: $font-family-moriston;
-  font-weight: 500;
-}
-
-.font-moriston-semi-bold {
-  font-family: "Moriston Personal Semibold", sans-serif;
-  font-weight: 600;
-}
-
-.font-moriston-bold {
-  font-family: "Moriston Personal Bold", sans-serif;
-  font-weight: bold;
-}
-
-.font-moriston-black {
-  font-family: "Moriston Personal Black", sans-serif;
-  font-weight: 900;
 }

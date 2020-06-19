@@ -1,13 +1,15 @@
 <section class="py-5 bg-theme-red">
 	<div class="container">
-		<div class="row">
+		<div class="d-flex flex-row justify-content-center">
 
 			{% for card in site.data.homecards %}
 
-				<div class="col-4 text-center">
-					<a href="{{ card.url }}">
+				<div class="text-center mx-5">
 
-						<h2 class="text-theme-white">{{ card.label }}</h2>
+					<a href="{{ card.url }}"
+					   class="text-theme-white">
+
+						<h2>{{ card.label }}</h2>
 					</a>
 				</div>
 			{% endfor %}

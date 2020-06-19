@@ -12,18 +12,6 @@
 		"color": "text-instagram-purple"
 	},
 	{
-		"label": "Twitter",
-		"url": "https://twitter.com/davidseltzer",
-		"icon": "fab fa-twitter",
-		"color": "text-twitter-blue"
-	},
-	{
-		"label": "Facebook",
-		"url": "https://www.facebook.com/davidjohnseltzer",
-		"icon": "fab fa-facebook",
-		"color": "text-facebook-blue"
-	},
-	{
 		"label": "Email",
 		"url": "mailto:contact@davidseltzer.com",
 		"icon": "fas fa-envelope",
