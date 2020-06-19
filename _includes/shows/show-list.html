@@ -1,8 +1,8 @@
 {% for show in site.data.shows %}
-	<div class="row mt-5">
+	<div class="row mt-5 mx-2 mx-md-0">
 
 		<!--date-->
-		<div class="col-6 col-md-2 offset-md-2 order-2 order-md-1 mt-4 mt-md-0 pt-1">
+		<div class="col-7 col-md-2 offset-md-2 order-2 order-md-1 mt-4 mt-md-0 pt-1">
 			<span class="h4">{{ show.date }}</span>
 		</div>
 
@@ -20,7 +20,7 @@
 		</div>
 
 		<!--tickets-->
-		<div class="col-6 col-md-2 order-3 pt-1 text-right">
+		<div class="col-5 col-md-2 order-3 pt-1 text-right">
 
 			<!--sold out-->
 			{% if show.soldout == "TRUE" %}
