@@ -1,0 +1,10 @@
+{% assign page_data = site.data.pages | find: "url", page.url %}
+
+{% assign page_title = site.data.seo.title %}
+
+{% if page_data.title %}
+	{% assign page_title = site.data.seo.title | append: " | " | append: page_data.title %}
+{% endif %}
+
+<title>{{ page_title }}</title>
+<meta property="og:title" content="{{ page_title }}" />

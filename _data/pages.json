@@ -1,0 +1,16 @@
+[
+	{
+		"url": "/",
+		"menu": false
+	},
+	{
+		"title": "Acting",
+		"url": "/acting",
+		"menu": true
+	},
+	{
+		"title": "Contact",
+		"url": "/contact",
+		"menu": true
+	}
+]
