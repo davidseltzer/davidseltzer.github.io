@@ -1,9 +1,22 @@
-<!--social media-->
-<div class="w-100 d-flex flex-row justify-content-center pt-3">
+<div class="d-flex flex-row justify-content-center">
+	<div class="d-block d-lg-inline-flex">
 
-	{% for item in site.data.social_media %}
+		{% assign row_opened = false %}
 
-		{% include contact/contact-link.html socialmedia=item %}
-	{% endfor %}
+		{% for item in site.data.social_media %}
 
+			<!--open new row-->
+			{% if row_opened != true and forloop.last != true %}
+				<div class="w-100 d-flex flex-row justify-content-center pt-3 contact-links">
+					{% include contact/contact-link.html socialmedia=item %}
+					{% assign row_opened = true %}
+
+			<!--close row-->
+			{% else %}
+					{% include contact/contact-link.html socialmedia=item %}
+				</div>
+				{% assign row_opened = false %}
+			{% endif %}
+		{% endfor %}
+	</div>
 </div>

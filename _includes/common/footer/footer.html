@@ -1,10 +1,13 @@
 <footer class="bg-theme-gold py-5">
 	<div class="container">
-		<div class="row justify-content-center">
+		<div class="row justify-content-center contact-links">
 
 			{% for item in site.data.social_media %}
 
-				{% include common/footer/footer-link.html socialmedia=item %}
+				{% if item.footer %}
+
+					{% include common/footer/footer-link.html socialmedia=item %}
+				{% endif %}
 			{% endfor %}
 
 		</div>
