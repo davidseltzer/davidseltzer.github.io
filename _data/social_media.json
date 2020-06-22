@@ -1,0 +1,38 @@
+[
+	{
+		"label": "YouTube",
+		"url": "https://www.youtube.com/channel/UCA0jpXWyybLYjVYlpCPs5_Q",
+		"icon": "fab fa-youtube",
+		"color": "text-youtube-red"
+	},
+	{
+		"label": "Instagram",
+		"url": "https://www.instagram.com/davidjohnseltzer/",
+		"icon": "fab fa-instagram",
+		"color": "text-instagram-purple"
+	},
+	{
+		"label": "Twitter",
+		"url": "https://twitter.com/davidseltzer",
+		"icon": "fab fa-twitter",
+		"color": "text-twitter-blue"
+	},
+	{
+		"label": "Facebook",
+		"url": "https://www.facebook.com/davidjohnseltzer",
+		"icon": "fab fa-facebook",
+		"color": "text-facebook-blue"
+	},
+	{
+		"label": "IMDb",
+		"url": "https://www.imdb.com/name/nm9420509/",
+		"icon": "fab fa-imdb",
+		"color": "text-imdb-black"
+	},
+	{
+		"label": "Email",
+		"url": "mailto:booking@djseltzer.com",
+		"icon": "fas fa-envelope",
+		"color": "text-theme-gold"
+	}
+]
