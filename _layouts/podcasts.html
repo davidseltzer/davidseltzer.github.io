@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include common/head/head.html %}
+
+<body>
+
+	<!-- navigation -->
+	{% include common/navbar.html %}
+
+	<section class="bg-name-banner">
+		<div class="bg-theme-white container page-section pb-5">
+
+			<!--title-->
+			{% include common/title/page-title.html title="Podcasts" %}
+
+			<p class="text-center">Podcasts featuring D.J. Seltzer</p>
+
+		</div>
+	</section>
+
+	<section class="bg-theme-gold text-center py-5">
+		<h2 class="h2">Featured on...</h2>
+	</section>
+
+	<section class="bg-name-banner">
+		<div class="bg-theme-white container page-section pt-5">
+
+			{% for podcast in site.data.podcasts.featured %}
+
+				{% include podcasts/podcast-feature.html podcast=podcast %}
+
+				{% if forloop.last != true %}
+					<div class="my-5">
+						<hr class="divider divider-theme-gold"/>
+					</div>
+				{% endif %}
+
+			{% endfor %}
+
+		</div>
+	</section>
+
+	<!-- footer -->
+	{% include common/footer/footer.html %}
+	{% include common/javascript.html %}
+</body>
+</html>

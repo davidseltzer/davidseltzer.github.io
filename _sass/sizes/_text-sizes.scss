@@ -7,15 +7,23 @@ html {
 section {
 
   h1, .h1 {
-    font-size: 4.5rem;
+    font-size: 5rem;
   }
 
   h2, .h2 {
-    font-size: 3rem;
+    font-size: 4rem;
 
     &.small {
       font-size: 2.5rem;
     }
+  }
+
+  h3, .h3 {
+    font-size: 3rem;
+  }
+
+  h4, .h4 {
+    font-size: 2rem;
   }
 
   p {

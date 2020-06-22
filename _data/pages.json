@@ -13,6 +13,13 @@
 		"menu": true
 	},
 	{
+		"label": "Podcasts",
+		"url": "/podcasts",
+		"title": "Podcasts featuring D.J. Seltzer",
+		"description": "",
+		"menu": true
+	},
+	{
 		"label": "Contact",
 		"url": "/contact",
 		"title": "D.J. Seltzer's Contact & Social Media",

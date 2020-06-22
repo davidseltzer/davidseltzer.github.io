@@ -1,25 +1,31 @@
 // brand colors
-$facebook-blue:    #3b5998 !default;
-$imdb-black:       #0c0b00 !default;
-$imdb-yellow:      #F5C518 !default;
-$instagram-purple: #8a3ab9 !default;
-$linkedin-blue:    #007bb5 !default;
-$twitter-blue:     #55acee !default;
-$vimeo-blue:       #45bbff !default;
-$youtube-red:      #ff0000 !default;
+$facebook-blue:       #3b5998 !default;
+$google-play-orange:  #ef6c00 !default;
+$imdb-black:          #0c0b00 !default;
+$imdb-yellow:         #F5C518 !default;
+$instagram-purple:    #8a3ab9 !default;
+$itunes-purple:       #7d50df !default;
+$linkedin-blue:       #007bb5 !default;
+$stitcher-blue:       #3499cc !default;
+$twitter-blue:        #55acee !default;
+$vimeo-blue:          #45bbff !default;
+$youtube-red:         #ff0000 !default;
 
 $brand-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $brand-colors: map-merge(
   (
-    "facebook-blue":    $facebook-blue,
-    "imdb-black":       $imdb-black,
-    "imdb-yellow":      $imdb-yellow,
-    "instagram-purple": $instagram-purple,
-    "linkedin-blue":    $linkedin-blue,
-    "twitter-blue":     $twitter-blue,
-    "vimeo-blue":       $vimeo-blue,
-    "youtube-red":      $youtube-red,
+    "facebook-blue":      $facebook-blue,
+    "google-play-orange": $google-play-orange,
+    "imdb-black":         $imdb-black,
+    "imdb-yellow":        $imdb-yellow,
+    "instagram-purple":   $instagram-purple,
+    "itunes-purple":      $itunes-purple,
+    "linkedin-blue":      $linkedin-blue,
+    "stitcher-blue":      $stitcher-blue,
+    "twitter-blue":       $twitter-blue,
+    "vimeo-blue":         $vimeo-blue,
+    "youtube-red":        $youtube-red,
   ),
   $brand-colors
 );
