@@ -26,6 +26,15 @@ section {
     font-size: 2rem;
   }
 
+  h5, .h5 {
+
+    font-size: 1.75rem;
+
+    &.small {
+      font-size: 1.25rem;
+    }
+  }
+
   p {
     font-size: 1.4rem;
 
