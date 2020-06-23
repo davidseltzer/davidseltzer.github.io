@@ -1,0 +1,33 @@
+<div class="pt-5 px-3 px-md-5">
+	<div class="row">
+
+		<!--image-->
+		<div class="col-12 col-md-3 mb-4 mb-md-0">
+			<img class="img-fluid" src="{{ include.podcast.img }}" />
+		</div>
+
+		<div class="col-12 col-md-9">
+
+			<!--title-->
+			<h3 class="text-theme-red my-0">{{ include.podcast.title }}</h3>
+
+			<!--host-->
+			<div class="h4"><span class="text-muted">Hosted by:</span> {{ include.podcast.host }}</div>
+
+			<!--episode-->
+			<h4 class="h5"><span class="text-muted">Episode:</span> {{ include.podcast.episode }}</h4>
+
+			<!--listen links-->
+			<div class="mt-3">
+				{% include podcasts/podcast-list-group.html podcast=include.podcast %}
+			</div>
+		</div>
+	</div>
+
+	<!--description-->
+	<div class="row mt-4">
+		<div class="col-12 col-md-12">
+			<p>{{ include.podcast.description }}</p>
+		</div>
+	</div>
+</div>

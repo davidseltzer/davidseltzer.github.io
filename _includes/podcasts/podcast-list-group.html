@@ -1,0 +1,32 @@
+<div class="d-flex flex-row">
+
+	<!--itunes-->
+	{% if include.podcast.listen.itunes %}
+
+		{% include podcasts/podcast-listen-item.html
+			label="iTunes"
+			url=include.podcast.listen.itunes
+			color="text-itunes-purple"
+			icon="fas fa-podcast" %}
+	{% endif %}
+
+	<!--google play-->
+	{% if include.podcast.listen.google_play %}
+
+		{% include podcasts/podcast-listen-item.html
+			label="Google Play"
+			url=include.podcast.listen.google_play
+			color="text-google-play-orange"
+			icon="fab fa-google-play" %}
+	{% endif %}
+
+	<!--stitcher-->
+	{% if include.podcast.listen.stitcher %}
+
+		{% include podcasts/podcast-listen-item.html
+			label="Stitcher"
+			url=include.podcast.listen.stitcher
+			color="text-stitcher-blue"
+			icon="fas fa-broadcast-tower" %}
+	{% endif %}
+</div>

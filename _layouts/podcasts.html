@@ -28,7 +28,7 @@
 
 			{% for podcast in site.data.podcasts.featured %}
 
-				{% include podcasts/podcast-feature.html podcast=podcast %}
+				{% include podcasts/podcast-item.html podcast=podcast %}
 
 				{% if forloop.last != true %}
 					<div class="my-5">
