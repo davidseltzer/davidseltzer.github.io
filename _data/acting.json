@@ -1,0 +1,70 @@
+{
+	"films": [
+		{
+			"title": "Kings Are Wild",
+			"type": "Web Series",
+			"description": "Kings Are Wild is a comedy web series created by David John Seltzer and David Shea Henne. It is available for free on YouTube.",
+			"credits": [
+				{
+					"label": "Synopsis",
+					"text": "Two dudes set their sights high when they decide to start a podcast. But they soon find out that they don't have the discipline or work ethic to follow through."
+				},
+				{
+					"label": "Written by",
+					"text": "David John Seltzer"
+				},
+				{
+					"label": "Starring",
+					"text": "David John Seltzer, David Shea Henne, Chelsea Jordan, Michelle Agresti, Tess Llanos, Kaylie Gipson, Donald Lee Gipson"
+				}
+			],
+			"links": {
+				"youtube": "https://www.youtube.com/watch?v=2oRxiAggzIU&list=PLKAZEDjS3AywaJ_LC7h5L5aNkbfo_jLqe",
+				"imdb": "https://www.imdb.com/title/tt11136042/"
+			},
+			"images": [
+				"/img/films/kings-are-wild/kings-are-wild-poster.jpg",
+				"/img/films/kings-are-wild/kings-are-wild-still.png"
+			]
+		},
+		{
+			"title": "No More 54 by Dada Life",
+			"type": "Music Video",
+			"description": "The official music video for <strong>Dada Life's No More 54</strong> features D.J. as a dancing disco ball man.",
+			"links": {
+				"youtube": "https://www.youtube.com/watch?v=Y9lhf75_ots"
+			},
+			"images": [
+				"/img/music-video/no-more-54-album.jpg"
+			]
+		},
+		{
+			"title": "Fridge Face-Off",
+			"type": "Game Show",
+			"sub_headers": [
+				{
+					"label": "Hosted by",
+					"text": "Angela Kinsey & Josh Snyder"
+				},
+				{
+					"label": "Episode",
+					"text": "S1E4 - Mayo"
+				}
+			],
+			"description": "",
+			"links": {
+				"facebook_watch": "https://www.facebook.com/watch/?v=373690190021411",
+				"imdb": "https://www.imdb.com/title/tt11079734/"
+			},
+			"images": [
+				"/img/films/fridge-face-off/fridge-face-off-poster.png"
+			]
+		}
+	],
+	"reel": {
+		"platform": "YouTube",
+		"url": "https://www.youtube.com/watch?v=9w6QEtSGA_8",
+		"embed": "https://www.youtube.com/embed/9w6QEtSGA_8?rel=0",
+		"embed_allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+	}
+}

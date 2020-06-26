@@ -1,0 +1,70 @@
+<div class="d-flex flex-row">
+
+	<!--youtube-->
+	{% if include.links.youtube %}
+
+		{% include common/media/media-link-logo-item.html
+			url=include.links.youtube
+			img="/img/brands/yt_logo_rgb_light.png" %}
+
+		{% include common/media/media-link-item.html
+			label="YouTube"
+			url=include.links.youtube
+			color="text-youtube-red"
+			icon="fab fa-youtube" %}
+	{% endif %}
+
+	<!--facebook watch-->
+	{% if include.links.facebook_watch %}
+
+		{% include common/media/media-link-logo-item.html
+			url=include.links.facebook_watch
+			img="/img/brands/facebook-watch.png" %}
+
+		{% include common/media/media-link-item.html
+			label="Fb Watch"
+			url=include.links.facebook_watch
+			color="text-facebook-blue"
+			icon="fab fa-facebook" %}
+	{% endif %}
+
+	<!--itunes-->
+	{% if include.links.itunes %}
+
+		{% include common/media/media-link-item.html
+			label="iTunes"
+			url=include.links.itunes
+			color="text-itunes-purple"
+			icon="fas fa-podcast" %}
+	{% endif %}
+
+	<!--google play-->
+	{% if include.links.google_play %}
+
+		{% include common/media/media-link-item.html
+			label="Google Play"
+			url=include.links.google_play
+			color="text-google-play-orange"
+			icon="fab fa-google-play" %}
+	{% endif %}
+
+	<!--stitcher-->
+	{% if include.links.stitcher %}
+
+		{% include common/media/media-link-item.html
+			label="Stitcher"
+			url=include.links.stitcher
+			color="text-stitcher-blue"
+			icon="fas fa-broadcast-tower" %}
+	{% endif %}
+
+	<!--imdb-->
+	{% if include.links.imdb %}
+
+		{% include common/media/media-link-item.html
+			label="IMDb"
+			url=include.links.imdb
+			color="text-imdb-black"
+			icon="fab fa-imdb" %}
+	{% endif %}
+</div>

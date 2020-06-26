@@ -32,7 +32,7 @@
 		"url": "https://www.imdb.com/name/nm9420509/",
 		"icon": "fab fa-imdb",
 		"color": "text-imdb-black",
-		"footer": true
+		"footer": false
 	},
 	{
 		"label": "Email",

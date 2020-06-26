@@ -1,0 +1,44 @@
+<div class="pt-5 px-3 px-md-5">
+
+	<div class="row">
+
+		<!--images-->
+		<div class="col-12 col-md-4 mb-4 mb-md-0 order-0 mt-0 mt-md-2">
+
+			{% for image in include.film.images %}
+				<img class="img-fluid {% if forloop.first != true %}mt-3{% endif %}"
+				     src="{{ image }}" />
+			{% endfor %}
+		</div>
+
+		<div class="col-12 col-md-8 order-1">
+
+			<!--title-->
+			<h3 class="h3 text-theme-red mb-0">{{ include.film.title }}</h3>
+
+			<!--type-->
+			<div class="h3 small">{{ include.film.type }}</div>
+
+			<!--sub-headers-->
+			{% for header in include.film.sub_headers %}
+				<div class="h4"><span class="text-muted">{{ header.label }}:</span> {{ header.text }}</div>
+			{% endfor %}
+
+			<!--media links-->
+			<div class="my-3">
+				{% include common/media/media-links.html links=include.film.links %}
+			</div>
+
+			<!--description-->
+			<p class="pb-3">{{ include.film.description }}</p>
+
+			{% for credit in include.film.credits %}
+
+				<p class="small">
+					<strong>{{ credit.label }}:</strong> {{ credit.text }}
+				</p>
+			{% endfor %}
+		</div>
+	</div>
+
+</div>

@@ -14,15 +14,17 @@
 			<!--title-->
 			{% include common/title/page-title.html title="Acting" %}
 
-			<!--kings are wild-->
-			{% include acting/kings-are-wild.html %}
+			{% for film in site.data.acting.films %}
 
-			<div class="my-5">
-				<hr class="divider divider-theme-gold"/>
-			</div>
+				{% include acting/acting-item.html film=film %}
 
-			<!--no more 54-->
-			{% include acting/no-more-54.html %}
+				{% if forloop.last != true %}
+					<div class="my-5">
+						<hr class="divider divider-theme-gold"/>
+					</div>
+				{% endif %}
+
+			{% endfor %}
 
 		</div>
 	</section>

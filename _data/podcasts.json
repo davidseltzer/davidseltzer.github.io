@@ -6,7 +6,7 @@
 			"episode": "*** todo ***",
 			"description": "A podcast that focuses on sequel-less films and underwhelming sequels themselves. Hosts and guests submit competing pitches in hopes of finding a truly worthy successor to the original.",
 			"img": "/img/podcasts/follow-up-showdown.jpg",
-			"listen": {}
+			"links": {}
 		},
 		{
 			"title": "Cosmos and the City",
@@ -14,7 +14,7 @@
 			"episode": "Alcohol, Cigarettes, and Wikipedia with David John Seltzer",
 			"description": "Go on a journey with Sex and the City super fan Megan McIver as she watches the series from start to finish. Each week Megan and a special guest will drink and dish about all the fashion, friction, faux pas, and fornication that the Fabulous Foursome have to offer. So take a seat, grab a drink, and enjoy the hilarious podcast: Cosmos and the City.",
 			"img": "/img/podcasts/cosmos-and-the-city.jpg",
-			"listen": {
+			"links": {
 				"itunes": "https://podcasts.apple.com/us/podcast/alcohol-cigarettes-and-wikipedia-with-david-john-seltzer/id1334366698?i=1000417407290",
 				"google_play": "https://play.google.com/music/m/Doahzhex6sxnmjntrz34ar54bd4?t=_Alcohol__Cigarettes_and__Wikipedia_with_David_John_Seltzer-Cosmos_and_the_City_The_Sex_and_the_City",
 				"stitcher": "https://www.stitcher.com/podcast/boardwalk-audio/cosmos-and-the-city/e/55687189"
