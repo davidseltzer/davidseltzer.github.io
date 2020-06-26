@@ -1,3 +1,7 @@
+{% if include.links.youtube or include.links.facebook_watch %}
+	<div class="h5 small text-muted">Stream on:</div>
+{% endif %}
+
 <div class="d-flex flex-row">
 
 	<!--youtube-->
@@ -6,12 +10,6 @@
 		{% include common/media/media-link-logo-item.html
 			url=include.links.youtube
 			img="/img/brands/yt_logo_rgb_light.png" %}
-
-		{% include common/media/media-link-item.html
-			label="YouTube"
-			url=include.links.youtube
-			color="text-youtube-red"
-			icon="fab fa-youtube" %}
 	{% endif %}
 
 	<!--facebook watch-->
@@ -20,12 +18,6 @@
 		{% include common/media/media-link-logo-item.html
 			url=include.links.facebook_watch
 			img="/img/brands/facebook-watch.png" %}
-
-		{% include common/media/media-link-item.html
-			label="Fb Watch"
-			url=include.links.facebook_watch
-			color="text-facebook-blue"
-			icon="fab fa-facebook" %}
 	{% endif %}
 
 	<!--itunes-->

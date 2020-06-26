@@ -41,16 +41,7 @@
 		{
 			"title": "Fridge Face-Off",
 			"type": "Game Show",
-			"sub_headers": [
-				{
-					"label": "Hosted by",
-					"text": "Angela Kinsey & Josh Snyder"
-				},
-				{
-					"label": "Episode",
-					"text": "S1E4 - Mayo"
-				}
-			],
+			"episode": "S1E4 - Mayo",
 			"description": "",
 			"links": {
 				"facebook_watch": "https://www.facebook.com/watch/?v=373690190021411",

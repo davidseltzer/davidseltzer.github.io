@@ -20,9 +20,9 @@
 			<div class="h3 small">{{ include.film.type }}</div>
 
 			<!--sub-headers-->
-			{% for header in include.film.sub_headers %}
-				<div class="h4"><span class="text-muted">{{ header.label }}:</span> {{ header.text }}</div>
-			{% endfor %}
+			{% if include.film.episode %}
+				<div class="h4"><span class="text-muted">Episode:</span> {{ include.film.episode }}</div>
+			{% endif %}
 
 			<!--media links-->
 			<div class="my-3">
