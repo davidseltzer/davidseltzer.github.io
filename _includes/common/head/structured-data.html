@@ -1,7 +1,5 @@
-{% assign structured_data_item = site.data.structured_data | find: "url", page.url %}
-
-{% if structured_data_item %}
+{% if include.structured_data %}
 	<script type="application/ld+json">
-		{{ structured_data_item.structured_data | json }}
+		{{ include.structured_data | json }}
 	</script>
 {% endif %}

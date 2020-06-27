@@ -15,15 +15,12 @@
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto my-2 my-lg-0">
 
-				{% for item in site.data.pages %}
+				{% for item in site.data.navbar %}
 
-					{% if item.menu %}
-
-						<li class="nav-item">
-							<a class="nav-link{% if page.url == item.url %} active{% endif %}"
-							   href="{{ item.url }}">{{ item.label }}</a>
-						</li>
-					{% endif %}
+					<li class="nav-item">
+						<a class="nav-link{% if page.url == item.url %} active{% endif %}"
+						   href="{{ item.url }}">{{ item.label }}</a>
+					</li>
 				{% endfor %}
 			</ul>
 		</div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include common/head/head.html %}
+{% include common/head/head.html data=site.data.podcasts %}
 
 <body>
 
@@ -12,18 +12,14 @@
 		<div class="bg-theme-white container page-section pb-5">
 
 			<!--title-->
-			{% include common/title/page-title.html title="Podcasts" %}
+			{% include common/title/title-h1.html title="Podcasts" %}
 
 			<p class="text-center">Podcasts featuring D.J. Seltzer</p>
-
 		</div>
-	</section>
 
-	<section class="bg-theme-gold text-center py-5">
-		<h2 class="h2">Featured on...</h2>
-	</section>
+		<!--featured section-->
+		{% include common/title/title-h2.html title="Featured on..." %}
 
-	<section class="bg-name-banner">
 		<div class="bg-theme-white container page-section pt-5">
 
 			{% for podcast in site.data.podcasts.featured %}

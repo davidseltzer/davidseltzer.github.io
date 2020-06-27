@@ -1,9 +1,0 @@
-{% assign page_data = site.data.pages | find: "url", page.url %}
-
-<!--title-->
-<title>{{ page_data.title }}</title>
-<meta property="og:title" content="{{ page_data.title }}" />
-
-<!--description-->
-<meta name="description" content="{{ page_data.description }}">
-<meta property="og:description" content="{{ page_data.description }}" />

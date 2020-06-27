@@ -1,4 +1,6 @@
 {
+	"title": "Podcasts featuring D.J. Seltzer",
+	"description": "",
 	"featured": [
 		{
 			"title": "The Follow-Up Showdown",
@@ -20,5 +22,22 @@
 				"stitcher": "https://www.stitcher.com/podcast/boardwalk-audio/cosmos-and-the-city/e/55687189"
 			}
 		}
-	]
+	],
+	"structured_data": {},
+	"itunes-podcast": {
+		"@context": "http://schema.org",
+		"@type": "AudioObject",
+		"name": "🍺 Alcohol, 🚬 Cigarettes, and 💻 Wikipedia with David John Seltzer",
+		"creator": "Megan McIver - Boardwalk Audio",
+		"description": "In this week’s episode of COSMOS AND THE CITY: THE SEX AND THE CITY PODCAST, your host Megan McIver will sit down with the awesome David John Seltzer. Together these two will discuss Season Two, Episode Sixteen of SEX AND THE CITY entitled: “Was It Good For You?”\n\n\nThis week Megan & David will be so…",
+		"datePublished": "Aug 8, 2018",
+		"duration": "PT58M50S",
+		"isPartOf": "Cosmos and the City: The Sex and the City Podcast",
+		"offers": [
+			{
+				"@type": "Offer",
+				"price": "Free"
+			}
+		]
+	}
 }

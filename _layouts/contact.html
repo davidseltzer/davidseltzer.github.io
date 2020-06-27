@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include common/head/head.html %}
+{% include common/head/head.html data=site.data.contact %}
 
 <body>
 
@@ -12,7 +12,7 @@
 		<div class="bg-theme-white container page-section">
 
 			<!--title-->
-			{% include common/title/page-title.html title="Contact" %}
+			{% include common/title/title-h1.html title="Contact" %}
 
 			<!--contact links-->
 			{% include contact/contact-links.html %}

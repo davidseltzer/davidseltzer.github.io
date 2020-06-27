@@ -1,4 +1,6 @@
 {
+	"title": "D.J. Seltzer's Acting Videos & Reel",
+	"description": "",
 	"films": [
 		{
 			"title": "Kings Are Wild",
@@ -44,8 +46,7 @@
 			"episode": "S1E4 - Mayo",
 			"description": "",
 			"links": {
-				"facebook_watch": "https://www.facebook.com/watch/?v=373690190021411",
-				"imdb": "https://www.imdb.com/title/tt11079734/"
+				"facebook_watch": "https://www.facebook.com/watch/?v=373690190021411"
 			},
 			"images": [
 				"/img/films/fridge-face-off/fridge-face-off-poster.png"
@@ -57,5 +58,144 @@
 		"url": "https://www.youtube.com/watch?v=9w6QEtSGA_8",
 		"embed": "https://www.youtube.com/embed/9w6QEtSGA_8?rel=0",
 		"embed_allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+	},
+	"structured_data": {
+		"@context": "https://schema.org",
+		"@type": "ItemList",
+		"itemListElement": [
+			{
+				"@type": "ListItem",
+				"position": "1",
+				"item": {
+					"@type": "TVSeries",
+					"name": "Kings Are Wild",
+					"sameAs": [
+						"https://www.imdb.com/title/tt11136042"
+					],
+					"mainEntityOfPage": "https://www.youtube.com/channel/UCAMIFa_7h77oCULA2ZX80VA",
+					"potentialAction": {
+						"@type": "WatchAction",
+						"target": "https://www.youtube.com/watch?v=2oRxiAggzIU&list=PLKAZEDjS3AywaJ_LC7h5L5aNkbfo_jLqe"
+					},
+					"creator": [
+						{
+							"@type": "Person",
+							"givenName": "D.J.",
+							"familyName": "Seltzer",
+							"alternateName": "David John Seltzer",
+							"url": "https://www.imdb.com/name/nm9420509"
+						},
+						{
+							"@type": "Person",
+							"givenName": "David",
+							"additionalName": "Shea",
+							"familyName": "Henne",
+							"url": "https://www.imdb.com/name/nm6283994",
+							"sameAs": [
+								"https://www.facebook.com/DavidSheaHenne",
+								"https://www.instagram.com/dshenne",
+								"https://twitter.com/dshenne"
+							]
+						}
+					],
+					"actor": [
+						{
+							"@type": "Person",
+							"givenName": "D.J.",
+							"familyName": "Seltzer",
+							"alternateName": "David John Seltzer",
+							"url": "https://www.imdb.com/name/nm9420509"
+						},
+						{
+							"@type": "Person",
+							"givenName": "David",
+							"additionalName": "Shea",
+							"familyName": "Henne",
+							"url": "https://www.imdb.com/name/nm6283994"
+						},
+						{
+							"@type": "Person",
+							"givenName": "Chelsea",
+							"familyName": "Jordan",
+							"url": "https://www.imdb.com/name/nm6283995"
+						},
+						{
+							"@type": "Person",
+							"givenName": "Tess",
+							"familyName": "Llanos",
+							"url": "https://www.imdb.com/name/nm9239405"
+						},
+						{
+							"@type": "Person",
+							"givenName": "Kaylie",
+							"familyName": "Gipson",
+							"url": "https://www.imdb.com/name/nm6640809"
+						},
+						{
+							"@type": "Person",
+							"givenName": "Michelle",
+							"familyName": "Agresti",
+							"url": "https://www.imdb.com/name/nm7135718"
+						},
+						{
+							"@type": "Person",
+							"givenName": "Donald",
+							"additionalName": "Lee",
+							"familyName": "Gipson",
+							"url": "https://www.imdb.com/name/nm3693872"
+						}
+					]
+				}
+			},
+			{
+				"@type": "ListItem",
+				"position": "2",
+				"item": {
+					"@type": "Movie",
+					"name": "Dada Life - No More 54 (Official Music Video)",
+					"mainEntityOfPage": "https://www.youtube.com/watch?v=Y9lhf75_ots",
+					"potentialAction": {
+						"@type": "WatchAction",
+						"target": "https://www.youtube.com/watch?v=Y9lhf75_ots"
+					},
+					"musicBy": {
+						"@type": "MusicGroup",
+						"name": "Dada Life",
+						"url": "http://www.dadalife.com/",
+						"sameAs": [
+							"https://www.facebook.com/dadalife/",
+							"https://twitter.com/dadalife"
+						]
+					},
+					"actor": [
+						{
+							"@type": "Person",
+							"givenName": "D.J.",
+							"familyName": "Seltzer",
+							"alternateName": "David John Seltzer",
+							"url": "https://www.imdb.com/name/nm9420509"
+						}
+					]
+				}
+			},
+			{
+				"@type": "ListItem",
+				"position": "3",
+				"item": {
+					"@type": "MovieClip",
+					"name": "Acting Reel - D.J. Seltzer",
+					"mainEntityOfPage": "https://www.youtube.com/watch?v=9w6QEtSGA_8",
+					"actor": [
+						{
+							"@type": "Person",
+							"givenName": "D.J.",
+							"familyName": "Seltzer",
+							"alternateName": "David John Seltzer",
+							"url": "https://www.imdb.com/name/nm9420509"
+						}
+					]
+				}
+			}
+		]
 	}
 }

@@ -31,7 +31,7 @@
 		"label": "IMDb",
 		"url": "https://www.imdb.com/name/nm9420509/",
 		"icon": "fab fa-imdb",
-		"color": "text-imdb-black",
+		"color": "text-theme-black",
 		"footer": false
 	},
 	{

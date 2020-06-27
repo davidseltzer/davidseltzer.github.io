@@ -2,8 +2,15 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+	<!--title-->
+	<title>{{ include.data.title }}</title>
+	<meta property="og:title" content="{{ include.data.title }}" />
+
+	<!--description-->
+	<meta name="description" content="{{ include.data.description }}">
+	<meta property="og:description" content="{{ include.data.description }}" />
+
 	<!--seo-->
-	{% include common/head/title-and-description.html %}
 	{% include common/head/og.html %}
 
 	<!--google tracking-->
@@ -16,5 +23,5 @@
 	{% include common/head/css.html %}
 
 	<!--structured data-->
-	{% include common/head/structured-data.html %}
+	{% include common/head/structured-data.html structured_data=include.data.structured_data %}
 </head>
