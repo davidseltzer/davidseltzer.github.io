@@ -1,4 +1,0 @@
----
-permalink: /podcasts
-layout: podcasts
----

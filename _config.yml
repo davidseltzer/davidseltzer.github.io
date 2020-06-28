@@ -7,5 +7,7 @@ exclude:
   - run.sh
 sass:
   style: compressed
+compress_html:
+  comments: all
 plugins:
   - jekyll-sitemap
