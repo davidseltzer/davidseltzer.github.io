@@ -1,6 +1,10 @@
+// font awesome
+@import "../vendor/fontawesome-free-5.13.1-web/scss/fontawesome.scss";
+@import "../vendor/fontawesome-free-5.13.1-web/scss/brands";
+@import "../vendor/fontawesome-free-5.13.1-web/scss/solid";
+
 // theme
 @import "colors/backgrounds";
-
 @import "font/font";
 
 @import "elements/body-color";
