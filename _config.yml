@@ -3,6 +3,8 @@ title: djseltzer.com
 timezone: UTC
 markdown: kramdown
 theme: minima
+exclude:
+  - run.sh
 sass:
   style: compressed
 plugins:
