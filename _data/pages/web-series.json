@@ -30,5 +30,94 @@
 			]
 		}
 	],
-	"structured_data": {}
+	"structured_data": {
+		"@context": "https://schema.org",
+		"@type": "ItemList",
+		"itemListElement": [
+			{
+				"@type": "ListItem",
+				"position": "1",
+				"item": {
+					"@type": "TVSeries",
+					"name": "Kings Are Wild",
+					"sameAs": [
+						"https://www.imdb.com/title/tt11136042"
+					],
+					"mainEntityOfPage": "https://www.youtube.com/channel/UCAMIFa_7h77oCULA2ZX80VA",
+					"potentialAction": {
+						"@type": "WatchAction",
+						"target": "https://www.youtube.com/watch?v=2oRxiAggzIU&list=PLKAZEDjS3AywaJ_LC7h5L5aNkbfo_jLqe"
+					},
+					"creator": [
+						{
+							"@type": "Person",
+							"givenName": "D.J.",
+							"familyName": "Seltzer",
+							"alternateName": "David John Seltzer",
+							"url": "https://www.imdb.com/name/nm9420509"
+						},
+						{
+							"@type": "Person",
+							"givenName": "David",
+							"additionalName": "Shea",
+							"familyName": "Henne",
+							"url": "https://www.imdb.com/name/nm6283994",
+							"sameAs": [
+								"https://www.facebook.com/DavidSheaHenne",
+								"https://www.instagram.com/dshenne",
+								"https://twitter.com/dshenne"
+							]
+						}
+					],
+					"actor": [
+						{
+							"@type": "Person",
+							"givenName": "D.J.",
+							"familyName": "Seltzer",
+							"alternateName": "David John Seltzer",
+							"url": "https://www.imdb.com/name/nm9420509"
+						},
+						{
+							"@type": "Person",
+							"givenName": "David",
+							"additionalName": "Shea",
+							"familyName": "Henne",
+							"url": "https://www.imdb.com/name/nm6283994"
+						},
+						{
+							"@type": "Person",
+							"givenName": "Chelsea",
+							"familyName": "Jordan",
+							"url": "https://www.imdb.com/name/nm6283995"
+						},
+						{
+							"@type": "Person",
+							"givenName": "Tess",
+							"familyName": "Llanos",
+							"url": "https://www.imdb.com/name/nm9239405"
+						},
+						{
+							"@type": "Person",
+							"givenName": "Kaylie",
+							"familyName": "Gipson",
+							"url": "https://www.imdb.com/name/nm6640809"
+						},
+						{
+							"@type": "Person",
+							"givenName": "Michelle",
+							"familyName": "Agresti",
+							"url": "https://www.imdb.com/name/nm7135718"
+						},
+						{
+							"@type": "Person",
+							"givenName": "Donald",
+							"additionalName": "Lee",
+							"familyName": "Gipson",
+							"url": "https://www.imdb.com/name/nm3693872"
+						}
+					]
+				}
+			}
+		]
+	}
 }

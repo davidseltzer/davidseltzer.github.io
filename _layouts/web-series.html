@@ -14,9 +14,9 @@
 			<!--title-->
 			{% include common/title/title-h1.html title="Web Series" %}
 
-			{% for credit in site.data.pages.acting.credits %}
+			{% for series in site.data.pages.web-series.series %}
 
-				{% include acting/acting-item.html credit=credit %}
+				{% include acting/acting-item.html credit=series %}
 
 				{% if forloop.last != true %}
 					<div class="my-5">
