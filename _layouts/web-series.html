@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include common/head/head.html data=site.data.pages.acting %}
+{% include common/head/head.html data=site.data.pages.web-series %}
 
 <body class="acting">
 
@@ -12,7 +12,7 @@
 		<div class="bg-theme-white container page-section">
 
 			<!--title-->
-			{% include common/title/title-h1.html title="Acting" %}
+			{% include common/title/title-h1.html title="Web Series" %}
 
 			{% for credit in site.data.pages.acting.credits %}
 
@@ -28,9 +28,6 @@
 
 		</div>
 	</section>
-
-	<!--acting reel-->
-	{% include acting/reel.html %}
 
 	<!-- footer -->
 	{% include common/footer/footer.html %}

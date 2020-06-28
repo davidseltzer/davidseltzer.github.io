@@ -1,11 +1,15 @@
 [
 	{
-		"label": "Acting",
-		"url": "/acting"
+		"label": "Web Series",
+		"url": "/web-series"
 	},
 	{
 		"label": "Podcasts",
 		"url": "/podcasts"
+	},
+	{
+		"label": "Acting",
+		"url": "/acting"
 	},
 	{
 		"label": "Contact",

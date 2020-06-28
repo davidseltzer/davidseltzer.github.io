@@ -5,7 +5,7 @@
 		<!--images-->
 		<div class="col-12 col-md-4 mb-4 mb-md-0 order-0 mt-0 mt-md-2">
 
-			{% for image in include.film.images %}
+			{% for image in include.credit.images %}
 				<img class="img-fluid {% if forloop.first != true %}mt-3{% endif %}"
 				     src="{{ image }}" />
 			{% endfor %}
@@ -14,25 +14,25 @@
 		<div class="col-12 col-md-8 order-1">
 
 			<!--title-->
-			<h3 class="h3 text-theme-red mb-0">{{ include.film.title }}</h3>
+			<h3 class="h3 text-theme-red mb-0">{{ include.credit.title }}</h3>
 
 			<!--type-->
-			<div class="h3 small">{{ include.film.type }}</div>
+			<div class="h3 small">{{ include.credit.type }}</div>
 
 			<!--sub-headers-->
-			{% if include.film.episode %}
-				<div class="h4"><span class="text-muted">Episode:</span> {{ include.film.episode }}</div>
+			{% if include.credit.episode %}
+				<div class="h4"><span class="text-muted">Episode:</span> {{ include.credit.episode }}</div>
 			{% endif %}
 
 			<!--media links-->
 			<div class="my-3">
-				{% include common/media/media-links.html links=include.film.links %}
+				{% include common/media/media-links.html links=include.credit.links %}
 			</div>
 
 			<!--description-->
-			<p class="pb-3">{{ include.film.description }}</p>
+			<p class="pb-3">{{ include.credit.description }}</p>
 
-			{% for credit in include.film.credits %}
+			{% for credit in include.credit.credits %}
 
 				<p class="small">
 					<strong>{{ credit.label }}:</strong> {{ credit.text }}

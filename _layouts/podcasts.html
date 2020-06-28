@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include common/head/head.html data=site.data.podcasts %}
+{% include common/head/head.html data=site.data.pages.podcasts %}
 
 <body>
 
@@ -23,7 +23,7 @@
 
 		<div class="bg-theme-white container page-section pt-5">
 
-			{% for podcast in site.data.podcasts.featured %}
+			{% for podcast in site.data.pages.podcasts.featured %}
 
 				{% include podcasts/podcast-item.html podcast=podcast %}
 
