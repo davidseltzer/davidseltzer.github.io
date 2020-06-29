@@ -1,5 +1,7 @@
 {% if include.links.youtube or include.links.facebook_watch %}
 	<div class="h5 small text-muted">Stream on:</div>
+{% elsif include.links.itunes or include.links.google_play or include.links.stitcher %}
+	<div class="h5 small text-muted">Listen on:</div>
 {% endif %}
 
 <div class="d-flex flex-row">
@@ -48,15 +50,5 @@
 			url=include.links.stitcher
 			color="text-stitcher-blue"
 			icon="fas fa-broadcast-tower" %}
-	{% endif %}
-
-	<!--imdb-->
-	{% if include.links.imdb %}
-
-		{% include common/media/media-link-item.html
-			label="IMDb"
-			url=include.links.imdb
-			color="text-theme-black"
-			icon="fab fa-imdb" %}
 	{% endif %}
 </div>
