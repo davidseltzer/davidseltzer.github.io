@@ -6,6 +6,8 @@ $imdb-yellow:         #F5C518 !default;
 $instagram-purple:    #8a3ab9 !default;
 $itunes-purple:       #7d50df !default;
 $linkedin-blue:       #007bb5 !default;
+$soundcloud-orange:   #FF5500 !default;
+$spotify-green:       #1DB954 !default;
 $stitcher-blue:       #3499cc !default;
 $twitter-blue:        #55acee !default;
 $vimeo-blue:          #45bbff !default;
@@ -22,6 +24,8 @@ $brand-colors: map-merge(
     "instagram-purple":   $instagram-purple,
     "itunes-purple":      $itunes-purple,
     "linkedin-blue":      $linkedin-blue,
+    "soundcloud-orange":  $soundcloud-orange,
+    "spotify-green":      $spotify-green,
     "stitcher-blue":      $stitcher-blue,
     "twitter-blue":       $twitter-blue,
     "vimeo-blue":         $vimeo-blue,
