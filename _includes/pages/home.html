@@ -9,13 +9,18 @@
 			{% include home/profile-pic-and-name-banner.html %}
 		</div>
 
-		<!--description-->
-		<div class="bg-theme-white container pt-2 pb-5">
-			<p class="text-center">{{ site.data.pages.home.description }}</p>
-		</div>
-
 		<!--cards-->
 		{% include home/cards.html %}
+
+		<!--bio-->
+		<div class="bg-theme-white container py-5 px-5">
+			<div class="row">
+				<div class="col-12 offset-0 col-md-8 offset-md-2">
+					<h2>Bio</h2>
+					<p>{{ site.data.pages.home.description }}</p>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<!--footer -->
