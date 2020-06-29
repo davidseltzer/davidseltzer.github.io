@@ -1,14 +1,16 @@
-<body class="acting">
-
+<body>
 	<!-- navigation -->
 	{% include common/navbar.html %}
 
 	<section class="bg-name-banner">
 		<div class="bg-theme-white container page-section">
 
-			<!--title-->
-			{% include common/title/title-h1.html title="Acting" %}
+			<!--title and description-->
+			{% include common/title/title-h1.html h1=site.data.pages.acting.h1 %}
+			<p class="text-center">{{ site.data.pages.acting.description }}</p>
+			<p class="small text-center">For a full list of credits, go to <a href="https://www.imdb.com/name/nm9420509/" target="_blank" class="text-theme-dark-red"><strong>imdb</strong></a>.</p>
 
+			<!--acting credits-->
 			{% for credit in site.data.pages.acting.credits %}
 
 				{% include acting/acting-item.html credit=credit %}

@@ -1,14 +1,16 @@
-<body class="acting">
-
+<body>
 	<!-- navigation -->
 	{% include common/navbar.html %}
 
 	<section class="bg-name-banner">
 		<div class="bg-theme-white container page-section">
 
-			<!--title-->
-			{% include common/title/title-h1.html title="Web Series" %}
+			<!--title and description-->
+			{% include common/title/title-h1.html h1=site.data.pages.web-series.h1 %}
+			<p class="text-center">{{ site.data.pages.web-series.description }}</p>
+			<p class="small text-center">For more acting credits and footage, checkout <a href="/acting" class="text-theme-dark-red"><strong>acting</strong></a>.</p>
 
+			<!--web series-->
 			{% for series in site.data.pages.web-series.series %}
 
 				{% include acting/acting-item.html credit=series %}
