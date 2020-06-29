@@ -13,17 +13,19 @@
 			<p class="small text-center">For a full list of credits, go to <a href="https://www.imdb.com/name/nm9420509/" target="_blank" class="text-theme-dark-red"><strong>imdb</strong></a>.</p>
 
 			<!--acting credits-->
-			{% for credit in site.data.pages.acting.credits %}
+			<div class="mt-5">
+				{% for credit in site.data.pages.acting.credits %}
 
-				{% include acting/acting-item.html credit=credit %}
+					{% include acting/acting-item.html credit=credit %}
 
-				{% if forloop.last != true %}
-					<div class="my-5">
-						<hr class="divider divider-theme-gold"/>
-					</div>
-				{% endif %}
+					{% if forloop.last != true %}
+						<div class="my-5">
+							<hr class="divider divider-theme-gold"/>
+						</div>
+					{% endif %}
 
-			{% endfor %}
+				{% endfor %}
+			</div>
 
 		</div>
 	</section>

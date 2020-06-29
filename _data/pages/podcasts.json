@@ -1,8 +1,8 @@
 {
 	"title": "Podcasts - D.J. Seltzer",
 	"h1": "Podcasts",
-	"description": "Podcasts episodes and shows.",
-	"featured": [
+	"description": "Podcasts episodes and shows featuring D.J. Seltzer.",
+	"episodes": [
 		{
 			"title": "The Follow-Up Showdown",
 			"host": "Paul Goetz & Travis McMaster",
@@ -14,18 +14,6 @@
 				"itunes": "https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055?i=1000480173558",
 				"soundcloud": "https://soundcloud.com/followupshowdown/ep-104-the-man-from-u-n-c-l-e",
 				"stitcher": "https://www.stitcher.com/podcast/the-followup-showdown/e/73687041"
-			}
-		},
-		{
-			"title": "Cosmos and the City",
-			"host": "Megan McIver",
-			"episode": "Alcohol, Cigarettes, and Wikipedia with David John Seltzer",
-			"description": "Go on a journey with Sex and the City super fan Megan McIver as she watches the series from start to finish. Each week Megan and a special guest will drink and dish about all the fashion, friction, faux pas, and fornication that the Fabulous Foursome have to offer. So take a seat, grab a drink, and enjoy the hilarious podcast: Cosmos and the City.",
-			"img": "/img/podcasts/cosmos-and-the-city.jpg",
-			"links": {
-				"itunes": "https://podcasts.apple.com/us/podcast/alcohol-cigarettes-and-wikipedia-with-david-john-seltzer/id1334366698?i=1000417407290",
-				"google-play": "https://play.google.com/music/m/Doahzhex6sxnmjntrz34ar54bd4?t=_Alcohol__Cigarettes_and__Wikipedia_with_David_John_Seltzer-Cosmos_and_the_City_The_Sex_and_the_City",
-				"stitcher": "https://www.stitcher.com/podcast/boardwalk-audio/cosmos-and-the-city/e/55687189"
 			}
 		}
 	],

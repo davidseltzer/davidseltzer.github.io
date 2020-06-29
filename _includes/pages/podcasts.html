@@ -10,24 +10,21 @@
 
 			<!--description-->
 			<p class="text-center">{{ site.data.pages.podcasts.description }}</p>
-		</div>
 
-		<!--featured section-->
-		{% include common/title/title-h2.html title="Featured on..." %}
+			<!--episodes-->
+			<div class="mt-5">
+				{% for podcast in site.data.pages.podcasts.episodes %}
 
-		<div class="bg-theme-white container page-section pt-5">
+					{% include podcasts/podcast-item.html podcast=podcast %}
 
-			{% for podcast in site.data.pages.podcasts.featured %}
+					{% if forloop.last != true %}
+						<div class="my-5">
+							<hr class="divider divider-theme-gold"/>
+						</div>
+					{% endif %}
 
-				{% include podcasts/podcast-item.html podcast=podcast %}
-
-				{% if forloop.last != true %}
-					<div class="my-5">
-						<hr class="divider divider-theme-gold"/>
-					</div>
-				{% endif %}
-
-			{% endfor %}
+				{% endfor %}
+			</div>
 		</div>
 
 	</section>
