@@ -2,11 +2,21 @@
 	<!-- navigation -->
 	{% include common/navbar.html %}
 
-	<!--banner-->
-	{% include home/profile-pic-and-name-banner.html %}
+	<section class="bg-name-banner">
 
-	<!--cards-->
-	{% include home/cards.html %}
+		<!--banner-->
+		<div class="bg-theme-white container page-section pb-5">
+			{% include home/profile-pic-and-name-banner.html %}
+		</div>
+
+		<!--description-->
+		<div class="bg-theme-white container pt-2 pb-5">
+			<p class="text-center">{{ site.data.pages.home.description }}</p>
+		</div>
+
+		<!--cards-->
+		{% include home/cards.html %}
+	</section>
 
 	<!--footer -->
 	{% include common/footer/footer.html %}

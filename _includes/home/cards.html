@@ -1,17 +1,23 @@
-<section class="py-5 bg-theme-red">
-	<div class="container">
-		<div class="d-flex flex-row justify-content-center">
+<div class="bg-theme-red container page-section py-5">
+	<div class="row">
 
-			<!--acting-->
-			<div class="text-center mx-5">
+		<!--web series-->
+		{% include home/card-item.html
+				label="Web Series"
+				url="/web-series"
+				icon="fas fa-film"
+				is_first=true %}
 
-				<a href="/acting"
-				   class="text-theme-white">
+		<!--acting-->
+		{% include home/card-item.html
+				label="Acting"
+				url="/acting"
+				icon="fas fa-theater-masks" %}
 
-					<div class="h2">Acting</div>
-				</a>
-			</div>
-
-		</div>
+		<!--podcasts-->
+		{% include home/card-item.html
+				label="Podcasts"
+				url="/podcasts"
+				icon="fas fa-microphone-alt" %}
 	</div>
-</section>
+</div>

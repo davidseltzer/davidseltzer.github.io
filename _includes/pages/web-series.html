@@ -5,10 +5,12 @@
 	<section class="bg-name-banner">
 		<div class="bg-theme-white container page-section">
 
-			<!--title and description-->
+			<!--title-->
 			{% include common/title/title-h1.html h1=site.data.pages.web-series.h1 %}
+
+			<!--description-->
 			<p class="text-center">{{ site.data.pages.web-series.description }}</p>
-			<p class="small text-center">For more acting credits and footage, checkout <a href="/acting" class="text-theme-dark-red"><strong>acting</strong></a>.</p>
+			<p class="small text-center">For more acting credits and footage, check out <a href="/acting" class="text-theme-dark-red"><strong>acting</strong></a>.</p>
 
 			<!--web series-->
 			{% for series in site.data.pages.web-series.series %}

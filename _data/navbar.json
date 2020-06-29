@@ -4,12 +4,12 @@
 		"url": "/web-series"
 	},
 	{
-		"label": "Podcasts",
-		"url": "/podcasts"
-	},
-	{
 		"label": "Acting",
 		"url": "/acting"
+	},
+	{
+		"label": "Podcasts",
+		"url": "/podcasts"
 	},
 	{
 		"label": "Contact",
