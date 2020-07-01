@@ -1,0 +1,41 @@
+<div class="pt-5 px-3 px-md-5">
+
+	<div class="row">
+
+		<!--movie poster-->
+		<div class="col-12 col-md-4 mb-4 mb-md-0 order-0 mt-0 mt-md-2">
+			<img class="img-fluid" src="{{ include.series.poster }}" />
+		</div>
+
+		<div class="col-12 col-md-8 order-1">
+
+			<!--title-->
+			<h2 class="text-theme-red mb-0">{{ include.series.title }}</h2>
+
+			<!--media links-->
+			<div class="my-3">
+				{% include common/media/media-links.html links=include.series.links %}
+			</div>
+
+			<!--description-->
+			<p class="py-3">{{ include.series.description }}</p>
+
+			<!--credits-->
+			{% for credit in include.series.credits %}
+				<p class="small">
+					<strong>{{ credit.label }}:</strong> {{ credit.text }}
+				</p>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+<!--stills-->
+<div class="row bg-theme-black mt-5">
+
+	{% for image in include.series.stills %}
+		<div class="col-4 py-5">
+			<img class="img-fluid" src="{{ image }}" />
+		</div>
+	{% endfor %}
+</div>

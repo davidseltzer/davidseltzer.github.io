@@ -5,7 +5,6 @@
 	"series": [
 		{
 			"title": "Kings Are Wild",
-			"type": "Web Series",
 			"description": "Kings Are Wild is a comedy web series created by David John Seltzer and David Shea Henne. It is available for free on YouTube.",
 			"credits": [
 				{
@@ -17,16 +16,18 @@
 					"text": "David John Seltzer"
 				},
 				{
-					"label": "Starring",
+					"label": "Stars",
 					"text": "David John Seltzer, David Shea Henne, Chelsea Jordan, Michelle Agresti, Tess Llanos, Kaylie Gipson, Donald Lee Gipson"
 				}
 			],
 			"links": {
 				"youtube": "https://www.youtube.com/watch?v=2oRxiAggzIU&list=PLKAZEDjS3AywaJ_LC7h5L5aNkbfo_jLqe"
 			},
-			"images": [
+			"poster": "/img/web-series/kings-are-wild/kings-are-wild-movie-poster.jpg",
+			"stills": [
+				"/img/web-series/kings-are-wild/kings-are-wild-still.png",
 				"/img/films/kings-are-wild/kings-are-wild-poster.jpg",
-				"/img/films/kings-are-wild/kings-are-wild-still.png"
+				"/img/web-series/kings-are-wild/kings-are-wild-still.png"
 			]
 		}
 	],
