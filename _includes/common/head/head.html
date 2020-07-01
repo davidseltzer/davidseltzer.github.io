@@ -6,21 +6,24 @@
 	<title>{{ include.data.title }}</title>
 	<meta property="og:title" content="{{ include.data.title }}" />
 
-	<!--description-->
-	<meta name="description" content="{{ include.data.description }}">
-	<meta property="og:description" content="{{ include.data.description }}" />
-
-	<!--seo-->
-	{% include common/head/og.html %}
-
-	<!--google tracking-->
-	{% include common/head/google-tracking.html %}
+	<!--css-->
+	{% include common/head/css.html %}
 
 	<!--favicon-->
 	{% include common/head/favicon.html %}
 
-	<!--css-->
-	{% include common/head/css.html %}
+	<!--canonical url-->
+	<link rel="canonical" href="{{ site.canonical_url_base }}{{ page.url }}" />
+
+	<!--google tracking-->
+	{% include common/head/google-tracking.html %}
+
+	<!--description-->
+	<meta name="description" content="{{ include.data.description }}">
+	<meta property="og:description" content="{{ include.data.description }}" />
+
+	<!--facebook: og graph-->
+	{% include common/head/og.html %}
 
 	<!--structured data-->
 	{% include common/head/structured-data.html structured_data=include.data.structured_data %}
