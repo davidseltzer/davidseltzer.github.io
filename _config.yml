@@ -1,8 +1,6 @@
 ---
-title: djseltzer.com
-timezone: UTC
+timezone: America/Los_Angeles
 markdown: kramdown
-theme: minima
 exclude:
   - run.sh
 sass:
