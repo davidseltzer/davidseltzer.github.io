@@ -1,0 +1,24 @@
+<body>
+	<!-- navigation -->
+	{% include common/navbar.html %}
+
+	<section class="bg-name-banner">
+		<div class="bg-theme-white container page-section">
+
+			<!--title-->
+			{% include common/title/title-h1.html h1=include.film.h1 %}
+
+			<!--description-->
+			<p class="text-center">{{ include.film.description }}</p>
+		</div>
+	</section>
+
+	<!--videos-->
+	{% for video in include.film.videos %}
+		{% include common/media/youtube-embed.html video=video %}
+	{% endfor %}
+
+	<!-- footer -->
+	{% include common/footer/footer.html %}
+	{% include common/javascript.html %}
+</body>

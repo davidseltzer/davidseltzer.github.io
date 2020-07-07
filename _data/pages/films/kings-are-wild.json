@@ -1,0 +1,17 @@
+{
+	"title": "Kings Are Wild - Web Series",
+	"h1": "Kings Are Wild",
+	"description": "",
+	"videos": [
+		{
+			"title": "Episode 1",
+			"youtube_embed": "https://www.youtube.com/embed/2oRxiAggzIU",
+			"youtube_url": "https://www.youtube.com/watch?v=2oRxiAggzIU"
+		},
+		{
+			"title": "Episode 2",
+			"youtube_embed": "https://www.youtube.com/embed/dngLrQkZ7YU",
+			"youtube_url": "https://www.youtube.com/watch?v=dngLrQkZ7YU"
+		}
+	]
+}
