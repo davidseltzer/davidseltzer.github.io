@@ -1,5 +1,7 @@
 @import "../colors/color-palette";
 
+$navbar-height: 78px;
+
 // copied from boostrap -> changed to theme black
 $box-shadow:        0 .5rem 1rem rgba($theme-black, .15) !default;
 
@@ -49,4 +51,8 @@ $box-shadow:        0 .5rem 1rem rgba($theme-black, .15) !default;
       }
     }
   }
+}
+
+.mt-navbar-height {
+  margin-top: $navbar-height !important;
 }
