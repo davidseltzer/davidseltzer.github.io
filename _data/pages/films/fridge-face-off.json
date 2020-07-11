@@ -1,7 +1,26 @@
 {
 	"title": "Fridge Face-Off - Game Show hosted by Angela Kinsey & Josh Snyder",
 	"h1": "Fridge Face-Off",
+	"category": "Game Show",
 	"description": "",
 	"banner": "/img/films/fridge-face-off/fridge-face-off-banner.png",
-	"videos": []
+	"poster": "/img/films/fridge-face-off/fridge-face-off-poster.png",
+	"imdb": "https://www.imdb.com/title/tt11079734/",
+	"videos": [],
+	"credits": [
+		{
+			"title": "Hosts",
+			"names": [
+				"Angela Kinsey",
+				"Josh Snyder"
+			]
+		},
+		{
+			"title": "Contestants",
+			"names": [
+				"D.J. Seltzer",
+				"Sachin Medhekar"
+			]
+		}
+	]
 }

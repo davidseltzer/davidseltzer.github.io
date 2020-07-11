@@ -1,0 +1,31 @@
+{
+	"title": "",
+	"h1": "No More 54 by Dada Life",
+	"category": "Official Music Video",
+	"description": "",
+	"banner": "/img/music-video/no-more-54-album.jpg",
+	"poster": "/img/music-video/no-more-54-album.jpg",
+	"videos": [
+		{
+			"title": "Music Video",
+			"youtube_embed": "https://www.youtube.com/embed/Y9lhf75_ots",
+			"youtube_url": "https://www.youtube.com/watch?v=Y9lhf75_ots"
+		}
+	],
+	"credits": [
+		{
+			"title": "Hosts",
+			"names": [
+				"Angela Kinsey",
+				"Josh Snyder"
+			]
+		},
+		{
+			"title": "Contestants",
+			"names": [
+				"D.J. Seltzer",
+				"Sachin Medhekar"
+			]
+		}
+	]
+}

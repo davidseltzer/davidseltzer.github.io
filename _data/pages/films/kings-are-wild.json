@@ -1,8 +1,11 @@
 {
 	"title": "Kings Are Wild - Web Series",
 	"h1": "Kings Are Wild",
+	"category": "Web Series",
 	"description": "",
 	"banner": "/img/films/kings-are-wild/kings-are-wild-banner.jpg",
+	"poster": "/img/web-series/kings-are-wild/kings-are-wild-movie-poster.jpg",
+	"imdb": "https://www.imdb.com/title/tt11136042/",
 	"videos": [
 		{
 			"title": "Episode 1",
@@ -13,6 +16,39 @@
 			"title": "Episode 2",
 			"youtube_embed": "https://www.youtube.com/embed/dngLrQkZ7YU",
 			"youtube_url": "https://www.youtube.com/watch?v=dngLrQkZ7YU"
+		}
+	],
+	"credits": [
+		{
+			"title": "Actors",
+			"names": [
+				"David John Seltzer",
+				"David Shea Henne",
+				"Chelsea Jordan",
+				"Michelle Agresti",
+				"Tess Llanos",
+				"Kaylie Gipson",
+				"Donald Lee Gipson"
+			]
+		},
+		{
+			"title": "Creators",
+			"names": [
+				"David John Seltzer",
+				"David Shea Henne"
+			]
+		},
+		{
+			"title": "Writer",
+			"names": [
+				"David John Seltzer"
+			]
+		},
+		{
+			"title": "Cinematographer",
+			"names": [
+				"Gabriel Evans"
+			]
 		}
 	]
 }

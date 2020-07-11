@@ -2,19 +2,27 @@
 	<!-- navigation -->
 	{% include common/navbar.html %}
 
-	<!--banner-->
-	<section class="mt-navbar-height">
-		<img class="img-fluid" src="{{ include.film.banner }}" />
-	</section>
-
 	<section class="bg-name-banner">
 		<div class="bg-theme-white container page-section">
+			<div class="mx-5">
 
-			<!--title-->
-			{% include common/title/title-h1.html h1=include.film.h1 %}
+				<div class="row">
 
-			<!--description-->
-			<p class="text-center">{{ include.film.description }}</p>
+					<!--movie poster-->
+					<div class="col-12 col-md-3 mt-md-1">
+						<img class="img-fluid" src="{{ include.film.poster }}" />
+					</div>
+
+					<div class="col-12 col-md-8 pl-md-4">
+						<!--title-->
+						<h1 class="mb-0">{{ include.film.h1 }}</h1>
+						<div class="h3 text-theme-dark-red">{{ include.film.category }}</div>
+
+						<!--description-->
+						<p class="text-center">{{ include.film.description }}</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -22,6 +30,9 @@
 	{% for video in include.film.videos %}
 		{% include common/media/youtube-embed.html video=video %}
 	{% endfor %}
+
+	<!--credits-->
+	{% include film/film-credits.html %}
 
 	<!-- footer -->
 	{% include common/footer/footer.html %}
