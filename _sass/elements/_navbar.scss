@@ -34,6 +34,26 @@ $box-shadow:        0 .5rem 1rem rgba($theme-black, .15) !default;
     }
   }
 
+  // light
+  &.navbar-light {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: $theme-black;
+
+          &:hover,
+          &:active {
+            color: $theme-red;
+          }
+
+          &.active {
+            color: $theme-dark-red !important;
+          }
+        }
+      }
+    }
+  }
+
   /* lg => 992px */
   @media (min-width: 992px) {
     .navbar-nav {

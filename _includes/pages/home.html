@@ -1,29 +1,20 @@
-<body>
-	<!-- navigation -->
-	{% include common/navbar.html %}
+<section class="bg-name-banner">
 
-	<section class="bg-name-banner">
+	<!--banner-->
+	<div class="bg-theme-white container page-section pb-5">
+		{% include home/profile-pic-and-name-banner.html %}
+	</div>
 
-		<!--banner-->
-		<div class="bg-theme-white container page-section pb-5">
-			{% include home/profile-pic-and-name-banner.html %}
-		</div>
+	<!--cards-->
+	{% include home/cards.html %}
 
-		<!--cards-->
-		{% include home/cards.html %}
-
-		<!--bio-->
-		<div class="bg-theme-white container py-5 px-5">
-			<div class="row">
-				<div class="col-12 offset-0 col-md-8 offset-md-2">
-					<h2>Bio</h2>
-					<p>{{ site.data.pages.home.description }}</p>
-				</div>
+	<!--bio-->
+	<div class="bg-theme-white container py-5 px-5">
+		<div class="row">
+			<div class="col-12 offset-0 col-md-8 offset-md-2">
+				<h2>Bio</h2>
+				<p>{{ site.data.pages.home.description }}</p>
 			</div>
 		</div>
-	</section>
-
-	<!--footer -->
-	{% include common/footer/footer.html %}
-	{% include common/javascript.html %}
-</body>
+	</div>
+</section>

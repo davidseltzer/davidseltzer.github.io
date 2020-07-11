@@ -1,34 +1,25 @@
-<body>
-	<!-- navigation -->
-	{% include common/navbar.html %}
+<section class="bg-name-banner">
+	<div class="bg-theme-white container page-section pb-0">
 
-	<section class="bg-name-banner">
-		<div class="bg-theme-white container page-section pb-0">
+		<!--title-->
+		{% include common/title/title-h1.html h1=site.data.pages.web-series.h1 %}
 
-			<!--title-->
-			{% include common/title/title-h1.html h1=site.data.pages.web-series.h1 %}
+		<!--description-->
+		<p class="text-center">{{ site.data.pages.web-series.description }}</p>
+		<p class="small text-center">For more acting credits and videos, check out <a href="/acting" class="text-theme-dark-red"><strong>acting</strong></a>.</p>
 
-			<!--description-->
-			<p class="text-center">{{ site.data.pages.web-series.description }}</p>
-			<p class="small text-center">For more acting credits and videos, check out <a href="/acting" class="text-theme-dark-red"><strong>acting</strong></a>.</p>
+		<!--web series-->
+		{% for series in site.data.pages.web-series.series %}
 
-			<!--web series-->
-			{% for series in site.data.pages.web-series.series %}
+			{% include web-series/web-series-item.html series=series %}
 
-				{% include web-series/web-series-item.html series=series %}
+			{% if forloop.last != true %}
+				<div class="my-5">
+					<hr class="divider divider-theme-gold"/>
+				</div>
+			{% endif %}
 
-				{% if forloop.last != true %}
-					<div class="my-5">
-						<hr class="divider divider-theme-gold"/>
-					</div>
-				{% endif %}
+		{% endfor %}
 
-			{% endfor %}
-
-		</div>
-	</section>
-
-	<!-- footer -->
-	{% include common/footer/footer.html %}
-	{% include common/javascript.html %}
-</body>
+	</div>
+</section>

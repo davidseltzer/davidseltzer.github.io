@@ -1,44 +1,35 @@
-<body>
-	<!-- navigation -->
-	{% include common/navbar.html %}
+<section class="bg-name-banner">
+	<div class="bg-theme-white container page-section">
 
-	<section class="bg-name-banner">
-		<div class="bg-theme-white container page-section">
+		<!--title-->
+		{% include common/title/title-h1.html h1=site.data.pages.acting.h1 %}
 
-			<!--title-->
-			{% include common/title/title-h1.html h1=site.data.pages.acting.h1 %}
+		<!--description-->
+		<p class="text-center">{{ site.data.pages.acting.description }}</p>
+		<p class="small text-center">For a full list of credits, go to <a href="https://www.imdb.com/name/nm9420509/" target="_blank" class="text-theme-dark-red"><strong>imdb</strong></a>.</p>
 
-			<!--description-->
-			<p class="text-center">{{ site.data.pages.acting.description }}</p>
-			<p class="small text-center">For a full list of credits, go to <a href="https://www.imdb.com/name/nm9420509/" target="_blank" class="text-theme-dark-red"><strong>imdb</strong></a>.</p>
+		<h2>temp - film project links</h2>
+		<h3><a href="/kings-are-wild">Kings Are Wild</a></h3>
+		<h3><a href="/fridge-face-off">Fridge Face-off</a></h3>
+		<h3><a href="/no-more-54">No More 54</a></h3>
 
-			<h2>temp - film project links</h2>
-			<h3><a href="/kings-are-wild">Kings Are Wild</a></h3>
-			<h3><a href="/fridge-face-off">Fridge Face-off</a></h3>
-			<h3><a href="/no-more-54">No More 54</a></h3>
+		<!--acting credits-->
+		<div class="mt-5">
+			{% for credit in site.data.pages.acting.credits %}
 
-			<!--acting credits-->
-			<div class="mt-5">
-				{% for credit in site.data.pages.acting.credits %}
+				{% include acting/acting-item.html credit=credit %}
 
-					{% include acting/acting-item.html credit=credit %}
+				{% if forloop.last != true %}
+					<div class="my-5">
+						<hr class="divider divider-theme-gold"/>
+					</div>
+				{% endif %}
 
-					{% if forloop.last != true %}
-						<div class="my-5">
-							<hr class="divider divider-theme-gold"/>
-						</div>
-					{% endif %}
-
-				{% endfor %}
-			</div>
-
+			{% endfor %}
 		</div>
-	</section>
 
-	<!--acting reel-->
-	{% include acting/reel.html %}
+	</div>
+</section>
 
-	<!-- footer -->
-	{% include common/footer/footer.html %}
-	{% include common/javascript.html %}
-</body>
+<!--acting reel-->
+{% include acting/reel.html %}

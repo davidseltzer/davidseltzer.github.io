@@ -1,0 +1,25 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+
+	<!--head-->
+	{% assign data = site.data.pages[page.data-page] %}
+	{% include common/head/head.html data=data %}
+
+	<!--body-->
+	<body>
+		<!-- navigation -->
+		{% include common/navbar-light.html %}
+
+		<!--content-->
+		{{ content }}
+
+		<!-- footer -->
+		{% include common/footer/footer.html %}
+
+		<!--javascript-->
+		{% include common/javascript.html %}
+	</body>
+</html>
