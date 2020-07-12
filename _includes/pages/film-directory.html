@@ -1,0 +1,22 @@
+{% assign data = site.data.pages[page.data-page] %}
+
+<section class="page-section pb-0">
+	<div class="container">
+
+		<!--title-->
+		{% include common/title/title-h1.html h1=data.h1 %}
+
+		<!--description-->
+		<p class="text-center">{{ data.description }}</p>
+
+		{% if data.sub-description %}
+			<p class="small text-center">{{ data.sub-description }}</p>
+		{% endif %}
+	</div>
+</section>
+
+<!--films-->
+{% include film-directory/film-directory-items.html films=data.films %}
+
+<!--videos-->
+{% include film/film-videos.html videos=data.videos %}

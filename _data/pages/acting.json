@@ -2,37 +2,27 @@
 	"title": "Acting Credits & Videos - D.J. Seltzer",
 	"h1": "Acting",
 	"description": "Acting credits, music videos, game shows, and more.",
-	"credits": [
+	"sub-description": "For a full list of credits, go to <a href=\"https://www.imdb.com/name/nm9420509/\" target=\"_blank\" class=\"text-theme-dark-red\"><strong>IMDb</strong></a>.",
+	"films": [
 		{
 			"title": "No More 54 by Dada Life",
-			"type": "Music Video",
-			"description": "The official music video for <strong>Dada Life's No More 54</strong> features D.J. as a dancing disco ball man.",
-			"links": {
-				"youtube": "https://www.youtube.com/watch?v=Y9lhf75_ots"
-			},
-			"images": [
-				"/img/music-video/no-more-54-album.jpg"
-			]
+			"category": "Music Video",
+			"url": "/no-more-54",
+			"still": "/img/films/no-more-54/no-more-54-still.jpg"
 		},
 		{
 			"title": "Fridge Face-Off",
-			"type": "Game Show",
-			"episode": "S1E4 - Mayo",
-			"description": "",
-			"links": {
-				"facebook-watch": "https://www.facebook.com/watch/?v=373690190021411"
-			},
-			"images": [
-				"/img/films/fridge-face-off/fridge-face-off-poster.png"
-			]
+			"category": "Game Show",
+			"url": "/fridge-face-off",
+			"still": "/img/films/fridge-face-off/fridge-face-off-still.png"
 		}
 	],
-	"reel": {
-		"platform": "YouTube",
-		"url": "https://www.youtube.com/watch?v=9w6QEtSGA_8",
-		"embed": "https://www.youtube.com/embed/9w6QEtSGA_8?rel=0",
-		"embed_allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-	},
+	"videos": [
+		{
+			"title": "Acting Reel",
+			"youtube-embed": "https://www.youtube.com/embed/9w6QEtSGA_8?rel=0"
+		}
+	],
 	"structured_data": {
 		"@context": "https://schema.org",
 		"@type": "ItemList",

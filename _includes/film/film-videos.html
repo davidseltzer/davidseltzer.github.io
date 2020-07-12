@@ -1,22 +1,24 @@
-<section class="bg-theme-black page-section">
-	{% for video in include.videos %}
+{% if include.videos %}
+	<section class="bg-theme-black page-section">
+		{% for video in include.videos %}
 
-		<div {% if forloop.last != true %} class="mb-5 pb-4" {% endif %}>
+			<div {% if forloop.last != true %} class="mb-5 pb-4" {% endif %}>
 
-			<!--video title-->
-			<h2 class="text-white text-center mb-5">{{ video.title }}</h2>
+				<!--video title-->
+				<h2 class="text-white text-center mb-5">{{ video.title }}</h2>
 
-			<!--youtube embed-->
-			{% if video.youtube-embed %}
-				{% include common/media/video-embed/youtube-embed.html video=video %}
+				<!--youtube embed-->
+				{% if video.youtube-embed %}
+					{% include common/media/video-embed/youtube-embed.html video=video %}
 
-			<!--dummy embed-->
-			{% else %}
-				{% include common/media/video-embed/dummy-embed.html video=video still=data.still %}
-			{% endif %}
+				<!--dummy embed-->
+				{% else %}
+					{% include common/media/video-embed/dummy-embed.html video=video still=data.still %}
+				{% endif %}
 
-			<!--external link-->
-			{% include common/media/video-embed/external-link.html video=video %}
-		</div>
-	{% endfor %}
-</section>
+				<!--external link-->
+				{% include common/media/video-embed/external-link.html video=video %}
+			</div>
+		{% endfor %}
+	</section>
+{% endif %}

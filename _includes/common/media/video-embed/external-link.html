@@ -1,21 +1,23 @@
-<div class="d-flex flex-row justify-content-center my-4">
+{% if video.youtube-url or video.facebook-watch-url %}
+	<div class="d-flex flex-row justify-content-center my-4">
 
-	<!--youtube-->
-	{% if video.youtube-url %}
-		<a class="text-theme-gold"
-		   href="{{ video.youtube-url }}"
-		   target="_blank">
+		<!--youtube-->
+		{% if video.youtube-url %}
+			<a class="text-theme-gold"
+			   href="{{ video.youtube-url }}"
+			   target="_blank">
 
-			<span>Watch on YouTube</span>
-		</a>
+				<span>Watch on YouTube</span>
+			</a>
 
-	<!--facebook watch-->
-	{% elsif video.facebook-watch-url %}
-		<a class="text-theme-gold"
-		   href="{{ video.facebook-watch-url }}"
-		   target="_blank">
+		<!--facebook watch-->
+		{% elsif video.facebook-watch-url %}
+			<a class="text-theme-gold"
+			   href="{{ video.facebook-watch-url }}"
+			   target="_blank">
 
-			<span>Stream on Facebook Watch</span>
-		</a>
-	{% endif %}
-</div>
+				<span>Stream on Facebook Watch</span>
+			</a>
+		{% endif %}
+	</div>
+{% endif %}
