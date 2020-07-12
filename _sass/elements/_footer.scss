@@ -1,0 +1,8 @@
+@import "../colors/color-palette";
+
+// matches navbar but opposite direction
+$footer-box-shadow:        0 -.5rem 1rem rgba($theme-black, .15) !default;
+
+footer {
+  box-shadow: $footer-box-shadow;
+}
