@@ -1,33 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+<section class="page-section">
+	<div class="container">
 
-{% include common/head/head.html data=site.data.pages.shows %}
+		<!--title-->
+		<div class="row justify-content-center">
+			<div class="col-lg-8 text-center">
 
-<body>
-
-	<!-- navigation -->
-	{% include common/navbar.html %}
-
-	<section class="page-section">
-		<div class="container">
-
-			<!--title-->
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-
-					<h1 class="mt-0">Stand-up</h1>
-					<hr class="divider divider-theme-gold my-4">
-				</div>
+				<h1 class="mt-0">Stand-up</h1>
+				<hr class="divider divider-theme-gold my-4">
 			</div>
-
-			<!--shows-->
-			{% include shows/show-list.html %}
-
 		</div>
-	</section>
 
-	<!-- footer -->
-	{% include common/footer/footer.html %}
-	{% include common/javascript.html %}
-</body>
-</html>
+		<!--shows-->
+		{% include shows/show-list.html %}
+
+	</div>
+</section>
