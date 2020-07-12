@@ -2,11 +2,11 @@
 	<div class="container">
 		<div class="row justify-content-center contact-links">
 
-			{% for item in site.data.pages.contact.social_media %}
+			{% for item in site.data.pages.contact.social-media %}
 
 				{% if item.footer %}
 
-					{% include common/footer/footer-link.html socialmedia=item %}
+					{% include common/footer/footer-link.html social-media=item %}
 				{% endif %}
 			{% endfor %}
 

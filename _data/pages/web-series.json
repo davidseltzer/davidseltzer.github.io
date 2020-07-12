@@ -2,6 +2,7 @@
 	"title": "Web Series - D.J. Seltzer",
 	"h1": "Web Series",
 	"description": "Web series created by and starring D.J. Seltzer.",
+	"sub-description": "For more acting credits and videos, check out <a href=\"/acting\" class=\"text-theme-dark-red\"><strong>acting</strong></a>.",
 	"films": [
 		{
 			"title": "Kings Are Wild",

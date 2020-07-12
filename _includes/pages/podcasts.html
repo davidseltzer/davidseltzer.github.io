@@ -1,15 +1,18 @@
+{% assign data = site.data.pages[page.data-page] %}
+
 <section class="page-section">
 	<div class="container">
 
 		<!--title-->
-		{% include common/title/title-h1.html h1=site.data.pages.podcasts.h1 %}
+		<h1 class="text-center mt-0">{{ data.h1 }}</h1>
+		<hr class="divider divider-theme-gold mb-4">
 
 		<!--description-->
-		<p class="text-center">{{ site.data.pages.podcasts.description }}</p>
+		<p class="text-center">{{ data.description }}</p>
 
 		<!--episodes-->
 		<div class="mt-5">
-			{% for podcast in site.data.pages.podcasts.episodes %}
+			{% for podcast in data.episodes %}
 
 				{% include podcasts/podcast-item.html podcast=podcast %}
 

@@ -3,17 +3,17 @@
 
 		{% assign row_opened = false %}
 
-		{% for item in site.data.pages.contact.social_media %}
+		{% for item in include.social-media %}
 
 			<!--open new row-->
 			{% if row_opened != true and forloop.last != true %}
 				<div class="w-100 d-flex flex-row justify-content-center pt-3 contact-links">
-					{% include contact/contact-link.html socialmedia=item %}
+					{% include contact/contact-link.html social-media=item %}
 					{% assign row_opened = true %}
 
 			<!--close row-->
 			{% else %}
-					{% include contact/contact-link.html socialmedia=item %}
+					{% include contact/contact-link.html social-media=item %}
 				</div>
 				{% assign row_opened = false %}
 			{% endif %}
