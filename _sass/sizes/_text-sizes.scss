@@ -64,4 +64,8 @@ hr.divider {
 .page-section {
   padding-top: 8rem;
   padding-bottom: 8rem;
+
+  &.first {
+    padding-top: 6rem;
+  }
 }

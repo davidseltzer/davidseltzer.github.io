@@ -1,7 +1,10 @@
 {% assign data = site.data.pages[page.data-page] %}
 
-<section class="page-section">
+<section class="page-section first">
 	<div class="container">
+
+		<!--breadcrumb-->
+		{% include film/film-breadcrumbs.html breadcrumbs=data.breadcrumbs %}
 
 		<!--title-->
 		<h1 class="text-center mb-0">{{ data.film-title }}</h1>
@@ -43,7 +46,7 @@
 </section>
 
 <!--videos-->
-{% include film/film-videos.html %}
+{% include film/film-videos.html videos=data.videos %}
 
 <!--credits-->
-{% include film/film-credits.html %}
+{% include film/film-credits.html credits=data.credits imdb=data.imdb %}

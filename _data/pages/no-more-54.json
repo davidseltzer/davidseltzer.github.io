@@ -6,6 +6,12 @@
 	"poster": "/img/films/no-more-54/no-more-54-poster.png",
 	"still": "/img/films/no-more-54/no-more-54-still.jpg",
 	"youtube": "https://www.youtube.com/watch?v=Y9lhf75_ots",
+	"breadcrumbs": [
+		{
+			"label": "Acting",
+			"url": "/acting"
+		}
+	],
 	"videos": [
 		{
 			"title": "Music Video",

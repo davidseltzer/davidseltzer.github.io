@@ -4,7 +4,7 @@
 		<h2 class="h3 mb-4 text-center text-md-left">Cast and credits</h2>
 
 		<div class="row">
-			{% for credit in data.credits %}
+			{% for credit in include.credits %}
 
 				<div class="col-12 col-md-6 mt-3">
 					<h3 class="h5">{{ credit.title }}</h3>
@@ -13,11 +13,11 @@
 			{% endfor %}
 		</div>
 
-		{% if data.imdb %}
+		{% if include.imdb %}
 			<div class="row mt-3">
 				<div class="col-12 mt-3 text-right">
 					<p class="small">
-						<a href="{{ data.imdb }}"
+						<a href="{{ include.imdb }}"
 						   target="_blank"
 						   class="text-theme-dark-red">IMDb</a>
 					</p>

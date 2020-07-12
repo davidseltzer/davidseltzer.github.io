@@ -1,5 +1,5 @@
 <section class="bg-theme-black page-section">
-	{% for video in data.videos %}
+	{% for video in include.videos %}
 
 		<div {% if forloop.last != true %} class="mb-5 pb-4" {% endif %}>
 

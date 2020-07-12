@@ -7,6 +7,12 @@
 	"still": "/img/films/kings-are-wild/kings-are-wild-still.png",
 	"youtube": "https://www.youtube.com/watch?v=2oRxiAggzIU&list=PLKAZEDjS3AywaJ_LC7h5L5aNkbfo_jLqe",
 	"imdb": "https://www.imdb.com/title/tt11136042/",
+	"breadcrumbs": [
+		{
+			"label": "Web Series",
+			"url": "/web-series"
+		}
+	],
 	"videos": [
 		{
 			"title": "Episode 1",

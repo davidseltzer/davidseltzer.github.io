@@ -7,6 +7,12 @@
 	"still": "/img/films/fridge-face-off/fridge-face-off-still.png",
 	"facebook-watch": "https://www.facebook.com/watch/?v=373690190021411",
 	"imdb": "https://www.imdb.com/title/tt11079734/",
+	"breadcrumbs": [
+		{
+			"label": "Acting",
+			"url": "/acting"
+		}
+	],
 	"videos": [
 		{
 			"title": "Season 1 - Episode 4: Mayo",

@@ -1,0 +1,12 @@
+<nav aria-label="breadcrumb">
+	<ol class="breadcrumb bg-theme-white">
+
+		{% for breadcrumb in include.breadcrumbs %}
+			<li class="breadcrumb-item">
+				<a class="text-theme-gold" href="{{ breadcrumb.url }}">{{ breadcrumb.label }}</a>
+			</li>
+		{% endfor %}
+
+		<li class="breadcrumb-item active" aria-current="page">{{ data.film-title }}</li>
+	</ol>
+</nav>
