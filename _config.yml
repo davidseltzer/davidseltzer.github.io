@@ -3,6 +3,7 @@ canonical_url_base: https://djseltzer.com
 timezone: America/Los_Angeles
 markdown: kramdown
 exclude:
+  - README.txt
   - run.sh
 sass:
   style: compressed

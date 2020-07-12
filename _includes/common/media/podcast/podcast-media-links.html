@@ -1,31 +1,11 @@
-{% if include.links.youtube or include.links.facebook-watch %}
-	<div class="h5 small text-muted">Stream on:</div>
-{% elsif include.links | size > 0 %}
-	<div class="h5 small text-muted">Listen on:</div>
-{% endif %}
+<div class="h5 small text-muted">Listen on:</div>
 
 <div class="d-flex flex-row">
-
-	<!--youtube-->
-	{% if include.links.youtube %}
-
-		{% include common/media/media-link-logo-item.html
-			url=include.links.youtube
-			img="/img/brands/yt_logo_rgb_light.png" %}
-	{% endif %}
-
-	<!--facebook watch-->
-	{% if include.links.facebook-watch %}
-
-		{% include common/media/media-link-logo-item.html
-			url=include.links.facebook-watch
-			img="/img/brands/facebook-watch.png" %}
-	{% endif %}
 
 	<!--spotify-->
 	{% if include.links.spotify %}
 
-		{% include common/media/media-link-item.html
+		{% include common/media/podcast/media-link-item.html
 			label="Spotify"
 			url=include.links.spotify
 			color="text-spotify-green"
@@ -35,7 +15,7 @@
 	<!--itunes-->
 	{% if include.links.itunes %}
 
-		{% include common/media/media-link-item.html
+		{% include common/media/podcast/media-link-item.html
 			label="iTunes"
 			url=include.links.itunes
 			color="text-itunes-purple"
@@ -45,7 +25,7 @@
 	<!--google play-->
 	{% if include.links.google-play %}
 
-		{% include common/media/media-link-item.html
+		{% include common/media/podcast/media-link-item.html
 			label="Google Play"
 			url=include.links.google-play
 			color="text-google-play-orange"
@@ -55,7 +35,7 @@
 	<!--soundcloud-->
 	{% if include.links.soundcloud %}
 
-		{% include common/media/media-link-item.html
+		{% include common/media/podcast/media-link-item.html
 			label="SoundCloud"
 			url=include.links.soundcloud
 			color="text-soundcloud-orange"
@@ -65,7 +45,7 @@
 	<!--stitcher-->
 	{% if include.links.stitcher %}
 
-		{% include common/media/media-link-item.html
+		{% include common/media/podcast/media-link-item.html
 			label="Stitcher"
 			url=include.links.stitcher
 			color="text-stitcher-blue"

@@ -1,31 +1,29 @@
-<section class="bg-name-banner">
-	<div class="bg-theme-white container page-section py-5 my-4">
-		<div class="mx-md-5">
+<section class="page-section py-5 my-4">
+	<div class="container">
 
-			<h2 class="h3 mb-4 text-center text-md-left">Cast and credits</h2>
+		<h2 class="h3 mb-4 text-center text-md-left">Cast and credits</h2>
 
-			<div class="row">
-				{% for credit in data.credits %}
+		<div class="row">
+			{% for credit in data.credits %}
 
-					<div class="col-12 col-md-6 mt-3">
-						<h3 class="h5">{{ credit.title }}</h3>
-						<p>{{ credit.names | join: ", " }}</p>
-					</div>
-				{% endfor %}
-			</div>
-
-			{% if data.imdb %}
-				<div class="row mt-3">
-					<div class="col-12 mt-3 text-right">
-						<p class="small">
-							More on <a href="{{ data.imdb }}"
-							   target="_blank"
-							   class="text-theme-dark-red">IMDb</a>.
-						</p>
-					</div>
+				<div class="col-12 col-md-6 mt-3">
+					<h3 class="h5">{{ credit.title }}</h3>
+					<p>{{ credit.names | join: ", " }}</p>
 				</div>
-			{% endif %}
-
+			{% endfor %}
 		</div>
+
+		{% if data.imdb %}
+			<div class="row mt-3">
+				<div class="col-12 mt-3 text-right">
+					<p class="small">
+						<a href="{{ data.imdb }}"
+						   target="_blank"
+						   class="text-theme-dark-red">IMDb</a>
+					</p>
+				</div>
+			</div>
+		{% endif %}
+
 	</div>
 </section>

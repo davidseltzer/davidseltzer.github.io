@@ -1,21 +1,22 @@
 {
 	"title": "Kings Are Wild - Web Series",
-	"h1": "Kings Are Wild",
+	"description": "Comedy web series created by David John Seltzer and David Shea Henne.",
+	"film-title": "Kings Are Wild",
 	"category": "Web Series",
-	"description": "",
-	"banner": "/img/films/kings-are-wild/kings-are-wild-banner.jpg",
-	"poster": "/img/web-series/kings-are-wild/kings-are-wild-movie-poster.jpg",
+	"poster": "/img/films/kings-are-wild/kings-are-wild-movie-poster.jpg",
+	"still": "/img/films/kings-are-wild/kings-are-wild-still.png",
+	"youtube": "https://www.youtube.com/watch?v=2oRxiAggzIU&list=PLKAZEDjS3AywaJ_LC7h5L5aNkbfo_jLqe",
 	"imdb": "https://www.imdb.com/title/tt11136042/",
 	"videos": [
 		{
 			"title": "Episode 1",
-			"youtube_embed": "https://www.youtube.com/embed/2oRxiAggzIU",
-			"youtube_url": "https://www.youtube.com/watch?v=2oRxiAggzIU"
+			"youtube-embed": "https://www.youtube.com/embed/2oRxiAggzIU",
+			"youtube-url": "https://www.youtube.com/watch?v=2oRxiAggzIU"
 		},
 		{
 			"title": "Episode 2",
-			"youtube_embed": "https://www.youtube.com/embed/dngLrQkZ7YU",
-			"youtube_url": "https://www.youtube.com/watch?v=dngLrQkZ7YU"
+			"youtube-embed": "https://www.youtube.com/embed/dngLrQkZ7YU",
+			"youtube-url": "https://www.youtube.com/watch?v=dngLrQkZ7YU"
 		}
 	],
 	"credits": [

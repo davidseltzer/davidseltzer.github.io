@@ -1,3 +1,5 @@
+@import "../colors/brands";
+
 // empty iframe background - while loading
 iframe {
 
@@ -8,4 +10,37 @@ iframe {
   background-size: 15%;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.dummy-embed {
+
+  background-size: cover;
+
+  i.fa-youtube,
+  i.fa-play-circle {
+    color: $youtube-play-button-gray !important;
+
+    // transition
+    transition-property: color;
+    transition-duration: 0.25s;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-delay: 0s;
+  }
+
+  i.fa-circle,
+  i.fa-square {
+    color: white;
+  }
+
+  &:hover,
+  &:active {
+
+    i.fa-youtube {
+      color: $youtube-red !important;
+    }
+
+    i.fa-play-circle {
+      color: $facebook-blue !important;
+    }
+  }
 }
