@@ -4,7 +4,7 @@
 	<div class="container">
 
 		<!--title-->
-		<h1 class="text-center mt-0">{{ data.h1 }}</h1>
+		<h1 class="text-center mt-0">{{ data.title }}</h1>
 		<hr class="divider divider-theme-gold mb-4">
 
 		<!--description-->
@@ -17,7 +17,7 @@
 </section>
 
 <!--films-->
-{% include film-directory/film-directory-items.html films=data.films %}
+{% include film-directory/film-directory-items.html items=data.items %}
 
 <!--videos-->
 {% include film/film-videos.html videos=data.videos %}

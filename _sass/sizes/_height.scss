@@ -1,5 +1,7 @@
 .h-16x9 {
 
+  background-size: cover;
+
   // xs
   &.w-25 {
     height: calc( (100vw * .25) * 9 / 16) !important;

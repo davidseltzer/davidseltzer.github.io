@@ -1,15 +1,10 @@
 {
-	"title": "Web Series - D.J. Seltzer",
-	"h1": "Web Series",
+	"page-title": "Web Series - D.J. Seltzer",
+	"title": "Web Series",
 	"description": "Web series created by and starring D.J. Seltzer.",
 	"sub-description": "For more acting credits and videos, check out <a href=\"/acting\" class=\"text-theme-dark-red\"><strong>acting</strong></a>.",
-	"films": [
-		{
-			"title": "Kings Are Wild",
-			"category": "Web Series",
-			"url": "/kings-are-wild",
-			"still": "/img/films/kings-are-wild/kings-are-wild-still.png"
-		}
+	"items": [
+		"kings-are-wild"
 	],
 	"structured_data": {
 		"@context": "https://schema.org",

@@ -1,6 +1,6 @@
 {
-	"title": "Contact - D.J. Seltzer",
-	"h1": "Contact",
+	"page-title": "Contact - D.J. Seltzer",
+	"title": "Contact",
 	"description": "Contact email and social media links.",
 	"social-media": [
 		{
@@ -27,7 +27,7 @@
 		{
 			"label": "Facebook",
 			"url": "https://www.facebook.com/davidjohnseltzer",
-			"icon": "fab fa-facebook-square",
+			"icon": "fab fa-facebook",
 			"color": "text-facebook-blue",
 			"footer": true
 		},

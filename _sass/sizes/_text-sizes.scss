@@ -6,19 +6,28 @@ html {
 
 section {
 
-  h1, .h1 {
-    font-size: 5rem;
+  &.page-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 
-    &.small {
-      font-size: 4.5rem;
+    &.first {
+      padding-top: 6rem;
     }
   }
 
-  h2, .h2 {
+  h1, .h1 {
     font-size: 4rem;
 
     &.small {
       font-size: 3.5rem;
+    }
+  }
+
+  h2, .h2 {
+    font-size: 3.5rem;
+
+    &.small {
+      font-size: 3rem;
     }
   }
 
@@ -54,18 +63,38 @@ section {
       font-size: 1.2rem;
     }
   }
+
+  // small and up
+  @media (min-width: 576px) {
+
+    &.page-section {
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+
+      &.first {
+        padding-top: 6rem;
+      }
+    }
+
+    h1, .h1 {
+      font-size: 5rem;
+
+      &.small {
+        font-size: 4.5rem;
+      }
+    }
+
+    h2, .h2 {
+      font-size: 4rem;
+
+      &.small {
+        font-size: 3.5rem;
+      }
+    }
+  }
 }
 
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-}
-
-.page-section {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-
-  &.first {
-    padding-top: 6rem;
-  }
 }

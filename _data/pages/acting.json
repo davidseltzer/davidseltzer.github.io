@@ -1,21 +1,12 @@
 {
-	"title": "Acting Credits & Videos - D.J. Seltzer",
-	"h1": "Acting",
+	"page-title": "Acting Credits & Videos - D.J. Seltzer",
+	"title": "Acting",
 	"description": "Acting credits, music videos, game shows, and more.",
 	"sub-description": "For a full list of credits, go to <a href=\"https://www.imdb.com/name/nm9420509/\" target=\"_blank\" class=\"text-theme-dark-red\"><strong>IMDb</strong></a>.",
-	"films": [
-		{
-			"title": "No More 54 by Dada Life",
-			"category": "Music Video",
-			"url": "/no-more-54",
-			"still": "/img/films/no-more-54/no-more-54-still.jpg"
-		},
-		{
-			"title": "Fridge Face-Off",
-			"category": "Game Show",
-			"url": "/fridge-face-off",
-			"still": "/img/films/fridge-face-off/fridge-face-off-still.png"
-		}
+	"items": [
+		"kings-are-wild",
+		"no-more-54",
+		"fridge-face-off"
 	],
 	"videos": [
 		{
