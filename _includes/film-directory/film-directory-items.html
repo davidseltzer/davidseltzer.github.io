@@ -1,22 +1,18 @@
-<section class="page-section first">
-	<div class="container">
-		<div class="row">
+<div class="row">
 
-			{% for item in include.items %}
+	{% for item in include.items %}
 
-				{% assign item-data = site.data.pages[item] %}
-				<div class="col-12 col-md-6 mb-5">
-					<a href="{{ item-data.url }}" class="text-theme-red">
+		{% assign item-data = site.data.pages[item] %}
+		<div class="col-12 col-md-6 my-5">
+			<a href="{{ item-data.url }}" class="text-theme-red">
 
-						<!--still-->
-						<img class="img-fluid" src="{{ item-data.still }}" />
+				<!--still-->
+				<img class="img-fluid" src="{{ item-data.still }}" />
 
-						<!--title-->
-						<h2 class="h4 mb-0">{{ item-data.title }}</h2>
-						<div class="h5 text-theme-black">{{ item-data.category }}</div>
-					</a>
-				</div>
-			{% endfor %}
+				<!--title-->
+				<h2 class="h4 mb-0">{{ item-data.title }}</h2>
+				<div class="h5 text-theme-black">{{ item-data.category }}</div>
+			</a>
 		</div>
-	</div>
-</section>
+	{% endfor %}
+</div>

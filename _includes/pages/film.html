@@ -1,23 +1,15 @@
 {% assign data = site.data.pages[page.data-page] %}
 
-<section class="page-section first">
+<section class="first has-breadcrumb">
 	<div class="container">
 
 		<!--breadcrumb-->
 		{% include film/film-breadcrumbs.html breadcrumbs=data.breadcrumbs %}
 
-		<!--title-->
-		<h1 class="text-center mb-0">{{ data.title }}</h1>
+		<!--title and category-->
+		{% include common/title/page-title-and-category.html page=data %}
 
-		<!--episode-->
-		{% if data.episode %}
-			<div class="h3 text-muted text-center">{{ data.episode }}</div>
-		{% endif %}
-
-		<!--category-->
-		<div class="h3 text-theme-dark-red text-center">{{ data.category }}</div>
-
-		<div class="row mt-5">
+		<div class="row">
 
 			<!--movie poster-->
 			<div class="col-12 col-md-4 mb-4 mb-md-0">
@@ -46,7 +38,15 @@
 </section>
 
 <!--videos-->
-{% include film/film-videos.html videos=data.videos %}
+{% if data.videos %}
+	<section class="bg-theme-black">
+		{% include film/film-videos.html videos=data.videos %}
+	</section>
+{% endif %}
 
 <!--credits-->
-{% include film/film-credits.html credits=data.credits imdb=data.imdb %}
+<section>
+	<div class="container">
+		{% include film/film-credits.html credits=data.credits imdb=data.imdb %}
+	</div>
+</section>

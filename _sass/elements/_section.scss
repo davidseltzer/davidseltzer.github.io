@@ -1,0 +1,24 @@
+section {
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  // small and up
+  @media (min-width: 576px) {
+
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  &.first {
+    padding-top: 8rem;
+
+    &.has-breadcrumb {
+      padding-top: 5rem;
+    }
+  }
+
+  &.extend-page {
+    padding-bottom: 7rem;
+  }
+}

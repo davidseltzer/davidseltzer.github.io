@@ -6,15 +6,6 @@ html {
 
 section {
 
-  &.page-section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-
-    &.first {
-      padding-top: 6rem;
-    }
-  }
-
   h1, .h1 {
     font-size: 4rem;
 
@@ -66,15 +57,6 @@ section {
 
   // small and up
   @media (min-width: 576px) {
-
-    &.page-section {
-      padding-top: 8rem;
-      padding-bottom: 8rem;
-
-      &.first {
-        padding-top: 6rem;
-      }
-    }
 
     h1, .h1 {
       font-size: 5rem;
