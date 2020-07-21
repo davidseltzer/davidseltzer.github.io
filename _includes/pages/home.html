@@ -8,16 +8,8 @@
 </section>
 
 <!--cards-->
-{% include home/cards.html %}
-
-<!--bio-->
-<section>
+<section class="bg-theme-black">
 	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<h2>Bio</h2>
-				<p>{{ data.description }}</p>
-			</div>
-		</div>
+		{% include home/cards.html %}
 	</div>
 </section>
