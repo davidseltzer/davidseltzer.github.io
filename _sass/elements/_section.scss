@@ -19,6 +19,12 @@ section {
   }
 
   &.extend-page {
-    padding-bottom: 7rem;
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+
+    // small and up
+    @media (min-width: 576px) {
+      padding-bottom: 4rem;
+    }
   }
 }

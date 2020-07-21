@@ -1,0 +1,11 @@
+{% for podcast in include.episodes %}
+
+	{% include podcasts/podcast-item.html podcast=podcast %}
+
+	{% if forloop.last != true %}
+		<div class="my-5">
+			<hr class="divider divider-theme-gold"/>
+		</div>
+	{% endif %}
+
+{% endfor %}

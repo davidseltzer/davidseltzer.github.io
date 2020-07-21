@@ -3,27 +3,10 @@
 <section class="first">
 	<div class="container">
 
-		<!--title-->
-		<h1 class="text-center mt-0">{{ data.title }}</h1>
-		<hr class="divider divider-theme-gold mb-4">
-
-		<!--description-->
-		<p class="text-center">{{ data.description }}</p>
+		<!--title and description-->
+		{% include common/title/page-title-and-description.html page=data %}
 
 		<!--episodes-->
-		<div class="mt-5">
-			{% for podcast in data.episodes %}
-
-				{% include podcasts/podcast-item.html podcast=podcast %}
-
-				{% if forloop.last != true %}
-					<div class="my-5">
-						<hr class="divider divider-theme-gold"/>
-					</div>
-				{% endif %}
-
-			{% endfor %}
-		</div>
+		{% include podcasts/podcast-items.html episodes=data.episodes %}
 	</div>
-
 </section>

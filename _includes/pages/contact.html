@@ -3,17 +3,14 @@
 <section class="first">
 	<div class="container">
 
-		<!--title-->
-		<h1 class="text-center mt-0">{{ data.title }}</h1>
-		<hr class="divider divider-theme-gold mb-4">
-
-		<!--description-->
-		<p class="text-center">{{ data.description }}</p>
+		<!--title and description-->
+		{% include common/title/page-title-and-description.html page=data %}
 
 		<!--contact links-->
 		<div class="mt-3 mt-md-5">
 			{% include contact/contact-links.html social-media=data.social-media %}
 		</div>
-
 	</div>
 </section>
+
+<section class="extend-page"></section>
