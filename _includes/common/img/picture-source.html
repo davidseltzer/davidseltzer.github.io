@@ -1,0 +1,6 @@
+<source srcset="{{ include.picture.img }}-{{ include.size }}w.{{ include.ext }}"
+        type="image/{{ include.ext }}"
+
+			{% if include.min-width %}
+				media="(min-width: {{ include.min-width }}px)"
+			{% endif %}>

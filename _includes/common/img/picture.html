@@ -1,0 +1,20 @@
+<picture>
+
+	<!--webp-->
+	{% include common/img/picture-source-size-variations.html
+			picture=include.picture
+			ext="webp"
+	%}
+
+	<!--standard extension-->
+	{% include common/img/picture-source-size-variations.html
+			picture=include.picture
+			ext=include.picture.ext
+	%}
+
+	<!--default image tag-->
+	<img src="{{ include.picture.img }}-{{ include.sizes.lg }}w.{{ include.picture.ext }}"
+	     class="img-fluid"
+	     loading="lazy"
+	     alt="{{ include.picture.alt }}">
+</picture>
