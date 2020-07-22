@@ -1,19 +1,20 @@
 <picture>
 
-	<!--webp-->
-	{% include common/img/picture-source-size-variations.html
-			picture=include.picture
-			ext="webp"
-	%}
+	<!--extensions-->
+	{% for ext in include.picture.ext %}
 
-	<!--standard extension-->
-	{% include common/img/picture-source-size-variations.html
-			picture=include.picture
-			ext=include.picture.ext
-	%}
+		<!--sizes-->
+		{% include common/img/picture-source-size-variations.html
+				picture=include.picture
+				ext=ext
+		%}
+
+	{% endfor %}
 
 	<!--default image tag-->
-	<img src="{{ include.picture.img }}-{{ include.sizes.lg }}w.{{ include.picture.ext }}"
+	{% assign default-ext = include.picture.ext | last %}
+
+	<img src="{{ include.picture.img }}-{{ include.sizes.lg }}w.{{ default-ext }}"
 	     class="img-fluid"
 	     loading="lazy"
 	     alt="{{ include.picture.alt }}">

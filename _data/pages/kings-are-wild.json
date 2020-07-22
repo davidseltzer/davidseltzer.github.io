@@ -5,37 +5,6 @@
 	"description": "Comedy web series created by David John Seltzer and David Shea Henne.",
 	"category": "Web Series",
 	"poster": "/img/films/kings-are-wild/kings-are-wild-poster.jpg",
-	"still-old": "/img/films/kings-are-wild/still/kings-are-wild-still",
-	"still": {
-		"alt": "Kings Are Wild - Movie Still",
-		"sizes": {
-			"phone": 400,
-			"sm": 600,
-			"md": 500,
-			"lg": 800
-		},
-		"sizes-full": [
-			{
-				"screen-min": 0,
-				"img": 400
-			},
-			{
-				"screen-min": 415,
-				"img": 600
-			},
-			{
-				"screen-min": 768,
-				"img": 500
-			},
-			{
-				"screen-min": 992,
-				"img": 800
-			}
-		],
-		"sizes-old": [800, 600, 500, 400],
-		"img": "/img/films/kings-are-wild/still/kings-are-wild-still",
-		"ext": "png"
-	},
 	"youtube": "https://www.youtube.com/watch?v=2oRxiAggzIU&list=PLKAZEDjS3AywaJ_LC7h5L5aNkbfo_jLqe",
 	"imdb": "https://www.imdb.com/title/tt11136042/",
 	"breadcrumbs": [
@@ -44,6 +13,17 @@
 			"url": "/web-series"
 		}
 	],
+	"still": {
+		"alt": "Kings Are Wild - Movie Still",
+		"img": "/img/films/kings-are-wild/still/kings-are-wild-still",
+		"sizes": {
+			"phone": 400,
+			"sm": 600,
+			"md": 500,
+			"lg": 800
+		},
+		"ext": ["webp", "png"]
+	},
 	"videos": [
 		{
 			"title": "Episode 1",

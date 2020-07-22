@@ -5,7 +5,6 @@
 	"description": "Game show hosted by Angela Kinsey and Josh Snyder. Presented by Tastemade and Facebook Watch.",
 	"category": "Game Show",
 	"poster": "/img/films/fridge-face-off/fridge-face-off-poster.png",
-	"still": "/img/films/fridge-face-off/fridge-face-off-still.png",
 	"facebook-watch": "https://www.facebook.com/watch/?v=373690190021411",
 	"imdb": "https://www.imdb.com/title/tt11079734/",
 	"breadcrumbs": [
@@ -14,6 +13,17 @@
 			"url": "/acting"
 		}
 	],
+	"still": {
+		"alt": "Fridge Face-Off - Game Show Still",
+		"img": "/img/films/fridge-face-off/still/fridge-face-off-still",
+		"sizes": {
+			"phone": 400,
+			"sm": 600,
+			"md": 500,
+			"lg": 800
+		},
+		"ext": ["webp", "png"]
+	},
 	"videos": [
 		{
 			"title": "Season 1 - Episode 4: Mayo",
