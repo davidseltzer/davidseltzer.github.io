@@ -4,7 +4,6 @@
 	"title": "Kings Are Wild",
 	"description": "Comedy web series created by David John Seltzer and David Shea Henne.",
 	"category": "Web Series",
-	"poster": "/img/films/kings-are-wild/kings-are-wild-poster.jpg",
 	"youtube": "https://www.youtube.com/watch?v=2oRxiAggzIU&list=PLKAZEDjS3AywaJ_LC7h5L5aNkbfo_jLqe",
 	"imdb": "https://www.imdb.com/title/tt11136042/",
 	"breadcrumbs": [
@@ -13,6 +12,17 @@
 			"url": "/web-series"
 		}
 	],
+	"poster": {
+		"alt": "Kings Are Wild Poster",
+		"img": "/img/films/kings-are-wild/poster/kings-are-wild-poster",
+		"sizes": {
+			"phone": 400,
+			"sm": 600,
+			"md": 300,
+			"lg": 400
+		},
+		"ext": ["jpg"]
+	},
 	"still": {
 		"alt": "Kings Are Wild - Movie Still",
 		"img": "/img/films/kings-are-wild/still/kings-are-wild-still",

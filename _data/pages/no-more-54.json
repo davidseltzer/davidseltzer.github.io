@@ -4,7 +4,6 @@
 	"title": "No More 54 by Dada Life",
 	"description": "The official music video for Dada Life's No More 54 features Seltzer dancing around town as a human disco ball.",
 	"category": "Official Music Video",
-	"poster": "/img/films/no-more-54/no-more-54-poster.png",
 	"youtube": "https://www.youtube.com/watch?v=Y9lhf75_ots",
 	"breadcrumbs": [
 		{
@@ -12,6 +11,17 @@
 			"url": "/acting"
 		}
 	],
+	"poster": {
+		"alt": "No More 54 Poster",
+		"img": "/img/films/no-more-54/poster/no-more-54-poster",
+		"sizes": {
+			"phone": 400,
+			"sm": 600,
+			"md": 300,
+			"lg": 400
+		},
+		"ext": ["webp", "png"]
+	},
 	"still": {
 		"alt": "No More 54 - Music Video Still",
 		"img": "/img/films/no-more-54/still/no-more-54-still",
@@ -27,7 +37,7 @@
 		{
 			"title": "Music Video",
 			"youtube-url": "https://www.youtube.com/watch?v=Y9lhf75_ots",
-			"thumbnail": "/img/films/no-more-54/no-more-54-thumbnail.jpg"
+			"thumbnail": "/img/films/no-more-54/video-thumbnail/no-more-54-thumbnail-650w.jpg"
 		}
 	],
 	"credits": [
