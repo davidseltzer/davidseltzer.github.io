@@ -18,20 +18,6 @@
 			"footer": true
 		},
 		{
-			"label": "Twitter",
-			"url": "https://twitter.com/davidseltzer",
-			"icon": "fab fa-twitter",
-			"color": "text-twitter-blue",
-			"footer": true
-		},
-		{
-			"label": "Facebook",
-			"url": "https://www.facebook.com/davidjohnseltzer",
-			"icon": "fab fa-facebook",
-			"color": "text-facebook-blue",
-			"footer": true
-		},
-		{
 			"label": "IMDb",
 			"url": "https://www.imdb.com/name/nm9420509/",
 			"icon": "fab fa-imdb",
