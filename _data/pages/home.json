@@ -1,6 +1,17 @@
 {
 	"page-title": "D.J. Seltzer - Actor | Comedian - Official Website",
 	"description": "David John Seltzer (also known as D.J. Seltzer) is an American actor and comedian.",
+	"profile": {
+		"alt": "D.J. Seltzer Profile Pic",
+		"img": "/img/profile/dj-seltzer-profile",
+		"sizes": {
+			"phone": 300,
+			"sm": 400,
+			"md": 500,
+			"lg": 300
+		},
+		"ext": ["webp", "jpg"]
+	},
 	"structured_data": {
 		"@context": "https://schema.org",
 		"@type": "Person",

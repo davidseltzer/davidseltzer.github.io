@@ -11,8 +11,9 @@
 
 	<!--profile image-->
 	<div class="col-10 offset-1 col-lg-4 offset-lg-0 order-1 order-lg-2 text-center">
-		<img class="img-fluid rounded-circle border-theme-black border-5px w-75"
-		     src="/img/profile/dj-seltzer-profile.jpg"/>
+		{% include common/img/picture.html
+				picture=site.data.pages.home.profile
+				class="rounded-circle border-theme-black border-5px w-75" %}
 	</div>
 
 	<!--tagline-->

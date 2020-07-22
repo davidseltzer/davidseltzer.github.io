@@ -15,7 +15,7 @@
 	{% assign default-ext = include.picture.ext | last %}
 
 	<img src="{{ include.picture.img }}-{{ include.sizes.lg }}w.{{ default-ext }}"
-	     class="img-fluid"
+	     class="img-fluid {{ include.class }}"
 	     loading="lazy"
 	     alt="{{ include.picture.alt }}">
 </picture>
