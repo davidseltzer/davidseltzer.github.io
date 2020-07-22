@@ -1,21 +1,23 @@
-<picture>
+<div class="picture-wrapper ratio-{{ include.picture.ratio }} {{ include.wrapper-class }}">
+	<picture>
 
-	<!--extensions-->
-	{% for ext in include.picture.ext %}
+		<!--extensions-->
+		{% for ext in include.picture.ext %}
 
-		<!--sizes-->
-		{% include common/img/picture-source-size-variations.html
-				picture=include.picture
-				ext=ext
-		%}
+			<!--sizes-->
+			{% include common/img/picture-source-size-variations.html
+					picture=include.picture
+					ext=ext
+			%}
 
-	{% endfor %}
+		{% endfor %}
 
-	<!--default image tag-->
-	{% assign default-ext = include.picture.ext | last %}
+		<!--default image tag-->
+		{% assign default-ext = include.picture.ext | last %}
 
-	<img src="{{ include.picture.img }}-{{ include.sizes.lg }}w.{{ default-ext }}"
-	     class="img-fluid {{ include.class }}"
-	     loading="lazy"
-	     alt="{{ include.picture.alt }}">
-</picture>
+		<img src="{{ include.picture.img }}-{{ include.sizes.lg }}w.{{ default-ext }}"
+		     class="img-fluid {{ include.img-class }}"
+		     loading="lazy"
+		     alt="{{ include.picture.alt }}">
+	</picture>
+</div>

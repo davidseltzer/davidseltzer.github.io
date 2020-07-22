@@ -15,6 +15,7 @@
 	"poster": {
 		"alt": "Fridge Face-Off Poster",
 		"img": "/img/films/fridge-face-off/poster/fridge-face-off-poster",
+		"ratio": "746x1080",
 		"sizes": {
 			"phone": 400,
 			"sm": 600,
@@ -26,6 +27,7 @@
 	"still": {
 		"alt": "Fridge Face-Off - Game Show Still",
 		"img": "/img/films/fridge-face-off/still/fridge-face-off-still",
+		"ratio": "16x9",
 		"sizes": {
 			"phone": 400,
 			"sm": 600,

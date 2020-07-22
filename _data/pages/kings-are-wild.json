@@ -15,6 +15,7 @@
 	"poster": {
 		"alt": "Kings Are Wild Poster",
 		"img": "/img/films/kings-are-wild/poster/kings-are-wild-poster",
+		"ratio": "746x1080",
 		"sizes": {
 			"phone": 400,
 			"sm": 600,
@@ -26,6 +27,7 @@
 	"still": {
 		"alt": "Kings Are Wild - Movie Still",
 		"img": "/img/films/kings-are-wild/still/kings-are-wild-still",
+		"ratio": "16x9",
 		"sizes": {
 			"phone": 400,
 			"sm": 600,

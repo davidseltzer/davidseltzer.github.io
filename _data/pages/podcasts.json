@@ -16,6 +16,7 @@
 			"cover": {
 				"alt": "The Follow-Up Showdown Podcast Album Cover",
 				"img": "/img/podcasts/follow-up-showdown/follow-up-showdown-cover",
+				"ratio": "1x1",
 				"sizes": {
 					"phone": 400,
 					"sm": 500,

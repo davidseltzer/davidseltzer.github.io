@@ -4,6 +4,7 @@
 	"profile": {
 		"alt": "D.J. Seltzer Profile Pic",
 		"img": "/img/profile/dj-seltzer-profile",
+		"ratio": "1x1",
 		"sizes": {
 			"phone": 300,
 			"sm": 400,

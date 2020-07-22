@@ -14,6 +14,7 @@
 	"poster": {
 		"alt": "No More 54 Poster",
 		"img": "/img/films/no-more-54/poster/no-more-54-poster",
+		"ratio": "746x1080",
 		"sizes": {
 			"phone": 400,
 			"sm": 600,
@@ -25,6 +26,7 @@
 	"still": {
 		"alt": "No More 54 - Music Video Still",
 		"img": "/img/films/no-more-54/still/no-more-54-still",
+		"ratio": "16x9",
 		"sizes": {
 			"phone": 400,
 			"sm": 600,

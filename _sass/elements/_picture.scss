@@ -1,0 +1,25 @@
+.picture-wrapper {
+
+  background-color: lightgray;
+  position: relative;
+  height: 0;
+
+  /* Formula is: (height / width * 100%) */
+  &.ratio-1x1 {
+    padding-top: calc(1 / 1 * 100%);
+  }
+
+  &.ratio-16x9 {
+    padding-top: calc(9 / 16 * 100%);
+  }
+
+  &.ratio-746x1080 {
+    padding-top: calc(1080 / 746 * 100%);
+  }
+
+  picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
