@@ -24,22 +24,31 @@
 <amp-sidebar id="sidebar" layout="nodisplay" side="right" class="bg-theme-white">
 	<div class="navbar navbar-expand-lg navbar-light bg-theme-white">
 
-		<!--toolbar-->
-		<nav toolbar="(min-width: 992px)"
-		     toolbar-target="sidebar-toolbar-target"
-		     class="ml-lg-auto">
+		<div class="w-100 d-flex flex-column justify-content-start">
 
-			<!--nav items-->
-			<ul class="navbar-nav mr-auto mr-lg-0 my-2 my-lg-0">
+			<!--brand-->
+			<div class="w-100 border-bottom">
+				<a class="amp-navbar-brand text-theme-gold mb-2" href="/">D.J. Seltzer</a>
+			</div>
 
-				{% for item in site.data.navbar %}
+			<!--toolbar-->
+			<nav toolbar="(min-width: 992px)"
+			     toolbar-target="sidebar-toolbar-target"
+			     class="ml-lg-auto">
 
-					<li class="nav-item">
-						<a class="nav-link{% if page.url == item.url %} active{% endif %}"
-						   href="{{ item.url }}">{{ item.label }}</a>
-					</li>
-				{% endfor %}
-			</ul>
-		</nav>
+				<!--nav items-->
+				<ul class="navbar-nav mr-auto mr-lg-0 my-2 my-lg-0">
+
+					{% for item in site.data.navbar %}
+
+						<li class="nav-item">
+							<a class="nav-link{% if page.url == item.url %} active{% endif %}"
+							   href="{{ item.url }}">{{ item.label }}</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</nav>
+		</div>
+
 	</div>
 </amp-sidebar>
