@@ -6,28 +6,28 @@
 		{
 			"label": "YouTube",
 			"url": "https://www.youtube.com/channel/UCA0jpXWyybLYjVYlpCPs5_Q",
-			"icon": "fab fa-youtube",
+			"icon": "icon-youtube",
 			"color": "text-youtube-red",
 			"footer": true
 		},
 		{
 			"label": "Instagram",
 			"url": "https://www.instagram.com/davidjohnseltzer/",
-			"icon": "fab fa-instagram",
+			"icon": "icon-instagram",
 			"color": "text-instagram-purple",
 			"footer": true
 		},
 		{
 			"label": "IMDb",
 			"url": "https://www.imdb.com/name/nm9420509/",
-			"icon": "fab fa-imdb",
+			"icon": "icon-imdb",
 			"color": "text-imdb-black",
 			"footer": false
 		},
 		{
 			"label": "Email",
 			"url": "mailto:booking@djseltzer.com",
-			"icon": "fas fa-envelope",
+			"icon": "icon-envelope",
 			"color": "text-theme-gold",
 			"footer": false
 		}

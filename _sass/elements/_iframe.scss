@@ -14,8 +14,8 @@ iframe {
 
 .dummy-embed {
 
-  i.fa-youtube,
-  i.fa-play-circle {
+  i.icon-youtube,
+  i.icon-play-circle {
     color: $youtube-play-button-gray !important;
 
     // transition
@@ -25,19 +25,19 @@ iframe {
     transition-delay: 0s;
   }
 
-  i.fa-circle,
-  i.fa-square {
+  i.icon-circle,
+  i.icon-square {
     color: white;
   }
 
   &:hover,
   &:active {
 
-    i.fa-youtube {
+    i.icon-youtube {
       color: $youtube-red !important;
     }
 
-    i.fa-play-circle {
+    i.icon-play-circle {
       color: $facebook-blue !important;
     }
   }
