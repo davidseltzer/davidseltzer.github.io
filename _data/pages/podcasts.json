@@ -13,16 +13,14 @@
 				"soundcloud": "https://soundcloud.com/followupshowdown/ep-104-the-man-from-u-n-c-l-e",
 				"stitcher": "https://www.stitcher.com/podcast/the-followup-showdown/e/73687041"
 			},
-			"cover": {
+			"img": {
 				"alt": "The Follow-Up Showdown Podcast Album Cover",
-				"img": "/img/podcasts/follow-up-showdown/follow-up-showdown-cover",
-				"ratio": "1x1",
-				"sizes": {
-					"phone": 400,
-					"sm": 500,
-					"md": 200,
-					"lg": 300
+				"src": "/img/podcasts/follow-up-showdown/follow-up-showdown-cover",
+				"ratio": {
+					"height": 1,
+					"width": 1
 				},
+				"widths": [500, 400, 300, 200],
 				"ext": ["jpg"]
 			}
 		}

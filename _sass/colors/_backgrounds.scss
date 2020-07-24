@@ -7,3 +7,7 @@
 @each $color, $value in $theme-colors {
   @include bg-variant(".bg-#{$color}", $value, true);
 }
+
+.bg-gray {
+  background-color: lightgray;
+}

@@ -1,0 +1,10 @@
+layout="responsive"
+height="{{ include.img.ratio.height }}"
+width="{{ include.img.ratio.width }}"
+alt="{{ include.img.alt }}"
+src="{{ include.img.src }}-{{ include.img.widths | first }}w.{{ include.ext }}"
+srcset="
+{% for width in include.img.widths %}
+	{{ include.img.src }}-{{ width }}w.{{ include.ext }} {{ width }}w{% if forloop.last != true %},{% endif %}
+{% endfor %}
+"

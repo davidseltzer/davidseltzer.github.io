@@ -1,0 +1,18 @@
+{% assign img-ext = include.img.ext | first %}
+
+<amp-img {% include common/img/amp-img-attr.html img=include.img ext=img-ext %}>
+
+	<!--fallback-->
+	{% if include.img.ext | size > 1 %}
+
+		{% assign fallback-img-ext = include.img.ext | last %}
+
+		<amp-img fallback
+		         {% include common/img/amp-img-attr.html img=include.img ext=fallback-img-ext %}>
+		</amp-img>
+	{% endif %}
+
+	<!--placholder-->
+	<div placeholder class="bg-gray"></div>
+
+</amp-img>
