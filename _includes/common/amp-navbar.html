@@ -1,0 +1,45 @@
+<!--desktop-->
+<nav class="navbar navbar-expand-lg navbar-light bg-theme-white fixed-top py-3">
+	<div class="container">
+
+		<!--brand-->
+		<a class="navbar-brand text-theme-gold" href="/">D.J. Seltzer</a>
+
+		<!--toggle sidebar button-->
+		<button on="tap:sidebar.toggle"
+		        class="navbar-toggler navbar-toggler-right"
+		        type="button"
+		        aria-expanded="false"
+		        aria-label="Toggle navigation">
+
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<!--toolbar target-->
+		<div class="collapse navbar-collapse" id="sidebar-toolbar-target"></div>
+	</div>
+</nav>
+
+<!--mobile-->
+<amp-sidebar id="sidebar" layout="nodisplay" side="right" class="bg-theme-white">
+	<div class="navbar navbar-expand-lg navbar-light bg-theme-white">
+
+		<!--toolbar-->
+		<nav toolbar="(min-width: 992px)"
+		     toolbar-target="sidebar-toolbar-target"
+		     class="ml-lg-auto">
+
+			<!--nav items-->
+			<ul class="navbar-nav mr-auto mr-lg-0 my-2 my-lg-0">
+
+				{% for item in site.data.navbar %}
+
+					<li class="nav-item">
+						<a class="nav-link{% if page.url == item.url %} active{% endif %}"
+						   href="{{ item.url }}">{{ item.label }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</nav>
+	</div>
+</amp-sidebar>

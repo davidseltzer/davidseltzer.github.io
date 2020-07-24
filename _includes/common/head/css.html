@@ -1,7 +1,5 @@
-{% assign css-file = include.data.css-file %}
+<!-- bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-{% if css-file %}
-	<style amp-custom>
-		{% include {{ css-file }} %}
-	</style>
-{% endif %}
+<!-- main css -->
+<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}?v=1">
