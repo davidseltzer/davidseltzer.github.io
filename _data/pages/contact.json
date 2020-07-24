@@ -31,5 +31,6 @@
 			"color": "text-theme-gold",
 			"footer": false
 		}
-	]
+	],
+	"css-file": "css/contact-css.html"
 }

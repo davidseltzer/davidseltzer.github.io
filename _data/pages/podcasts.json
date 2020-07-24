@@ -27,6 +27,7 @@
 			}
 		}
 	],
+	"css-file": "css/podcasts-css.html",
 	"structured_data": {},
 	"itunes-podcast": {
 		"@context": "http://schema.org",
