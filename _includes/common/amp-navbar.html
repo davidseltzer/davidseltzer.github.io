@@ -1,4 +1,4 @@
-<!--desktop-->
+<!--navbar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-theme-white fixed-top py-3">
 	<div class="container">
 
@@ -11,33 +11,39 @@
 		        type="button"
 		        aria-expanded="false"
 		        aria-label="Toggle navigation">
-
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<!--toolbar target-->
-		<div class="collapse navbar-collapse" id="sidebar-toolbar-target"></div>
+		<!--desktop navigation-->
+		<div class="collapse navbar-collapse">
+			<ul class="navbar-nav ml-auto">
+
+				{% for item in site.data.navbar %}
+
+					<li class="nav-item">
+						<a class="nav-link{% if page.url == item.url %} active{% endif %}"
+						   href="{{ item.url }}">{{ item.label }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+
 	</div>
 </nav>
 
-<!--mobile-->
-<amp-sidebar id="sidebar" layout="nodisplay" side="right" class="bg-theme-white">
-	<div class="navbar navbar-expand-lg navbar-light bg-theme-white">
-
-		<div class="w-100 d-flex flex-column justify-content-start">
+<!--sidebar-->
+<amp-sidebar id="sidebar" layout="nodisplay" side="right">
+	<nav class="navbar navbar-expand-lg navbar-light bg-theme-white fixed-top py-3">
+		<div class="container">
 
 			<!--brand-->
 			<div class="w-100 border-bottom">
 				<a class="amp-navbar-brand text-theme-gold mb-2" href="/">D.J. Seltzer</a>
 			</div>
 
-			<!--toolbar-->
-			<nav toolbar="(min-width: 992px)"
-			     toolbar-target="sidebar-toolbar-target"
-			     class="ml-lg-auto">
-
-				<!--nav items-->
-				<ul class="navbar-nav mr-auto mr-lg-0 my-2 my-lg-0">
+			<!--mobile navigation-->
+			<div class="navbar-collapse">
+				<ul class="navbar-nav ml-auto my-2">
 
 					{% for item in site.data.navbar %}
 
@@ -47,8 +53,8 @@
 						</li>
 					{% endfor %}
 				</ul>
-			</nav>
-		</div>
+			</div>
 
-	</div>
+		</div>
+	</nav>
 </amp-sidebar>
