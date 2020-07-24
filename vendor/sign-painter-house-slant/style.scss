@@ -1,0 +1,8 @@
+$sign-painter-font-path: "/vendor/sign-painter-house-slant/fonts" !default;
+
+@font-face {
+  font-family: "SignPainter-HouseSlant-Regular";
+  src: url("#{$sign-painter-font-path}/SignPainter-HouseSlant-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
