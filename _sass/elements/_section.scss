@@ -20,11 +20,11 @@ section {
 
   &.extend-page {
     padding-top: 0;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0;
 
     // small and up
     @media (min-width: 576px) {
-      padding-bottom: 4rem;
+      padding-bottom: 3rem;
     }
   }
 }
