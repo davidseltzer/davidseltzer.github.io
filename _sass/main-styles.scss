@@ -2,11 +2,14 @@
 @import "../vendor/icomoon-1.0/style";
 @import "font/icon-sizes";
 
-// theme
-@import "colors/backgrounds";
+// font
 @import "../vendor/sign-painter-house-slant/style";
 @import "font/font";
 
+// colors
+@import "colors/backgrounds";
+
+// elements
 @import "elements/body-color";
 @import "elements/borders";
 @import "elements/buttons";
