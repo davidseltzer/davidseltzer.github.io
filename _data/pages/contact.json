@@ -12,14 +12,14 @@
 		},
 		{
 			"label": "Instagram",
-			"url": "https://www.instagram.com/davidjohnseltzer/",
+			"url": "https://www.instagram.com/davidjohnseltzer",
 			"icon": "icon-instagram",
 			"color": "text-instagram-purple",
 			"footer": true
 		},
 		{
 			"label": "IMDb",
-			"url": "https://www.imdb.com/name/nm9420509/",
+			"url": "https://www.imdb.com/name/nm9420509",
 			"icon": "icon-imdb",
 			"color": "text-imdb-black",
 			"footer": false
