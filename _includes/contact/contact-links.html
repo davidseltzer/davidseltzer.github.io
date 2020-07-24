@@ -1,22 +1,9 @@
-<div class="d-flex flex-row justify-content-center">
-	<div class="d-block d-lg-inline-flex">
+<div class="row">
 
-		{% assign row_opened = false %}
+	{% for item in include.social-media %}
 
-		{% for item in include.social-media %}
-
-			<!--open new row-->
-			{% if row_opened != true and forloop.last != true %}
-				<div class="w-100 d-flex flex-row justify-content-center pt-3 contact-links">
-					{% include contact/contact-link.html social-media=item %}
-					{% assign row_opened = true %}
-
-			<!--close row-->
-			{% else %}
-					{% include contact/contact-link.html social-media=item %}
-				</div>
-				{% assign row_opened = false %}
-			{% endif %}
-		{% endfor %}
-	</div>
+		<div class="col-6 col-md-2 {% if forloop.first %} offset-md-2 {% endif %} my-4 contact-links">
+			{% include contact/contact-link.html social-media=item %}
+		</div>
+	{% endfor %}
 </div>
