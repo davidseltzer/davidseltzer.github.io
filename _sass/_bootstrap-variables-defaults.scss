@@ -24,3 +24,19 @@ $btn-box-shadow:              inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($b
 
 $input-btn-focus-width:       .2rem !default;
 $btn-focus-width:             $input-btn-focus-width !default;
+
+$spacer: 1rem !default;
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.25 !default;
+$line-height-base:            1.5 !default;
+
+$nav-link-padding-y:                .5rem !default;
+
+$navbar-brand-font-size:            $font-size-lg !default;
+// Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
+$nav-link-height:                   $font-size-base * $line-height-base + $nav-link-padding-y * 2 !default;
+$navbar-brand-height:               $navbar-brand-font-size * $line-height-base !default;
+$navbar-brand-padding-y:            ($nav-link-height - $navbar-brand-height) / 2 !default;
+
+$navbar-padding-x:                  $spacer !default;
