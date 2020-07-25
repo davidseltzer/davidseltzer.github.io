@@ -2,7 +2,7 @@
 {% assign safe-ext = include.img.ext | last %}
 
 <!--placeholder: bg-gray-->
-<amp-img class="bg-gray" {% include common/img/amp-img-attr.html img=include.img ext=preferred-ext %}>
+<amp-img class="bg-gray {{ include.class }}" {% include common/img/amp-img-attr.html img=include.img ext=preferred-ext %}>
 
 	<!--fallback-->
 	{% if include.img.ext | size > 1 %}

@@ -12,10 +12,11 @@
 	<!--profile image-->
 	<div class="col-10 offset-1 col-lg-4 offset-lg-0 order-1 order-lg-2 d-flex flex-row justify-content-center">
 		<div class="w-75">
-			{% include common/img/picture.html
-					picture=site.data.pages.home.profile
-					wrapper-class="rounded-circle"
-					img-class="rounded-circle border-theme-black border-5px" %}
+
+			{% include common/img/amp-img.html
+					img=site.data.pages.home.profile
+					class="rounded-circle border-theme-black border-5px"
+			%}
 		</div>
 	</div>
 
