@@ -14,26 +14,22 @@
 	],
 	"poster": {
 		"alt": "Fridge Face-Off Poster",
-		"img": "/img/films/fridge-face-off/poster/fridge-face-off-poster",
-		"ratio": "746x1080",
-		"sizes": {
-			"phone": 400,
-			"sm": 600,
-			"md": 300,
-			"lg": 400
+		"src": "/img/films/fridge-face-off/poster/fridge-face-off-poster",
+		"ratio": {
+			"height": 869,
+			"width": 600
 		},
+		"widths": [600, 400, 300],
 		"ext": ["webp", "png"]
 	},
 	"still": {
 		"alt": "Fridge Face-Off - Game Show Still",
-		"img": "/img/films/fridge-face-off/still/fridge-face-off-still",
-		"ratio": "16x9",
-		"sizes": {
-			"phone": 400,
-			"sm": 600,
-			"md": 500,
-			"lg": 800
+		"src": "/img/films/fridge-face-off/still/fridge-face-off-still",
+		"ratio": {
+			"height": 450,
+			"width": 800
 		},
+		"widths": [800, 600, 500, 400],
 		"ext": ["webp", "png"]
 	},
 	"videos": [

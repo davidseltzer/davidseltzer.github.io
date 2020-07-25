@@ -13,26 +13,22 @@
 	],
 	"poster": {
 		"alt": "No More 54 Poster",
-		"img": "/img/films/no-more-54/poster/no-more-54-poster",
-		"ratio": "746x1080",
-		"sizes": {
-			"phone": 400,
-			"sm": 600,
-			"md": 300,
-			"lg": 400
+		"src": "/img/films/no-more-54/poster/no-more-54-poster",
+		"ratio": {
+			"height": 868,
+			"width": 600
 		},
+		"widths": [600, 400, 300],
 		"ext": ["webp", "png"]
 	},
 	"still": {
 		"alt": "No More 54 - Music Video Still",
-		"img": "/img/films/no-more-54/still/no-more-54-still",
-		"ratio": "16x9",
-		"sizes": {
-			"phone": 400,
-			"sm": 600,
-			"md": 500,
-			"lg": 800
+		"src": "/img/films/no-more-54/still/no-more-54-still",
+		"ratio": {
+			"height": 450,
+			"width": 800
 		},
+		"widths": [800, 600, 500, 400],
 		"ext": ["jpg"]
 	},
 	"videos": [

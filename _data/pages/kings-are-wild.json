@@ -14,26 +14,22 @@
 	],
 	"poster": {
 		"alt": "Kings Are Wild Poster",
-		"img": "/img/films/kings-are-wild/poster/kings-are-wild-poster",
-		"ratio": "746x1080",
-		"sizes": {
-			"phone": 400,
-			"sm": 600,
-			"md": 300,
-			"lg": 400
+		"src": "/img/films/kings-are-wild/poster/kings-are-wild-poster",
+		"ratio": {
+			"height": 869,
+			"width": 600
 		},
+		"widths": [600, 400, 300],
 		"ext": ["jpg"]
 	},
 	"still": {
 		"alt": "Kings Are Wild - Movie Still",
-		"img": "/img/films/kings-are-wild/still/kings-are-wild-still",
-		"ratio": "16x9",
-		"sizes": {
-			"phone": 400,
-			"sm": 600,
-			"md": 500,
-			"lg": 800
+		"src": "/img/films/kings-are-wild/still/kings-are-wild-still",
+		"ratio": {
+			"height": 450,
+			"width": 800
 		},
+		"widths": [800, 600, 500, 400],
 		"ext": ["webp", "png"]
 	},
 	"videos": [
