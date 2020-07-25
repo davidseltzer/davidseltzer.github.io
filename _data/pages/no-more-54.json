@@ -35,7 +35,16 @@
 		{
 			"title": "Music Video",
 			"youtube-id": "Y9lhf75_ots",
-			"thumbnail": "/img/films/no-more-54/video-thumbnail/no-more-54-thumbnail-650w.jpg",
+			"thumbnail": {
+				"alt": "No More 54 - Music Video Thumbnail",
+				"src": "/img/films/no-more-54/video-thumbnail/no-more-54-thumbnail",
+				"ratio": {
+					"height": 366,
+					"width": 650
+				},
+				"widths": [650, 500, 400],
+				"ext": ["jpg"]
+			},
 			"dummy": true
 		}
 	],

@@ -14,6 +14,10 @@ iframe {
 
 .dummy-embed {
 
+  .button-wrapper {
+    position: absolute;
+  }
+
   i.icon-youtube,
   i.icon-play-circle {
     color: $youtube-play-button-gray !important;

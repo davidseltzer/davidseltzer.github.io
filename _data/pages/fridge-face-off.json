@@ -36,7 +36,16 @@
 		{
 			"title": "Season 1 - Episode 4: Mayo",
 			"facebook-watch-id": "373690190021411",
-			"thumbnail": "/img/films/fridge-face-off/video-thumbnail/fridge-face-off-thumbnail-640w.jpg",
+			"thumbnail": {
+				"alt": "Fridge Face-Off - Game Show Thumbnail",
+				"src": "/img/films/fridge-face-off/video-thumbnail/fridge-face-off-thumbnail",
+				"ratio": {
+					"height": 358,
+					"width": 640
+				},
+				"widths": [640, 500, 400],
+				"ext": ["jpg"]
+			},
 			"dummy": true
 		}
 	],

@@ -7,10 +7,12 @@
 
 		<!--dummy embed-->
 		{% if video.dummy %}
-			{% include common/media/video-embed/dummy-embed.html video=video %}
+			{% include common/media/video-embed/amp-dummy-embed.html video=video %}
+
 		<!--youtube embed-->
 		{% elsif video.youtube-id %}
 			{% include common/media/video-embed/amp-youtube.html video=video %}
+
 		{% endif %}
 
 		<!--external link-->
