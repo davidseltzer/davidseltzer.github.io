@@ -34,8 +34,9 @@
 	"videos": [
 		{
 			"title": "Music Video",
-			"youtube-url": "https://www.youtube.com/watch?v=Y9lhf75_ots",
-			"thumbnail": "/img/films/no-more-54/video-thumbnail/no-more-54-thumbnail-650w.jpg"
+			"youtube-id": "Y9lhf75_ots",
+			"thumbnail": "/img/films/no-more-54/video-thumbnail/no-more-54-thumbnail-650w.jpg",
+			"dummy": true
 		}
 	],
 	"credits": [
