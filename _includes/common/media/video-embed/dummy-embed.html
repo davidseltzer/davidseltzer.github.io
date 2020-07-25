@@ -6,8 +6,8 @@
 	{% if include.video.youtube-id %}
 		{% assign url = "https://www.youtube.com/watch?v=" | append: include.video.youtube-id %}
 
-	{% elsif include.video.facebook-watch-url %}
-		{% assign url = include.video.facebook-watch-url %}
+	{% elsif include.video.facebook-watch-id %}
+		{% assign url = "https://www.facebook.com/watch/?v=" | append: include.video.facebook-watch-id %}
 
 	{% endif %}
 

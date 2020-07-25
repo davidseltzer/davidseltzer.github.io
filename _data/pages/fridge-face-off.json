@@ -35,8 +35,9 @@
 	"videos": [
 		{
 			"title": "Season 1 - Episode 4: Mayo",
-			"facebook-watch-url": "https://www.facebook.com/watch/?v=373690190021411",
-			"thumbnail": "/img/films/fridge-face-off/video-thumbnail/fridge-face-off-thumbnail-640w.jpg"
+			"facebook-watch-id": "373690190021411",
+			"thumbnail": "/img/films/fridge-face-off/video-thumbnail/fridge-face-off-thumbnail-640w.jpg",
+			"dummy": true
 		}
 	],
 	"credits": [
