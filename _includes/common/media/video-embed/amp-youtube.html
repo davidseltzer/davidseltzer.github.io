@@ -1,0 +1,19 @@
+<div class="d-flex flex-row justify-content-center">
+	<div class="w-75 w-md-50">
+
+		<amp-youtube data-videoid="{{ video.youtube-id }}"
+		             layout="responsive"
+		             width="16"
+		             height="9"
+		             data-param-rel="0"
+		             class="bg-theme-white">
+
+			<!--no script - fallback-->
+			<noscript>
+				<iframe src="https://www.youtube.com/watch?v={{ video.youtube-id }}"></iframe>
+			</noscript>
+
+		</amp-youtube>
+
+	</div>
+</div>

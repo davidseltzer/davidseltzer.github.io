@@ -5,12 +5,12 @@
 		<!--video title-->
 		<h2 class="text-white text-center mb-5">{{ video.title }}</h2>
 
-		<!--youtube embed-->
-		{% if video.youtube-embed %}
-			{% include common/media/video-embed/youtube-embed.html video=video %}
 		<!--dummy embed-->
-		{% else %}
-			{% include common/media/video-embed/dummy-embed.html video=video still=data.still %}
+		{% if video.dummy %}
+			{% include common/media/video-embed/dummy-embed.html video=video %}
+		<!--youtube embed-->
+		{% elsif video.youtube-id %}
+			{% include common/media/video-embed/amp-youtube.html video=video %}
 		{% endif %}
 
 		<!--external link-->

@@ -35,13 +35,11 @@
 	"videos": [
 		{
 			"title": "Episode 1",
-			"youtube-embed": "https://www.youtube.com/embed/2oRxiAggzIU",
-			"youtube-url": "https://www.youtube.com/watch?v=2oRxiAggzIU"
+			"youtube-id": "2oRxiAggzIU"
 		},
 		{
 			"title": "Episode 2",
-			"youtube-embed": "https://www.youtube.com/embed/dngLrQkZ7YU",
-			"youtube-url": "https://www.youtube.com/watch?v=dngLrQkZ7YU"
+			"youtube-id": "dngLrQkZ7YU"
 		}
 	],
 	"credits": [
