@@ -1,0 +1,17 @@
+<!--youtube-->
+{% assign has-youtube-video = false %}
+
+{% if include.data.videos %}
+	{% for video in include.data.videos %}
+
+		{% if video.youtube-id and video.dummy != true %}
+			{% assign has-youtube-video = true %}
+
+		{% endif %}
+
+	{% endfor %}
+{% endif %}
+
+{% if has-youtube-video %}
+	<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+{% endif %}
