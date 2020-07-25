@@ -1,13 +1,28 @@
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="robots" content="noindex">
-
-	{% include common/head/google-tracking.html %}
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
 
 	<!--title-->
 	<title>Page Not Found - D.J. Seltzer</title>
 
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<meta name="robots" content="noindex">
+
+	<!--google tracking-->
+	{% include common/head/google-tracking.html %}
+
+	<!--favicon-->
 	{% include common/head/favicon.html %}
+
+	<!--amp boilerplate-->
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+	<!--fonts: source sans pro & permanent marker-->
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+	<!--css-->
 	{% include common/head/css.html %}
+
+	<!--amp components-->
+	<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
 </head>
