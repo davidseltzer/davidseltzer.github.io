@@ -27,4 +27,24 @@ section {
       padding-bottom: 7rem;
     }
   }
+
+  &.extend-page-half {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    // small and up
+    @media (min-width: 576px) {
+      padding-bottom: 3.5rem;
+    }
+  }
+
+  &.extend-page-mobile {
+    padding-top: 0;
+    padding-bottom: 7rem;
+
+    // small and up
+    @media (min-width: 576px) {
+      padding-bottom: 0;
+    }
+  }
 }
