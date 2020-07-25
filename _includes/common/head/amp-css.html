@@ -1,7 +1,5 @@
-{% assign css-file = include.data.css-file %}
-
-{% if css-file %}
+{% if page.css-file %}
 	<style amp-custom>
-		{% include {{ css-file }} %}
+		{% include {{ page.css-file }} %}
 	</style>
 {% endif %}
