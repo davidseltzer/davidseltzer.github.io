@@ -1,18 +1,20 @@
-{% assign img-ext = include.img.ext | first %}
+{% assign preferred-ext = include.img.ext | first %}
+{% assign safe-ext = include.img.ext | last %}
 
-<amp-img {% include common/img/amp-img-attr.html img=include.img ext=img-ext %}>
+<!--placeholder: bg-gray-->
+<amp-img class="bg-gray" {% include common/img/amp-img-attr.html img=include.img ext=preferred-ext %}>
 
 	<!--fallback-->
 	{% if include.img.ext | size > 1 %}
 
-		{% assign fallback-img-ext = include.img.ext | last %}
-
 		<amp-img fallback
-		         {% include common/img/amp-img-attr.html img=include.img ext=fallback-img-ext %}>
+		         {% include common/img/amp-img-attr.html img=include.img ext=safe-ext %}>
 		</amp-img>
 	{% endif %}
 
-	<!--placholder-->
-	<div placeholder class="bg-gray"></div>
+	<!--no script for seo-->
+	<noscript>
+		<img {% include common/img/amp-img-attr-src-size-alt.html img=include.img ext=safe-ext %}>
+	</noscript>
 
 </amp-img>
