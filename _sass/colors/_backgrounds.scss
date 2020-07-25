@@ -11,3 +11,11 @@
 .bg-gray {
   background-color: lightgray;
 }
+
+.bg-video {
+
+  background-image: url('/img/skeleton/play-circle.svg');
+  background-size: 15%;
+  background-position: center;
+  background-repeat: no-repeat;
+}

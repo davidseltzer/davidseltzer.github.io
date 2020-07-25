@@ -1,8 +1,13 @@
 {% assign preferred-ext = include.img.ext | first %}
 {% assign safe-ext = include.img.ext | last %}
 
+{% assign placeholder-class = "bg-gray" %}
+{% if include.placeholder %}
+	{% assign placeholder-class = include.placeholder %}
+{% endif %}
+
 <!--placeholder: bg-gray-->
-<amp-img class="bg-gray {{ include.class }}" {% include common/img/amp-img-attr.html img=include.img ext=preferred-ext %}>
+<amp-img class="{{ placeholder-class }} {{ include.class }}" {% include common/img/amp-img-attr.html img=include.img ext=preferred-ext %}>
 
 	<!--fallback-->
 	{% if include.img.ext | size > 1 %}
