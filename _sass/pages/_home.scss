@@ -1,3 +1,18 @@
 .name-rotation {
   transform: rotate(-15deg);
 }
+
+.taglines-section {
+
+  margin-top: 5rem;
+
+  // large
+  @media (min-width: 992px) {
+    margin-top: 7rem;
+  }
+
+  // xl
+  @media (min-width: 1200px) {
+    margin-top: 5rem;
+  }
+}
