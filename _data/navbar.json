@@ -12,6 +12,10 @@
 		"url": "/podcasts"
 	},
 	{
+		"label": "Bio",
+		"url": "/bio"
+	},
+	{
 		"label": "Contact",
 		"url": "/contact"
 	}

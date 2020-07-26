@@ -1,0 +1,28 @@
+{% assign data = site.data.pages[page.data-page] %}
+
+<section class="first">
+	<div class="container">
+
+		<!--title and description-->
+		{% include common/title/page-title.html page=data %}
+
+		<div class="row">
+
+			<!--image-->
+			<div class="col-10 offset-1 col-md-5 offset-md-0 col-lg-4 offset-lg-1 mb-5 mb-md-0">
+				{% include common/img/amp-img.html
+						img=data.img
+						class="rounded-circle border-theme-black border-5px"
+				%}
+			</div>
+
+			<!--bio-->
+			<div class="col-12 col-md-6 offset-md-1">
+				{% for paragraph in data.bio %}
+					<p>{{ paragraph }}</p>
+				{% endfor %}
+			</div>
+		</div>
+
+	</div>
+</section>
