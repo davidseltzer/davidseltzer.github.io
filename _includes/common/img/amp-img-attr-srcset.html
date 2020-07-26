@@ -1,7 +1,5 @@
-layout="responsive"
 srcset="
 {% for width in include.img.widths %}
 	{{ include.img.src }}-{{ width }}w.{{ include.ext }} {{ width }}w{% if forloop.last != true %},{% endif %}
 {% endfor %}
 "
-{% include common/img/amp-img-attr-src-size-alt.html img=include.img ext=include.ext %}

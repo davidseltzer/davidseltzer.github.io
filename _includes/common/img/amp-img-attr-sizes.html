@@ -1,0 +1,7 @@
+sizes="
+	(min-width: 992px) {{ include.img.sizes.lg }},
+	(min-width: 768px) {{ include.img.sizes.md }},
+	(min-width: 415px) {{ include.img.sizes.sm }},
+	(min-width: 1px) {{ include.img.sizes.xs }},
+	{{ include.img.widths | first }}px
+"

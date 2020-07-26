@@ -8,19 +8,20 @@
 {% endif %}
 
 <!--placeholder: bg-gray-->
-<amp-img class="{{ placeholder-class }} {{ include.class }}" {% include common/img/amp-img-attr.html img=include.img ext=preferred-ext %}>
+<amp-img class="{{ placeholder-class }} {{ include.class }}"
+         {% include common/img/amp-img-attributes.html img=include.img ext=preferred-ext %}>
 
 	<!--fallback-->
 	{% if ext-count > 1 %}
 
 		<amp-img fallback
-		         {% include common/img/amp-img-attr.html img=include.img ext=safe-ext %}>
+		         {% include common/img/amp-img-attributes.html img=include.img ext=safe-ext %}>
 		</amp-img>
 	{% endif %}
 
 	<!--no script - fallback-->
 	<noscript>
-		<img {% include common/img/amp-img-attr-src-size-alt.html img=include.img ext=safe-ext %}>
+		<img {% include common/img/img-attributes.html img=include.img ext=safe-ext %}>
 	</noscript>
 
 </amp-img>
