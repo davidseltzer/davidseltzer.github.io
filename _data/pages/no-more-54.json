@@ -55,5 +55,36 @@
 				"Dada Life"
 			]
 		}
-	]
+	],
+	"structured_data": {
+		"@context": "https://schema.org",
+		"@type": "MusicRecording",
+		"name": "No More 54",
+		"byArtist": {
+			"@type" : "MusicGroup",
+			"name" : "Dada Life",
+			"sameAs" : [
+				"http://www.dadalife.com",
+				"https://twitter.com/dadalife"
+			]
+		},
+		"video": {
+			"@type": "VideoObject",
+			"name": "Dada Life - No More 54 (Official Music Video)",
+			"image": "https://djseltzer.com/img/films/no-more-54/still/no-more-54-still-800w.jpg",
+			"duration": "PT3M18S",
+			"embedUrl": "https://www.youtube.com/embed/Y9lhf75_ots",
+			"potentialAction": {
+				"@type": "WatchAction",
+				"target": "https://www.youtube.com/watch?v=Y9lhf75_ots"
+			},
+			"actor": {
+				"@type": "Person",
+				"givenName": "D.J.",
+				"familyName": "Seltzer",
+				"alternateName": "David John Seltzer",
+				"url": "https://www.imdb.com/name/nm9420509"
+			}
+		}
+	}
 }
