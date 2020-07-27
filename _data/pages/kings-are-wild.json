@@ -74,5 +74,150 @@
 				"Gabriel Evans"
 			]
 		}
-	]
+	],
+	"structured_data": {
+		"@context": "https://schema.org",
+		"@type": "TVSeries",
+		"url": "https://djseltzer.com/web-series/kings-are-wild",
+		"name": "Kings Are Wild",
+		"description": "Comedy web series created by David John Seltzer and David Shea Henne.",
+		"genre": "Sitcom",
+		"image": "https://djseltzer.com/img/films/kings-are-wild/poster/kings-are-wild-poster-600w.jpg",
+		"sameAs": [
+			"https://www.imdb.com/title/tt11136042"
+		],
+		"mainEntityOfPage": "https://www.youtube.com/channel/UCAMIFa_7h77oCULA2ZX80VA",
+		"containsSeason": {
+			"@type": "TVSeason",
+			"seasonNumber": 1,
+			"episodes": [
+				{
+					"@type": "TVEpisode",
+					"episodeNumber": 1,
+					"name": "Let's Do This",
+					"sameAs": [
+						"https://www.imdb.com/title/tt11136142"
+					],
+					"video": {
+						"@type": "VideoObject",
+						"name": "S1 Episode 1: Let's Do This - Kings Are Wild",
+						"duration": "PT7M56S",
+						"embedUrl": "https://www.youtube.com/embed/2oRxiAggzIU",
+						"potentialAction": {
+							"@type": "WatchAction",
+							"target": "https://www.youtube.com/watch?v=2oRxiAggzIU"
+						}
+					}
+				},
+				{
+					"@type": "TVEpisode",
+					"episodeNumber": 2,
+					"name": "FMTWGR",
+					"sameAs": [
+						"https://www.imdb.com/title/tt11136178"
+					],
+					"video": {
+						"@type": "VideoObject",
+						"name": "S1 Episode 2: FMTWGR - Kings Are Wild",
+						"duration": "PT8M50S",
+						"embedUrl": "https://www.youtube.com/embed/dngLrQkZ7YU",
+						"potentialAction": {
+							"@type": "WatchAction",
+							"target": "https://www.youtube.com/watch?v=dngLrQkZ7YU"
+						}
+					}
+				}
+			]
+		},
+		"creator": [
+			{
+				"@type": "Person",
+				"givenName": "D.J.",
+				"familyName": "Seltzer",
+				"alternateName": "David John Seltzer",
+				"url": "https://www.imdb.com/name/nm9420509"
+			},
+			{
+				"@type": "Person",
+				"givenName": "David",
+				"additionalName": "Shea",
+				"familyName": "Henne",
+				"url": "https://www.imdb.com/name/nm6283994",
+				"sameAs": [
+					"https://www.facebook.com/DavidSheaHenne",
+					"https://www.instagram.com/dshenne",
+					"https://twitter.com/dshenne"
+				]
+			}
+		],
+		"actor": [
+			{
+				"@type": "Person",
+				"givenName": "D.J.",
+				"familyName": "Seltzer",
+				"alternateName": "David John Seltzer",
+				"url": "https://www.imdb.com/name/nm9420509"
+			},
+			{
+				"@type": "Person",
+				"givenName": "David",
+				"additionalName": "Shea",
+				"familyName": "Henne",
+				"url": "https://www.imdb.com/name/nm6283994"
+			},
+			{
+				"@type": "Person",
+				"givenName": "Chelsea",
+				"familyName": "Jordan",
+				"url": "https://www.imdb.com/name/nm6283995"
+			},
+			{
+				"@type": "Person",
+				"givenName": "Tess",
+				"familyName": "Llanos",
+				"url": "https://www.imdb.com/name/nm9239405"
+			},
+			{
+				"@type": "Person",
+				"givenName": "Kaylie",
+				"familyName": "Gipson",
+				"url": "https://www.imdb.com/name/nm6640809"
+			},
+			{
+				"@type": "Person",
+				"givenName": "Michelle",
+				"familyName": "Agresti",
+				"url": "https://www.imdb.com/name/nm7135718"
+			},
+			{
+				"@type": "Person",
+				"givenName": "Donald",
+				"additionalName": "Lee",
+				"familyName": "Gipson",
+				"url": "https://www.imdb.com/name/nm3693872"
+			}
+		]
+	},
+	"og": [
+		{
+			"key": "type",
+			"value": ""
+		},
+		{
+			"key": "og:image:url",
+			"value": ""
+		},
+		{
+			"key": "og:image:type",
+			"value": ""
+		},
+		{
+			"key": "og:image:width",
+			"value": 0
+		},
+		{
+			"key": "og:image:height",
+			"value": 0
+		}
+	],
 }

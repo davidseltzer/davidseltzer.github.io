@@ -1,13 +1,5 @@
-<!--url-->
-<meta property="og:url" content="{{ page.url | absolute_url }}" />
-
-<!--image-->
-<meta property="og:image" content="{{ site.data.seo.og.image.url | absolute_url }}" />
-<meta property="og:image:type" content="{{ site.data.seo.og.image.type }}" />
-<meta property="og:image:width" content="{{ site.data.seo.og.image.width }}" />
-<meta property="og:image:height" content="{{ site.data.seo.og.image.height }}" />
-
-<!--profile-->
-<meta property="og:type" content="profile" />
-<meta property="profile:first_name" content="{{ site.data.seo.og.profile.first_name }}" />
-<meta property="profile:last_name" content="{{ site.data.seo.og.profile.last_name }}" />
+{% if include.data.og %}
+	{% for item in include.data.og %}
+		<meta property="{{ item.key }}" content="{{ item.value }}" />
+	{% endfor %}
+{% endif %}

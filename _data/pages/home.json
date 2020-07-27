@@ -45,5 +45,35 @@
 				"https://twitter.com/kimseltzer"
 			]
 		}
-	}
+	},
+	"og": [
+		{
+			"key": "og:type",
+			"value": "profile"
+		},
+		{
+			"key": "profile:first_name",
+			"value": "D.J."
+		},
+		{
+			"key": "profile:last_name",
+			"value": "Seltzer"
+		},
+		{
+			"key": "og:image:url",
+			"value": "/img/og/dj-seltzer-preview.jpg"
+		},
+		{
+			"key": "og:image:type",
+			"value": "image/jpg"
+		},
+		{
+			"key": "og:image:width",
+			"value": 1618
+		},
+		{
+			"key": "og:image:height",
+			"value": 849
+		}
+	]
 }
