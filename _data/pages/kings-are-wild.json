@@ -90,7 +90,7 @@
 		"containsSeason": {
 			"@type": "TVSeason",
 			"seasonNumber": 1,
-			"episodes": [
+			"episode": [
 				{
 					"@type": "TVEpisode",
 					"episodeNumber": 1,

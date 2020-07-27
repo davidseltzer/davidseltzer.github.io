@@ -64,5 +64,65 @@
 				"Sachin Medhekar"
 			]
 		}
-	]
+	],
+	"structured_data": {
+		"@context": "https://schema.org",
+		"@type": "TVSeries",
+		"name": "Fridge Face-Off",
+		"description": "Game show hosted by Angela Kinsey and Josh Snyder. Presented by Tastemade and Facebook Watch.",
+		"genre": "Game Show",
+		"image": "https://djseltzer.com/img/films/fridge-face-off/poster/fridge-face-off-poster-600w.png",
+		"sameAs": [
+			"https://www.imdb.com/title/tt11075288"
+		],
+		"mainEntityOfPage": "https://www.facebook.com/watch/tastemade/682473785590984",
+		"containsSeason": {
+			"@type": "TVSeason",
+			"seasonNumber": 1,
+			"episode": {
+				"@type": "TVEpisode",
+				"episodeNumber": 4,
+				"name": "Mayo",
+				"sameAs": [
+					"https://www.imdb.com/title/tt11079734"
+				],
+				"video": {
+					"@type": "VideoObject",
+					"name": "Can You Guess the Fictional Character? Hint: Mayo | Fridge Face-Off",
+					"duration": "PT9M17S",
+					"potentialAction": {
+						"@type": "WatchAction",
+						"target": "https://www.facebook.com/tastemade/videos/373690190021411"
+					}
+				}
+			}
+		},
+		"actor": [
+			{
+				"@type": "Person",
+				"givenName": "Angela",
+				"familyName": "Kinsey",
+				"url": "https://www.imdb.com/name/nm1526554"
+			},
+			{
+				"@type": "Person",
+				"givenName": "Josh",
+				"familyName": "Snyder",
+				"url": "https://www.imdb.com/name/nm11037383"
+			},
+			{
+				"@type": "Person",
+				"givenName": "D.J.",
+				"familyName": "Seltzer",
+				"alternateName": "David John Seltzer",
+				"url": "https://www.imdb.com/name/nm9420509"
+			},
+			{
+				"@type": "Person",
+				"givenName": "Sachin",
+				"familyName": "Medhekar",
+				"url": "https://www.imdb.com/name/nm9576806"
+			}
+		]
+	}
 }
