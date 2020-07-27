@@ -14,7 +14,9 @@
 				"@type": "ListItem",
 				"position": "1",
 				"item": {
-
+					"@type": "TVSeries",
+					"name": "Kings Are Wild",
+					"url": "https://djseltzer.com/web-series/kings-are-wild"
 				}
 			}
 		]
