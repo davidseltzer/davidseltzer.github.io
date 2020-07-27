@@ -25,20 +25,60 @@
 			}
 		}
 	],
-	"structured_data": {},
-	"itunes-podcast": {
+	"structured_data": {
 		"@context": "http://schema.org",
-		"@type": "AudioObject",
-		"name": "🍺 Alcohol, 🚬 Cigarettes, and 💻 Wikipedia with David John Seltzer",
-		"creator": "Megan McIver - Boardwalk Audio",
-		"description": "In this week’s episode of COSMOS AND THE CITY: THE SEX AND THE CITY PODCAST, your host Megan McIver will sit down with the awesome David John Seltzer. Together these two will discuss Season Two, Episode Sixteen of SEX AND THE CITY entitled: “Was It Good For You?”\n\n\nThis week Megan & David will be so…",
-		"datePublished": "Aug 8, 2018",
-		"duration": "PT58M50S",
-		"isPartOf": "Cosmos and the City: The Sex and the City Podcast",
-		"offers": [
+		"@type": "ItemList",
+		"itemListElement": [
 			{
-				"@type": "Offer",
-				"price": "Free"
+				"@type": "ListItem",
+				"position": "1",
+				"item": {
+					"@type": "PodcastEpisode",
+					"name": "Ep. 104 - \"The Man From U.N.C.L.E.\" with David John Seltzer",
+					"duration": "PT46M27S",
+					"sameAs": [
+						"https://open.spotify.com/episode/5sR3iwDArrHPbJSqnQoXa3",
+						"https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055?i=1000480173558",
+						"https://soundcloud.com/followupshowdown/ep-104-the-man-from-u-n-c-l-e",
+						"https://www.stitcher.com/podcast/the-followup-showdown/e/73687041"
+					],
+					"partOfSeries": {
+						"@type": "PodcastSeries",
+						"name": "The Follow-Up Showdown",
+						"sameAs": [
+							"https://open.spotify.com/show/2VAG0uTwZDxICylzrHedLj",
+							"https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055",
+							"https://soundcloud.com/followupshowdown",
+							"https://www.instagram.com/thefollowupshowdown"
+						]
+					},
+					"potentialAction": [
+						{
+							"@type": "ListenAction",
+							"target": "https://open.spotify.com/episode/5sR3iwDArrHPbJSqnQoXa3"
+						}
+					],
+					"actor": [
+						{
+							"@type": "Person",
+							"givenName": "Paul",
+							"familyName": "Goetz",
+							"url": "https://www.imdb.com/name/nm2280028"
+						},
+						{
+							"@type": "Person",
+							"givenName": "Travis",
+							"familyName": "McMaster"
+						},
+						{
+							"@type": "Person",
+							"givenName": "D.J.",
+							"familyName": "Seltzer",
+							"alternateName": "David John Seltzer",
+							"url": "https://www.imdb.com/name/nm9420509"
+						}
+					]
+				}
 			}
 		]
 	}
