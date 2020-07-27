@@ -31,7 +31,7 @@
 		"itemListElement": [
 			{
 				"@type": "ListItem",
-				"position": "1",
+				"position": 1,
 				"item": {
 					"@type": "PodcastEpisode",
 					"name": "Ep. 104 - \"The Man From U.N.C.L.E.\" with David John Seltzer",

@@ -20,51 +20,29 @@
 		"itemListElement": [
 			{
 				"@type": "ListItem",
-				"position": "1",
+				"position": 1,
 				"item": {
-					"@type": "Movie",
-					"name": "Dada Life - No More 54 (Official Music Video)",
-					"mainEntityOfPage": "https://www.youtube.com/watch?v=Y9lhf75_ots",
-					"potentialAction": {
-						"@type": "WatchAction",
-						"target": "https://www.youtube.com/watch?v=Y9lhf75_ots"
-					},
-					"musicBy": {
-						"@type": "MusicGroup",
-						"name": "Dada Life",
-						"url": "http://www.dadalife.com/",
-						"sameAs": [
-							"https://www.facebook.com/dadalife/",
-							"https://twitter.com/dadalife"
-						]
-					},
-					"actor": [
-						{
-							"@type": "Person",
-							"givenName": "D.J.",
-							"familyName": "Seltzer",
-							"alternateName": "David John Seltzer",
-							"url": "https://www.imdb.com/name/nm9420509"
-						}
-					]
+					"@type": "TVSeries",
+					"name": "Kings Are Wild",
+					"url": "https://djseltzer.com/web-series/kings-are-wild"
 				}
 			},
 			{
 				"@type": "ListItem",
-				"position": "2",
+				"position": 2,
 				"item": {
-					"@type": "MovieClip",
-					"name": "Acting Reel - D.J. Seltzer",
-					"mainEntityOfPage": "https://www.youtube.com/watch?v=9w6QEtSGA_8",
-					"actor": [
-						{
-							"@type": "Person",
-							"givenName": "D.J.",
-							"familyName": "Seltzer",
-							"alternateName": "David John Seltzer",
-							"url": "https://www.imdb.com/name/nm9420509"
-						}
-					]
+					"@type": "MusicVideoObject",
+					"name": "Dada Life - No More 54 (Official Music Video)",
+					"url": "https://djseltzer.com/music-video/no-more-54"
+				}
+			},
+			{
+				"@type": "ListItem",
+				"position": 3,
+				"item": {
+					"@type": "TVSeries",
+					"name": "Fridge Face-Off",
+					"url": "https://djseltzer.com/game-show/fridge-face-off"
 				}
 			}
 		]

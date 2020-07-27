@@ -12,7 +12,7 @@
 		"itemListElement": [
 			{
 				"@type": "ListItem",
-				"position": "1",
+				"position": 1,
 				"item": {
 					"@type": "TVSeries",
 					"name": "Kings Are Wild",
