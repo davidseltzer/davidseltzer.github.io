@@ -1,0 +1,13 @@
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@davidseltzer" />
+
+<!--defaults-->
+{% assign open-graph = site.data.seo.seo-defaults.open-graph %}
+
+<!--page specific open graph-->
+{% if include.data.open-graph %}
+	{% assign open-graph = include.data.open-graph %}
+{% endif %}
+
+<meta name="twitter:image" content="{{ open-graph.image.url }}" />
+<meta name="twitter:image:alt" content="{{ open-graph.image.alt }}" />

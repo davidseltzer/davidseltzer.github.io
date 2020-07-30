@@ -5,24 +5,25 @@
 	<!--title-->
 	<title>{{ include.data.page-title }}</title>
 	<meta property="og:title" content="{{ include.data.page-title }}" />
+	<meta name="twitter:title" content="{{ include.data.page-title }}" />
 
 	<!--canonical url-->
 	<link rel="canonical" href="{{ site.canonical_url_base }}{{ page.permalink }}" />
 	<meta property="og:url" content="{{ site.canonical_url_base }}{{ page.permalink }}" />
 
+	<!--viewport-->
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
 	<!--google tracking-->
 	{% include common/head/google-tracking.html %}
 
-	<!--favicon-->
-	{% include common/head/favicon.html %}
-
 	<!--description-->
 	<meta name="description" content="{{ include.data.description }}">
 	<meta property="og:description" content="{{ include.data.description }}" />
+	<meta name="twitter:description" content="{{ include.data.description }}" />
 
-	<!--facebook: og graph-->
+	<!--facebook: og graph & twitter card-->
+	{% include common/head/twitter-card.html data=include.data %}
 	{% include common/head/open-graph/open-graph.html data=include.data %}
 
 	<!--structured data-->
@@ -40,4 +41,7 @@
 	<!--amp components-->
 	<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
 	{% include common/head/amp-components.html data=include.data %}
+
+	<!--favicon-->
+	{% include common/head/favicon.html %}
 </head>
