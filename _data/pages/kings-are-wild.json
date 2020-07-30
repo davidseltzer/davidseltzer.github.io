@@ -81,12 +81,12 @@
 		"url": "https://djseltzer.com/web-series/kings-are-wild",
 		"name": "Kings Are Wild",
 		"description": "Comedy web series created by David John Seltzer and David Shea Henne.",
-		"genre": "Sitcom",
-		"image": "https://djseltzer.com/img/films/kings-are-wild/poster/kings-are-wild-poster-600w.jpg",
+		"genre": "Comedy",
+		"image": "https://djseltzer.com/img/films/kings-are-wild/still/kings-are-wild-still-800w.webp",
 		"sameAs": [
-			"https://www.imdb.com/title/tt11136042"
+			"https://www.imdb.com/title/tt11136042",
+			"https://www.youtube.com/channel/UCAMIFa_7h77oCULA2ZX80VA"
 		],
-		"mainEntityOfPage": "https://www.youtube.com/channel/UCAMIFa_7h77oCULA2ZX80VA",
 		"containsSeason": {
 			"@type": "TVSeason",
 			"seasonNumber": 1,
@@ -101,7 +101,10 @@
 					"video": {
 						"@type": "VideoObject",
 						"name": "S1 Episode 1: Let's Do This - Kings Are Wild",
+						"description": "David and David brainstorm ideas for their new podcast.",
 						"duration": "PT7M56S",
+						"uploadDate": "2019-10-17",
+						"thumbnailUrl": "https://djseltzer.com/img/films/kings-are-wild/video-thumbnail/kings-are-wild-s1e1-thumbnail.jpg",
 						"embedUrl": "https://www.youtube.com/embed/2oRxiAggzIU",
 						"potentialAction": {
 							"@type": "WatchAction",
@@ -119,7 +122,10 @@
 					"video": {
 						"@type": "VideoObject",
 						"name": "S1 Episode 2: FMTWGR - Kings Are Wild",
+						"description": "After David and David drift apart, Chelsea brings everyone together to discuss what's on her mind.",
 						"duration": "PT8M50S",
+						"uploadDate": "2019-10-17",
+						"thumbnailUrl": "https://djseltzer.com/img/films/kings-are-wild/video-thumbnail/kings-are-wild-s1e2-thumbnail.jpg",
 						"embedUrl": "https://www.youtube.com/embed/dngLrQkZ7YU",
 						"potentialAction": {
 							"@type": "WatchAction",
@@ -132,16 +138,13 @@
 		"creator": [
 			{
 				"@type": "Person",
-				"givenName": "D.J.",
-				"familyName": "Seltzer",
+				"name": "D.J. Seltzer",
 				"alternateName": "David John Seltzer",
 				"url": "https://www.imdb.com/name/nm9420509"
 			},
 			{
 				"@type": "Person",
-				"givenName": "David",
-				"additionalName": "Shea",
-				"familyName": "Henne",
+				"name": "David Shea Henne",
 				"url": "https://www.imdb.com/name/nm6283994",
 				"sameAs": [
 					"https://www.facebook.com/DavidSheaHenne",
@@ -153,47 +156,38 @@
 		"actor": [
 			{
 				"@type": "Person",
-				"givenName": "D.J.",
-				"familyName": "Seltzer",
+				"name": "D.J. Seltzer",
 				"alternateName": "David John Seltzer",
 				"url": "https://www.imdb.com/name/nm9420509"
 			},
 			{
 				"@type": "Person",
-				"givenName": "David",
-				"additionalName": "Shea",
-				"familyName": "Henne",
+				"name": "David Shea Henne",
 				"url": "https://www.imdb.com/name/nm6283994"
 			},
 			{
 				"@type": "Person",
-				"givenName": "Chelsea",
-				"familyName": "Jordan",
+				"name": "Chelsea Jordan",
 				"url": "https://www.imdb.com/name/nm6283995"
 			},
 			{
 				"@type": "Person",
-				"givenName": "Tess",
-				"familyName": "Llanos",
+				"name": "Tess Llanos",
 				"url": "https://www.imdb.com/name/nm9239405"
 			},
 			{
 				"@type": "Person",
-				"givenName": "Kaylie",
-				"familyName": "Gipson",
+				"name": "Kaylie Gipson",
 				"url": "https://www.imdb.com/name/nm6640809"
 			},
 			{
 				"@type": "Person",
-				"givenName": "Michelle",
-				"familyName": "Agresti",
+				"name": "Michelle Agresti",
 				"url": "https://www.imdb.com/name/nm7135718"
 			},
 			{
 				"@type": "Person",
-				"givenName": "Donald",
-				"additionalName": "Lee",
-				"familyName": "Gipson",
+				"name": "Donald Lee Gipson",
 				"url": "https://www.imdb.com/name/nm3693872"
 			}
 		]
