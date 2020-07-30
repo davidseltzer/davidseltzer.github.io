@@ -14,6 +14,7 @@
 	"structured-data": {
 		"@context": "https://schema.org",
 		"@type": "Person",
+		"name": "D.J. Seltzer",
 		"givenName": "D.J.",
 		"familyName": "Seltzer",
 		"alternateName": "David John Seltzer",
@@ -25,24 +26,10 @@
 		"image": "https://djseltzer.com/img/bio/dj-seltzer-fries-1200w.jpg",
 		"url": "https://djseltzer.com/",
 		"sameAs": [
-			"https://www.facebook.com/davidjohnseltzer",
 			"https://www.imdb.com/name/nm9420509/",
 			"https://www.instagram.com/davidjohnseltzer",
-			"https://twitter.com/davidseltzer",
 			"https://www.youtube.com/channel/UCA0jpXWyybLYjVYlpCPs5_Q"
-		],
-		"sibling": {
-			"@type": "Person",
-			"givenName": "Kim",
-			"familyName": "Seltzer",
-			"nationality": "USA",
-			"gender": "Female",
-			"url": "https://www.kimberlyseltzer.com",
-			"sameAs": [
-				"https://www.instagram.com/kimseltzer/",
-				"https://twitter.com/kimseltzer"
-			]
-		}
+		]
 	},
 	"og": [
 		{
