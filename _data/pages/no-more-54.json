@@ -89,5 +89,26 @@
 				"url": "https://www.imdb.com/name/nm9420509"
 			}
 		}
+	},
+	"open-graph": {
+		"type": "video.other",
+		"image": {
+			"url": "https://djseltzer.com/img/films/no-more-54/still/no-more-54-still-1016w.jpg",
+			"type": "image/jpg",
+			"width": 1016,
+			"height": 571,
+			"alt": "No More 54 - Music Video Still"
+		},
+		"video": {
+			"duration": "198",
+			"release-date": "2019-03-25",
+			"actors": [
+				{
+					"first_name": "D.J.",
+					"last_name": "Seltzer",
+					"gender": "male"
+				}
+			]
+		}
 	}
 }
