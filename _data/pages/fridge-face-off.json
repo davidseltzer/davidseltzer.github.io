@@ -4,7 +4,7 @@
 	"title": "Fridge Face-Off",
 	"description": "Game show hosted by Angela Kinsey and Josh Snyder. Presented by Tastemade and Facebook Watch.",
 	"category": "Game Show",
-	"facebook-watch": "https://www.facebook.com/watch/?v=373690190021411",
+	"facebook-watch": "https://www.facebook.com/tastemade/videos/373690190021411",
 	"imdb": "https://www.imdb.com/title/tt11079734",
 	"breadcrumbs": [
 		{
@@ -83,6 +83,7 @@
 					"duration": "PT9M17S",
 					"uploadDate": "2019-05-04",
 					"thumbnailUrl": "https://djseltzer.com/img/films/fridge-face-off/video-thumbnail/fridge-face-off-thumbnail-640w.jpg",
+					"embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftastemade%2Fvideos%2F373690190021411",
 					"potentialAction": {
 						"@type": "WatchAction",
 						"target": "https://www.facebook.com/tastemade/videos/373690190021411"
