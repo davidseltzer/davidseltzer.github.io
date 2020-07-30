@@ -13,38 +13,5 @@
 			"title": "Reel",
 			"youtube-id": "9w6QEtSGA_8"
 		}
-	],
-	"structured-data": {
-		"@context": "https://schema.org",
-		"@type": "ItemList",
-		"itemListElement": [
-			{
-				"@type": "ListItem",
-				"position": 1,
-				"item": {
-					"@type": "TVSeries",
-					"name": "Kings Are Wild",
-					"url": "https://djseltzer.com/web-series/kings-are-wild"
-				}
-			},
-			{
-				"@type": "ListItem",
-				"position": 2,
-				"item": {
-					"@type": "MusicVideoObject",
-					"name": "Dada Life - No More 54 (Official Music Video)",
-					"url": "https://djseltzer.com/music-video/no-more-54"
-				}
-			},
-			{
-				"@type": "ListItem",
-				"position": 3,
-				"item": {
-					"@type": "TVSeries",
-					"name": "Fridge Face-Off",
-					"url": "https://djseltzer.com/game-show/fridge-face-off"
-				}
-			}
-		]
-	}
+	]
 }
