@@ -27,58 +27,50 @@
 	],
 	"structured-data": {
 		"@context": "http://schema.org",
-		"@type": "ItemList",
-		"itemListElement": [
+		"@type": "PodcastEpisode",
+		"name": "Ep. 104 - \"The Man From U.N.C.L.E.\" with David John Seltzer",
+		"duration": "PT46M27S",
+		"url": "https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055?i=1000480173558",
+		"sameAs": [
+			"https://open.spotify.com/episode/5sR3iwDArrHPbJSqnQoXa3",
+			"https://soundcloud.com/followupshowdown/ep-104-the-man-from-u-n-c-l-e",
+			"https://www.stitcher.com/podcast/the-followup-showdown/e/73687041"
+		],
+		"partOfSeries": {
+			"@type": "PodcastSeries",
+			"name": "The Follow-Up Showdown",
+			"url": "https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055",
+			"sameAs": [
+				"https://open.spotify.com/show/2VAG0uTwZDxICylzrHedLj",
+				"https://soundcloud.com/followupshowdown",
+				"https://www.instagram.com/thefollowupshowdown"
+			]
+		},
+		"potentialAction": [
 			{
-				"@type": "ListItem",
-				"position": 1,
-				"item": {
-					"@type": "PodcastEpisode",
-					"name": "Ep. 104 - \"The Man From U.N.C.L.E.\" with David John Seltzer",
-					"duration": "PT46M27S",
-					"sameAs": [
-						"https://open.spotify.com/episode/5sR3iwDArrHPbJSqnQoXa3",
-						"https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055?i=1000480173558",
-						"https://soundcloud.com/followupshowdown/ep-104-the-man-from-u-n-c-l-e",
-						"https://www.stitcher.com/podcast/the-followup-showdown/e/73687041"
-					],
-					"partOfSeries": {
-						"@type": "PodcastSeries",
-						"name": "The Follow-Up Showdown",
-						"sameAs": [
-							"https://open.spotify.com/show/2VAG0uTwZDxICylzrHedLj",
-							"https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055",
-							"https://soundcloud.com/followupshowdown",
-							"https://www.instagram.com/thefollowupshowdown"
-						]
-					},
-					"potentialAction": [
-						{
-							"@type": "ListenAction",
-							"target": "https://open.spotify.com/episode/5sR3iwDArrHPbJSqnQoXa3"
-						}
-					],
-					"actor": [
-						{
-							"@type": "Person",
-							"givenName": "Paul",
-							"familyName": "Goetz",
-							"url": "https://www.imdb.com/name/nm2280028"
-						},
-						{
-							"@type": "Person",
-							"givenName": "Travis",
-							"familyName": "McMaster"
-						},
-						{
-							"@type": "Person",
-							"givenName": "D.J.",
-							"familyName": "Seltzer",
-							"alternateName": "David John Seltzer",
-							"url": "https://www.imdb.com/name/nm9420509"
-						}
-					]
-				}
+				"@type": "ListenAction",
+				"target": [
+					"https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055?i=1000480173558",
+					"https://open.spotify.com/episode/5sR3iwDArrHPbJSqnQoXa3",
+					"https://soundcloud.com/followupshowdown/ep-104-the-man-from-u-n-c-l-e"
+				]
+			}
+		],
+		"actor": [
+			{
+				"@type": "Person",
+				"name": "Paul Goetz",
+				"url": "https://www.imdb.com/name/nm2280028"
+			},
+			{
+				"@type": "Person",
+				"name": "Travis McMaster"
+			},
+			{
+				"@type": "Person",
+				"name": "D.J. Seltzer",
+				"alternateName": "David John Seltzer",
+				"url": "https://www.imdb.com/name/nm9420509"
 			}
 		]
 	}
