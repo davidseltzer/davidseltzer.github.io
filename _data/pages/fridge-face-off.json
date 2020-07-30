@@ -114,5 +114,46 @@
 				"url": "https://www.imdb.com/name/nm9576806"
 			}
 		]
+	},
+	"open-graph": {
+		"type": "video.episode",
+		"image": {
+			"url": "https://djseltzer.com/img/films/fridge-face-off/still/fridge-face-off-still-1200w.png",
+			"type": "image/png",
+			"width": 1200,
+			"height": 675,
+			"alt": "Fridge Face-Off - Game Show Still"
+		},
+		"video": {
+			"duration": "557",
+			"release-date": "2019-05-04",
+			"series": "https://www.facebook.com/watch/tastemade/682473785590984",
+			"actors": [
+				{
+					"first_name": "Angela",
+					"last_name": "Kinsey",
+					"gender": "female",
+					"role": "Host"
+				},
+				{
+					"first_name": "Josh",
+					"last_name": "Snyder",
+					"gender": "male",
+					"role": "Host"
+				},
+				{
+					"first_name": "D.J.",
+					"last_name": "Seltzer",
+					"gender": "male",
+					"role": "Contestant"
+				},
+				{
+					"first_name": "Sachin",
+					"last_name": "Medhekar",
+					"gender": "male",
+					"role": "Contestant"
+				}
+			]
+		}
 	}
 }

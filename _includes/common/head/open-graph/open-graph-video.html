@@ -1,6 +1,16 @@
+<!--duration-->
+{% if include.video.series %}
+	<meta property="og:video:series" content="{{ include.video.series }}" />
+{% endif %}
+
+<!--duration-->
+{% if include.video.duration %}
+	<meta property="og:video:duration" content="{{ include.video.duration }}" />
+{% endif %}
+
 <!--release date-->
 {% if include.video.release-date %}
-	<meta property="video:release_date" content="{{ include.video.release-date }}" />
+	<meta property="og:video:release_date" content="{{ include.video.release-date }}" />
 {% endif %}
 
 <!--writers-->
@@ -8,7 +18,7 @@
 	{% for writer in include.video.writers %}
 
 		{% include common/head/open-graph/open-graph-profile.html
-				prefix="video.writer"
+				prefix="og:video:writer"
 				profile=writer
 		%}
 	{% endfor %}
@@ -19,7 +29,7 @@
 	{% for actor in include.video.actors %}
 
 		{% include common/head/open-graph/open-graph-profile.html
-				prefix="video.actor"
+				prefix="og:video:actor"
 				profile=actor
 		%}
 	{% endfor %}
