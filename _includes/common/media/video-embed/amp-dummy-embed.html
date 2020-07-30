@@ -6,8 +6,8 @@
 	{% if include.video.youtube-id %}
 		{% assign url = "https://www.youtube.com/watch?v=" | append: include.video.youtube-id %}
 
-	{% elsif include.video.facebook-watch-id %}
-		{% assign url = "https://www.facebook.com/watch/?v=" | append: include.video.facebook-watch-id %}
+	{% elsif include.video.facebook-watch-url %}
+		{% assign url = include.video.facebook-watch-url %}
 
 	{% endif %}
 
@@ -31,7 +31,7 @@
 	         </span>
 
 			<!--facebook watch-->
-			{% elsif include.video.facebook-watch-id %}
+			{% elsif include.video.facebook-watch-url %}
 				<span class="icon-stack icon-2x">
 					<i class="icon-circle icon-stack-2x"></i>
 					<i class="icon-play-circle icon-stack-2x"></i>

@@ -1,4 +1,4 @@
-{% if video.youtube-id or video.facebook-watch-id %}
+{% if video.youtube-id or video.facebook-watch-url %}
 	<div class="d-flex flex-row justify-content-center my-4">
 
 		<!--youtube-->
@@ -11,9 +11,9 @@
 			</a>
 
 		<!--facebook watch-->
-		{% elsif video.facebook-watch-id %}
+		{% elsif video.facebook-watch-url %}
 			<a class="text-theme-gold"
-			   href="https://www.facebook.com/watch/?v={{ video.facebook-watch-id }}"
+			   href="{{ video.facebook-watch-url }}"
 			   target="_blank">
 
 				<span>Stream on Facebook Watch</span>

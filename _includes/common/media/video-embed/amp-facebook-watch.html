@@ -1,0 +1,14 @@
+<amp-facebook data-href="{{ video.facebook-watch-url }}"
+             layout="responsive"
+             data-embed-as="video"
+             width="16"
+             height="9"
+             data-align-center="true">
+
+	<!--no script - fallback-->
+	<noscript>
+		{% assign encoded-facebook-watch-url = video.facebook-watch-url | url_encode %}
+		<iframe src="https://www.facebook.com/plugins/video.php?href={{ encoded-facebook-watch-url }}"></iframe>
+	</noscript>
+
+</amp-facebook>

@@ -9,10 +9,22 @@
 		{% if video.dummy %}
 			{% include common/media/video-embed/amp-dummy-embed.html video=video %}
 
-		<!--youtube embed-->
-		{% elsif video.youtube-id %}
-			{% include common/media/video-embed/amp-youtube.html video=video %}
+		<!--embed-->
+		{% else %}
+			<div class="d-flex flex-row justify-content-center">
+				<div class="w-75 w-md-50">
 
+					<!--youtube embed-->
+					{% if video.youtube-id %}
+						{% include common/media/video-embed/amp-youtube.html video=video %}
+
+					<!--facebook watch-->
+					{% elsif video.facebook-watch-url %}
+						{% include common/media/video-embed/amp-facebook-watch.html video=video %}
+
+					{% endif %}
+				</div>
+			</div>
 		{% endif %}
 
 		<!--external link-->

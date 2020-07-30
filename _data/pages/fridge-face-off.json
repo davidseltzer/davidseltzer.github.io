@@ -35,18 +35,7 @@
 	"videos": [
 		{
 			"title": "Season 1 - Episode 4: Mayo",
-			"facebook-watch-id": "373690190021411",
-			"thumbnail": {
-				"alt": "Fridge Face-Off - Game Show Thumbnail",
-				"src": "/img/films/fridge-face-off/video-thumbnail/fridge-face-off-thumbnail",
-				"ratio": {
-					"height": 358,
-					"width": 640
-				},
-				"widths": [640, 500, 400],
-				"ext": ["jpg"]
-			},
-			"dummy": true
+			"facebook-watch-url": "https://www.facebook.com/tastemade/videos/373690190021411"
 		}
 	],
 	"credits": [
@@ -68,14 +57,15 @@
 	"structured-data": {
 		"@context": "https://schema.org",
 		"@type": "TVSeries",
+		"url": "https://djseltzer.com/game-show/fridge-face-off",
 		"name": "Fridge Face-Off",
 		"description": "Game show hosted by Angela Kinsey and Josh Snyder. Presented by Tastemade and Facebook Watch.",
 		"genre": "Game Show",
 		"image": "https://djseltzer.com/img/films/fridge-face-off/poster/fridge-face-off-poster-600w.png",
 		"sameAs": [
-			"https://www.imdb.com/title/tt11075288"
+			"https://www.imdb.com/title/tt11075288",
+			"https://www.facebook.com/watch/tastemade/682473785590984"
 		],
-		"mainEntityOfPage": "https://www.facebook.com/watch/tastemade/682473785590984",
 		"containsSeason": {
 			"@type": "TVSeason",
 			"seasonNumber": 1,
@@ -89,7 +79,10 @@
 				"video": {
 					"@type": "VideoObject",
 					"name": "Can You Guess the Fictional Character? Hint: Mayo | Fridge Face-Off",
+					"description": "Angela Kinsey & Josh welcome roommates, David and Sachin, for a round of Fridge Face-Off! They both claim to have a vast knowledge of TV and movies, but will they be able to guess the fictional character from the clues hidden in their fridge? Test your own knowledge and play along!",
 					"duration": "PT9M17S",
+					"uploadDate": "2019-05-04",
+					"thumbnailUrl": "https://djseltzer.com/img/films/fridge-face-off/video-thumbnail/fridge-face-off-thumbnail-640w.jpg",
 					"potentialAction": {
 						"@type": "WatchAction",
 						"target": "https://www.facebook.com/tastemade/videos/373690190021411"
@@ -100,27 +93,23 @@
 		"actor": [
 			{
 				"@type": "Person",
-				"givenName": "Angela",
-				"familyName": "Kinsey",
+				"name": "Angela Kinsey",
 				"url": "https://www.imdb.com/name/nm1526554"
 			},
 			{
 				"@type": "Person",
-				"givenName": "Josh",
-				"familyName": "Snyder",
+				"name": "Josh Snyder",
 				"url": "https://www.imdb.com/name/nm11037383"
 			},
 			{
 				"@type": "Person",
-				"givenName": "D.J.",
-				"familyName": "Seltzer",
+				"name": "D.J. Seltzer",
 				"alternateName": "David John Seltzer",
 				"url": "https://www.imdb.com/name/nm9420509"
 			},
 			{
 				"@type": "Person",
-				"givenName": "Sachin",
-				"familyName": "Medhekar",
+				"name": "Sachin Medhekar",
 				"url": "https://www.imdb.com/name/nm9576806"
 			}
 		]
