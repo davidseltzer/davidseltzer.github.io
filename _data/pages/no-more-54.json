@@ -59,20 +59,24 @@
 	"structured-data": {
 		"@context": "https://schema.org",
 		"@type": "MusicRecording",
+		"url": "https://djseltzer.com/music-video/no-more-54",
 		"name": "No More 54",
+		"image": "https://djseltzer.com/img/films/no-more-54/still/no-more-54-still-800w.jpg",
 		"byArtist": {
 			"@type" : "MusicGroup",
 			"name" : "Dada Life",
+			"url": "http://www.dadalife.com",
 			"sameAs" : [
-				"http://www.dadalife.com",
 				"https://twitter.com/dadalife"
 			]
 		},
 		"video": {
 			"@type": "VideoObject",
 			"name": "Dada Life - No More 54 (Official Music Video)",
-			"image": "https://djseltzer.com/img/films/no-more-54/still/no-more-54-still-800w.jpg",
+			"description": "Swedish DJ/producer duo Dada Life is back! Releasing ‘No More 54’ on Spinnin’ Records.",
 			"duration": "PT3M18S",
+			"uploadDate": "2019-03-25",
+			"thumbnailUrl": "https://djseltzer.com/img/films/no-more-54/video-thumbnail/no-more-54-thumbnail.jpg",
 			"embedUrl": "https://www.youtube.com/embed/Y9lhf75_ots",
 			"potentialAction": {
 				"@type": "WatchAction",
@@ -80,8 +84,7 @@
 			},
 			"actor": {
 				"@type": "Person",
-				"givenName": "D.J.",
-				"familyName": "Seltzer",
+				"name": "D.J. Seltzer",
 				"alternateName": "David John Seltzer",
 				"url": "https://www.imdb.com/name/nm9420509"
 			}
