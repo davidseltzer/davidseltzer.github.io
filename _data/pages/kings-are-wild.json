@@ -192,26 +192,176 @@
 			}
 		]
 	},
-	"og": [
-		{
-			"key": "type",
-			"value": ""
+	"og": {
+		"type": "video.tv_show",
+		"image": {
+			"url": "https://djseltzer.com/img/films/kings-are-wild/still/kings-are-wild-still-1200w.png",
+			"type": "image/png",
+			"width": 1200,
+			"height": 675,
+			"alt": "Kings Are Wild - Movie Still"
 		},
-		{
-			"key": "og:image:url",
-			"value": ""
-		},
-		{
-			"key": "og:image:type",
-			"value": ""
-		},
-		{
-			"key": "og:image:width",
-			"value": 0
-		},
-		{
-			"key": "og:image:height",
-			"value": 0
-		}
-	],
+		"properties": [
+			{
+				"k": "video:release_date",
+				"v": "2019-10-17"
+			},
+			{
+				"k": "video.writer",
+				"v": ""
+			},
+			{
+				"k": "video.writer:first_name",
+				"v": "David John"
+			},
+			{
+				"k": "video.writer:last_name",
+				"v": "Seltzer"
+			},
+			{
+				"k": "video.writer:gender",
+				"v": "male"
+			},
+			{
+				"k": "video.actor",
+				"v": ""
+			},
+			{
+				"k": "video.actor:first_name",
+				"v": "David John"
+			},
+			{
+				"k": "video.actor:last_name",
+				"v": "Seltzer"
+			},
+			{
+				"k": "video.actor:gender",
+				"v": "male"
+			},
+			{
+				"k": "video.actor:role",
+				"v": "David John"
+			},
+			{
+				"k": "video.actor",
+				"v": ""
+			},
+			{
+				"k": "video.actor:first_name",
+				"v": "David Shea"
+			},
+			{
+				"k": "video.actor:last_name",
+				"v": "Henne"
+			},
+			{
+				"k": "video.actor:gender",
+				"v": "male"
+			},
+			{
+				"k": "video.actor:role",
+				"v": "David Shea"
+			},
+			{
+				"k": "video.actor",
+				"v": ""
+			},
+			{
+				"k": "video.actor:first_name",
+				"v": "Chelsea"
+			},
+			{
+				"k": "video.actor:last_name",
+				"v": "Jordan"
+			},
+			{
+				"k": "video.actor:gender",
+				"v": "female"
+			},
+			{
+				"k": "video.actor:role",
+				"v": "Chelsea"
+			},
+			{
+				"k": "video.actor",
+				"v": ""
+			},
+			{
+				"k": "video.actor:first_name",
+				"v": "Tess"
+			},
+			{
+				"k": "video.actor:last_name",
+				"v": "Llanos"
+			},
+			{
+				"k": "video.actor:gender",
+				"v": "female"
+			},
+			{
+				"k": "video.actor:role",
+				"v": "Tess"
+			},
+			{
+				"k": "video.actor",
+				"v": ""
+			},
+			{
+				"k": "video.actor:first_name",
+				"v": "Kaylie"
+			},
+			{
+				"k": "video.actor:last_name",
+				"v": "Gipson"
+			},
+			{
+				"k": "video.actor:gender",
+				"v": "female"
+			},
+			{
+				"k": "video.actor:role",
+				"v": "Jess"
+			},
+			{
+				"k": "video.actor",
+				"v": ""
+			},
+			{
+				"k": "video.actor:first_name",
+				"v": "Michelle"
+			},
+			{
+				"k": "video.actor:last_name",
+				"v": "Agresti"
+			},
+			{
+				"k": "video.actor:gender",
+				"v": "female"
+			},
+			{
+				"k": "video.actor:role",
+				"v": "Michelle"
+			},
+			{
+				"k": "video.actor",
+				"v": ""
+			},
+			{
+				"k": "video.actor:first_name",
+				"v": "Donald Lee"
+			},
+			{
+				"k": "video.actor:last_name",
+				"v": "Gipson"
+			},
+			{
+				"k": "video.actor:gender",
+				"v": "male"
+			},
+			{
+				"k": "video.actor:role",
+				"v": "James"
+			}
+		]
+	}
 }
