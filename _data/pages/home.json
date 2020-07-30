@@ -18,8 +18,10 @@
 		"givenName": "D.J.",
 		"familyName": "Seltzer",
 		"alternateName": "David John Seltzer",
-		"jobTitle": "Actor",
-		"disambiguationDescription": "American actor",
+		"jobTitle": [
+			"Actor",
+			"Comedian"
+		],
 		"nationality": "USA",
 		"gender": "Male",
 		"description": "David John Seltzer (D.J. Seltzer) is an American actor and comedian.",
