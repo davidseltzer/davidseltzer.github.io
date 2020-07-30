@@ -12,6 +12,14 @@
 		%}
 	{% endif %}
 
+	<!--profile-->
+	{% if open-graph.profile %}
+		{% include common/head/open-graph/open-graph-profile.html
+				prefix="profile"
+				profile=open-graph.profile
+		%}
+	{% endif %}
+
 	<!--video-->
 	{% if open-graph.video %}
 		{% include common/head/open-graph/open-graph-video.html

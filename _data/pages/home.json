@@ -33,34 +33,19 @@
 			"https://www.youtube.com/channel/UCA0jpXWyybLYjVYlpCPs5_Q"
 		]
 	},
-	"og": [
-		{
-			"key": "og:type",
-			"value": "profile"
+	"open-graph": {
+		"type": "profile",
+		"profile": {
+			"first_name": "D.J.",
+			"last_name": "Seltzer",
+			"gender": "male"
 		},
-		{
-			"key": "profile:first_name",
-			"value": "D.J."
-		},
-		{
-			"key": "profile:last_name",
-			"value": "Seltzer"
-		},
-		{
-			"key": "og:image:url",
-			"value": "/img/og/dj-seltzer-preview.jpg"
-		},
-		{
-			"key": "og:image:type",
-			"value": "image/jpg"
-		},
-		{
-			"key": "og:image:width",
-			"value": 1618
-		},
-		{
-			"key": "og:image:height",
-			"value": 849
+		"image": {
+			"url": "https://djseltzer.com/img/og/dj-seltzer-preview.jpg",
+			"type": "image/jpg",
+			"width": 1618,
+			"height": 849,
+			"alt": "D.J. Seltzer profile image and banner"
 		}
-	]
+	}
 }
