@@ -65,7 +65,7 @@
 			]
 		}
 	],
-	"structured_data": {
+	"structured-data": {
 		"@context": "https://schema.org",
 		"@type": "TVSeries",
 		"name": "Fridge Face-Off",

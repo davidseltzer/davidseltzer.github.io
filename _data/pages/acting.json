@@ -14,7 +14,7 @@
 			"youtube-id": "9w6QEtSGA_8"
 		}
 	],
-	"structured_data": {
+	"structured-data": {
 		"@context": "https://schema.org",
 		"@type": "ItemList",
 		"itemListElement": [

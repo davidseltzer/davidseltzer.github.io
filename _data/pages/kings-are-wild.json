@@ -75,7 +75,7 @@
 			]
 		}
 	],
-	"structured_data": {
+	"structured-data": {
 		"@context": "https://schema.org",
 		"@type": "TVSeries",
 		"url": "https://djseltzer.com/web-series/kings-are-wild",

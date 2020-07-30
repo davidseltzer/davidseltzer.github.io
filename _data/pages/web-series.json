@@ -6,9 +6,11 @@
 	"items": [
 		"kings-are-wild"
 	],
-	"structured_data": {
+	"structured-data-DISABLED": {
+		"DISABLED-REASON": "Carousel documentation requires more than 1 item. All items must be same type.",
 		"@context": "https://schema.org",
 		"@type": "ItemList",
+		"name": "Web Series",
 		"itemListElement": [
 			{
 				"@type": "ListItem",

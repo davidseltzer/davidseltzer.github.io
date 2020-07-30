@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"structured_data": {
+	"structured-data": {
 		"@context": "https://schema.org",
 		"@type": "MusicRecording",
 		"name": "No More 54",

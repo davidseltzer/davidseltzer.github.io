@@ -11,7 +11,7 @@
 		"widths": [500, 400, 300],
 		"ext": ["webp", "jpg"]
 	},
-	"structured_data": {
+	"structured-data": {
 		"@context": "https://schema.org",
 		"@type": "Person",
 		"givenName": "D.J.",
