@@ -1,0 +1,26 @@
+<!--release date-->
+{% if include.video.release-date %}
+	<meta property="video:release_date" content="{{ include.video.release-date }}" />
+{% endif %}
+
+<!--writers-->
+{% if include.video.writers %}
+	{% for writer in include.video.writers %}
+
+		{% include common/head/open-graph/open-graph-profile.html
+				prefix="video.writer"
+				profile=writer
+		%}
+	{% endfor %}
+{% endif %}
+
+<!--actors-->
+{% if include.video.actors %}
+	{% for actor in include.video.actors %}
+
+		{% include common/head/open-graph/open-graph-profile.html
+				prefix="video.actor"
+				profile=actor
+		%}
+	{% endfor %}
+{% endif %}

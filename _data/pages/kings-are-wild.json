@@ -192,7 +192,7 @@
 			}
 		]
 	},
-	"og": {
+	"open-graph": {
 		"type": "video.tv_show",
 		"image": {
 			"url": "https://djseltzer.com/img/films/kings-are-wild/still/kings-are-wild-still-1200w.png",
@@ -201,167 +201,59 @@
 			"height": 675,
 			"alt": "Kings Are Wild - Movie Still"
 		},
-		"properties": [
-			{
-				"k": "video:release_date",
-				"v": "2019-10-17"
-			},
-			{
-				"k": "video.writer",
-				"v": ""
-			},
-			{
-				"k": "video.writer:first_name",
-				"v": "David John"
-			},
-			{
-				"k": "video.writer:last_name",
-				"v": "Seltzer"
-			},
-			{
-				"k": "video.writer:gender",
-				"v": "male"
-			},
-			{
-				"k": "video.actor",
-				"v": ""
-			},
-			{
-				"k": "video.actor:first_name",
-				"v": "David John"
-			},
-			{
-				"k": "video.actor:last_name",
-				"v": "Seltzer"
-			},
-			{
-				"k": "video.actor:gender",
-				"v": "male"
-			},
-			{
-				"k": "video.actor:role",
-				"v": "David John"
-			},
-			{
-				"k": "video.actor",
-				"v": ""
-			},
-			{
-				"k": "video.actor:first_name",
-				"v": "David Shea"
-			},
-			{
-				"k": "video.actor:last_name",
-				"v": "Henne"
-			},
-			{
-				"k": "video.actor:gender",
-				"v": "male"
-			},
-			{
-				"k": "video.actor:role",
-				"v": "David Shea"
-			},
-			{
-				"k": "video.actor",
-				"v": ""
-			},
-			{
-				"k": "video.actor:first_name",
-				"v": "Chelsea"
-			},
-			{
-				"k": "video.actor:last_name",
-				"v": "Jordan"
-			},
-			{
-				"k": "video.actor:gender",
-				"v": "female"
-			},
-			{
-				"k": "video.actor:role",
-				"v": "Chelsea"
-			},
-			{
-				"k": "video.actor",
-				"v": ""
-			},
-			{
-				"k": "video.actor:first_name",
-				"v": "Tess"
-			},
-			{
-				"k": "video.actor:last_name",
-				"v": "Llanos"
-			},
-			{
-				"k": "video.actor:gender",
-				"v": "female"
-			},
-			{
-				"k": "video.actor:role",
-				"v": "Tess"
-			},
-			{
-				"k": "video.actor",
-				"v": ""
-			},
-			{
-				"k": "video.actor:first_name",
-				"v": "Kaylie"
-			},
-			{
-				"k": "video.actor:last_name",
-				"v": "Gipson"
-			},
-			{
-				"k": "video.actor:gender",
-				"v": "female"
-			},
-			{
-				"k": "video.actor:role",
-				"v": "Jess"
-			},
-			{
-				"k": "video.actor",
-				"v": ""
-			},
-			{
-				"k": "video.actor:first_name",
-				"v": "Michelle"
-			},
-			{
-				"k": "video.actor:last_name",
-				"v": "Agresti"
-			},
-			{
-				"k": "video.actor:gender",
-				"v": "female"
-			},
-			{
-				"k": "video.actor:role",
-				"v": "Michelle"
-			},
-			{
-				"k": "video.actor",
-				"v": ""
-			},
-			{
-				"k": "video.actor:first_name",
-				"v": "Donald Lee"
-			},
-			{
-				"k": "video.actor:last_name",
-				"v": "Gipson"
-			},
-			{
-				"k": "video.actor:gender",
-				"v": "male"
-			},
-			{
-				"k": "video.actor:role",
-				"v": "James"
-			}
-		]
+		"video": {
+			"release-date": "2019-10-17",
+			"writers": [
+				{
+					"first_name": "David John",
+					"last_name": "Seltzer",
+					"gender": "male"
+				}
+			],
+			"actors": [
+				{
+					"first_name": "David John",
+					"last_name": "Seltzer",
+					"gender": "male",
+					"role": "David John"
+				},
+				{
+					"first_name": "David Shea",
+					"last_name": "Henne",
+					"gender": "male",
+					"role": "David Shea"
+				},
+				{
+					"first_name": "Chelsea",
+					"last_name": "Jordan",
+					"gender": "female",
+					"role": "Chelsea"
+				},
+				{
+					"first_name": "Tess",
+					"last_name": "Llanos",
+					"gender": "female",
+					"role": "Tess"
+				},
+				{
+					"first_name": "Kaylie",
+					"last_name": "Gipson",
+					"gender": "female",
+					"role": "Jess"
+				},
+				{
+					"first_name": "Michelle",
+					"last_name": "Agresti",
+					"gender": "female",
+					"role": "Michelle"
+				},
+				{
+					"first_name": "Donald Lee",
+					"last_name": "Gipson",
+					"gender": "female",
+					"role": "James"
+				}
+			]
+		}
 	}
 }

@@ -1,0 +1,8 @@
+<meta property="{{ include.prefix }}" content="" />
+<meta property="{{ include.prefix }}:first_name" content="{{ include.profile.first_name }}" />
+<meta property="{{ include.prefix }}:last_name" content="{{ include.profile.last_name }}" />
+<meta property="{{ include.prefix }}:gender" content="{{ include.profile.gender }}" />
+
+{% if include.profile.role %}
+	<meta property="{{ include.prefix }}:role" content="{{ include.profile.role }}" />
+{% endif %}

@@ -1,0 +1,22 @@
+<meta property="og:site_name" content="D.J. Seltzer" />
+
+{% if include.data.open-graph %}
+	{% assign open-graph = include.data.open-graph %}
+
+	<meta property="og:type" content="{{ open-graph.type }}" />
+
+	<!--image-->
+	{% if open-graph.image %}
+		{% include common/head/open-graph/open-graph-image.html
+				image=open-graph.image
+		%}
+	{% endif %}
+
+	<!--video-->
+	{% if open-graph.video %}
+		{% include common/head/open-graph/open-graph-video.html
+				video=open-graph.video
+		%}
+	{% endif %}
+
+{% endif %}
