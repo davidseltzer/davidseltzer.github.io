@@ -1,6 +1,6 @@
 {
 	"page-title": "D.J. Seltzer - Actor | Comedian - Official Website",
-	"description": "David John Seltzer (also known as D.J. Seltzer) is an American actor and comedian.",
+	"description": "David John Seltzer (D.J. Seltzer) is an American actor and comedian.",
 	"profile": {
 		"alt": "D.J. Seltzer Profile Pic",
 		"src": "/img/profile/dj-seltzer-profile",
@@ -21,16 +21,16 @@
 		"disambiguationDescription": "American actor",
 		"nationality": "USA",
 		"gender": "Male",
-		"description": "David John Seltzer (also known as D.J. Seltzer) is an American actor and comedian.",
+		"description": "David John Seltzer (D.J. Seltzer) is an American actor and comedian.",
 		"image": "https://djseltzer.com/img/bio/dj-seltzer-fries-500w.jpg",
 		"url": "https://djseltzer.com/",
 		"sameAs": [
 			"https://www.facebook.com/davidjohnseltzer",
 			"https://www.imdb.com/name/nm9420509/",
 			"https://www.instagram.com/davidjohnseltzer",
-			"https://twitter.com/davidseltzer"
+			"https://twitter.com/davidseltzer",
+			"https://www.youtube.com/channel/UCA0jpXWyybLYjVYlpCPs5_Q"
 		],
-		"mainEntityOfPage": "https://www.youtube.com/channel/UCA0jpXWyybLYjVYlpCPs5_Q",
 		"sibling": {
 			"@type": "Person",
 			"givenName": "Kim",
