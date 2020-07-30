@@ -1,0 +1,12 @@
+{
+	"open-graph": {
+		"type": "website",
+		"image": {
+			"url": "https://djseltzer.com/img/og/dj-seltzer-preview.jpg",
+			"type": "image/jpg",
+			"width": 1618,
+			"height": 849,
+			"alt": "D.J. Seltzer profile image and banner"
+		}
+	}
+}
