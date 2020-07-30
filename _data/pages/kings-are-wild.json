@@ -101,7 +101,7 @@
 					"video": {
 						"@type": "VideoObject",
 						"name": "S1 Episode 1: Let's Do This - Kings Are Wild",
-						"description": "David and David brainstorm ideas for their new podcast.",
+						"description": "Episode 1 of the Kings Are Wild web series.",
 						"duration": "PT7M56S",
 						"uploadDate": "2019-10-17",
 						"thumbnailUrl": "https://djseltzer.com/img/films/kings-are-wild/video-thumbnail/kings-are-wild-s1e1-thumbnail.jpg",
@@ -122,7 +122,7 @@
 					"video": {
 						"@type": "VideoObject",
 						"name": "S1 Episode 2: FMTWGR - Kings Are Wild",
-						"description": "After David and David drift apart, Chelsea brings everyone together to discuss what's on her mind.",
+						"description": "Episode 2 of the Kings Are Wild web series.",
 						"duration": "PT8M50S",
 						"uploadDate": "2019-10-17",
 						"thumbnailUrl": "https://djseltzer.com/img/films/kings-are-wild/video-thumbnail/kings-are-wild-s1e2-thumbnail.jpg",
