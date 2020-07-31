@@ -18,9 +18,7 @@
 
 			<!--bio-->
 			<div class="col-12 col-md-6 offset-md-1">
-				{% for paragraph in data.bio %}
-					<p>{{ paragraph }}</p>
-				{% endfor %}
+				<p>{{ data.bio | newline_to_br }}</p>
 			</div>
 		</div>
 
