@@ -3,6 +3,11 @@
 
 amp-sidebar {
   width: 80vw;
+
+  .navbar {
+    width: 80vw;
+    left: unset;
+  }
 }
 
 .navbar {
