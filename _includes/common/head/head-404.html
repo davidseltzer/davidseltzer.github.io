@@ -1,16 +1,17 @@
 <head>
 	<meta charset="utf-8">
-	<script async src="https://cdn.ampproject.org/v0.js"></script>
-
-	<!--title-->
-	<title>Page Not Found - D.J. Seltzer</title>
 
 	<!--viewport-->
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+	<!--robots - no index-->
 	<meta name="robots" content="noindex">
 
-	<!--amp boilerplate-->
-	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	<!--preload scripts-->
+	{% include common/head/preload-scripts.html data=include.data %}
+
+	<!--amp components-->
+	{% include common/head/amp-components.html data=data %}
 
 	<!--css-->
 	{% include common/head/amp-css.html %}
@@ -18,8 +19,11 @@
 	<!--fonts: source sans pro & permanent marker-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Sans+Pro&display=swap">
 
-	<!--amp components-->
-	{% include common/head/amp-components.html %}
+	<!--amp boilerplate-->
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+	<!--title-->
+	<title>Page Not Found - D.J. Seltzer</title>
 
 	<!--favicon-->
 	{% include common/head/favicon.html %}
