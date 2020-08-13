@@ -1,5 +1,5 @@
 {% if include.data.structured-data %}
 	<script type="application/ld+json">
-		{{ include.data.structured-data | json }}
+		{{ include.data.structured-data | jsonify }}
 	</script>
 {% endif %}
