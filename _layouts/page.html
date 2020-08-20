@@ -13,13 +13,17 @@ layout: compress
 		<!-- navigation -->
 		{% include common/amp-navbar.html %}
 
-		<!--content-->
-		{{ content }}
+		<div class="h-100vh d-flex flex-column justify-content-between">
+			<!--content-->
+			<div>{{ content }}</div>
 
-		<!-- footer -->
-		{% include common/footer/footer.html %}
+			<div>
+				<!-- footer -->
+				{% include common/footer/footer.html %}
 
-		<!--google analytics-->
-		{% include common/amp-google-analytics.html %}
+				<!--google analytics-->
+				{% include common/amp-google-analytics.html %}
+			</div>
+		</div>
 	</body>
 </html>
