@@ -24,11 +24,11 @@ $box-shadow:        0 .5rem 1rem rgba($theme-black, .15) !default;
 
         &:hover,
         &:active {
-          color: $theme-red;
+          color: $theme-orange;
         }
 
         &.active {
-          color: $theme-red !important;
+          color: $theme-orange !important;
         }
       }
     }
@@ -43,11 +43,11 @@ $box-shadow:        0 .5rem 1rem rgba($theme-black, .15) !default;
 
           &:hover,
           &:active {
-            color: $theme-red;
+            color: $theme-orange;
           }
 
           &.active {
-            color: $theme-dark-red !important;
+            color: $theme-green !important;
           }
         }
       }

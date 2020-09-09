@@ -28,7 +28,7 @@
 			"label": "Email",
 			"url": "mailto:booking@djseltzer.com",
 			"icon": "icon-envelope",
-			"color": "text-theme-gold",
+			"color": "text-theme-green",
 			"footer": false
 		}
 	]
