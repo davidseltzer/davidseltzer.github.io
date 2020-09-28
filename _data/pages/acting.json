@@ -10,8 +10,12 @@
 	],
 	"videos": [
 		{
-			"title": "Reel",
-			"youtube-id": "9w6QEtSGA_8"
+			"title": "Comedy Reel",
+			"youtube-id": "23Ik-3mkMkE"
+		},
+		{
+			"title": "Drama Reel",
+			"youtube-id": "YGNyP9Byu9s"
 		}
 	]
 }
