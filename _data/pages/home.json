@@ -3,13 +3,13 @@
 	"description": "David John Seltzer is an American actor and comedian.",
 	"profile": {
 		"alt": "D.J. Seltzer Profile Pic",
-		"src": "/img/profile/dj-seltzer-profile",
+		"src": "/img/profile/dj-seltzer-profile-2",
 		"ratio": {
 			"height": 500,
 			"width": 500
 		},
 		"widths": [500, 400, 300],
-		"ext": ["webp", "jpg"]
+		"ext": ["jpg"]
 	},
 	"structured-data": {
 		"@context": "https://schema.org",
