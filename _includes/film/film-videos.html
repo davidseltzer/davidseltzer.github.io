@@ -1,6 +1,6 @@
 {% for video in include.videos %}
 
-	<div {% if forloop.last != true %} class="mb-5 pb-4" {% endif %}>
+	<div {% if forloop.last != true %} class="mb-5 pb-5" {% endif %}>
 
 		<!--video title-->
 		<h2 class="text-theme-white text-center mb-5">{{ video.title }}</h2>
@@ -26,8 +26,5 @@
 				</div>
 			</div>
 		{% endif %}
-
-		<!--external link-->
-		{% include common/media/video-embed/external-link.html video=video %}
 	</div>
 {% endfor %}
