@@ -5,7 +5,28 @@
 	"episodes": [
 		{
 			"title": "The Follow-Up Showdown",
-			"host": "Paul Goetz & Travis McMaster",
+			"host": "Paul Goetz, Travis McMaster, Lauren Pokorney",
+			"episode": "Ep. 229 - \"Casablanca\" w/ David Seltzer",
+			"links": {
+				"spotify": "https://open.spotify.com/episode/5doS8u7FOJkyUZjwnBW8zE",
+				"itunes": "https://podcasts.apple.com/us/podcast/ep-229-casablanca-w-david-seltzer/id1511814055?i=1000514904212",
+				"soundcloud": "https://soundcloud.com/followupshowdown/ep-229-casablanca-with-david",
+				"stitcher": "https://www.stitcher.com/show/the-followup-showdown/episode/ep-229-casablanca-w-david-seltzer-82761893"
+			},
+			"img": {
+				"alt": "The Follow-Up Showdown Podcast Album Cover",
+				"src": "/img/podcasts/follow-up-showdown/follow-up-showdown-cover",
+				"ratio": {
+					"height": 500,
+					"width": 500
+				},
+				"widths": [500, 400, 300, 200],
+				"ext": ["jpg"]
+			}
+		},
+		{
+			"title": "The Follow-Up Showdown",
+			"host": "Paul Goetz, Travis McMaster",
 			"episode": "Ep. 104 - \"The Man From U.N.C.L.E.\" with David John Seltzer",
 			"links": {
 				"spotify": "https://open.spotify.com/episode/5sR3iwDArrHPbJSqnQoXa3",
@@ -27,50 +48,111 @@
 	],
 	"structured-data": {
 		"@context": "http://schema.org",
-		"@type": "PodcastEpisode",
-		"name": "Ep. 104 - \"The Man From U.N.C.L.E.\" with David John Seltzer",
-		"duration": "PT46M27S",
-		"url": "https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055?i=1000480173558",
-		"sameAs": [
-			"https://open.spotify.com/episode/5sR3iwDArrHPbJSqnQoXa3",
-			"https://soundcloud.com/followupshowdown/ep-104-the-man-from-u-n-c-l-e",
-			"https://www.stitcher.com/podcast/the-followup-showdown/e/73687041"
-		],
-		"partOfSeries": {
-			"@type": "PodcastSeries",
-			"name": "The Follow-Up Showdown",
-			"url": "https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055",
-			"sameAs": [
-				"https://open.spotify.com/show/2VAG0uTwZDxICylzrHedLj",
-				"https://soundcloud.com/followupshowdown",
-				"https://www.instagram.com/thefollowupshowdown"
-			]
-		},
-		"potentialAction": [
+		"@type": "ItemList",
+		"itemListOrder": "Unordered",
+		"numberOfItems": "2",
+		"itemListElement": [
 			{
-				"@type": "ListenAction",
-				"target": [
-					"https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055?i=1000480173558",
-					"https://open.spotify.com/episode/5sR3iwDArrHPbJSqnQoXa3",
-					"https://soundcloud.com/followupshowdown/ep-104-the-man-from-u-n-c-l-e"
+				"@type": "PodcastEpisode",
+				"position": "1",
+				"name": "Ep. 229 - \"Casablanca\" w/ David Seltzer",
+				"duration": "PT1H24M37S",
+				"url": "https://podcasts.apple.com/us/podcast/ep-229-casablanca-w-david-seltzer/id1511814055?i=1000514904212",
+				"sameAs": [
+					"https://open.spotify.com/episode/5doS8u7FOJkyUZjwnBW8zE",
+					"https://soundcloud.com/followupshowdown/ep-229-casablanca-with-david",
+					"https://www.stitcher.com/show/the-followup-showdown/episode/ep-229-casablanca-w-david-seltzer-82761893"
+				],
+				"partOfSeries": {
+					"@type": "PodcastSeries",
+					"name": "The Follow-Up Showdown",
+					"url": "https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055",
+					"sameAs": [
+						"https://open.spotify.com/show/2VAG0uTwZDxICylzrHedLj",
+						"https://soundcloud.com/followupshowdown",
+						"https://www.instagram.com/thefollowupshowdown"
+					]
+				},
+				"potentialAction": [
+					{
+						"@type": "ListenAction",
+						"target": [
+							"https://podcasts.apple.com/us/podcast/ep-229-casablanca-w-david-seltzer/id1511814055?i=1000514904212",
+							"https://open.spotify.com/episode/5doS8u7FOJkyUZjwnBW8zE",
+							"https://soundcloud.com/followupshowdown/ep-229-casablanca-with-david"
+						]
+					}
+				],
+				"actor": [
+					{
+						"@type": "Person",
+						"name": "Paul Goetz",
+						"url": "https://www.imdb.com/name/nm2280028"
+					},
+					{
+						"@type": "Person",
+						"name": "Travis McMaster"
+					},
+					{
+						"@type": "Person",
+						"name": "Lauren Pokorney"
+					},
+					{
+						"@type": "Person",
+						"name": "D.J. Seltzer",
+						"alternateName": "David John Seltzer",
+						"url": "https://www.imdb.com/name/nm9420509"
+					}
 				]
-			}
-		],
-		"actor": [
-			{
-				"@type": "Person",
-				"name": "Paul Goetz",
-				"url": "https://www.imdb.com/name/nm2280028"
 			},
 			{
-				"@type": "Person",
-				"name": "Travis McMaster"
-			},
-			{
-				"@type": "Person",
-				"name": "D.J. Seltzer",
-				"alternateName": "David John Seltzer",
-				"url": "https://www.imdb.com/name/nm9420509"
+				"@type": "PodcastEpisode",
+				"position": "2",
+				"name": "Ep. 104 - \"The Man From U.N.C.L.E.\" with David John Seltzer",
+				"duration": "PT46M27S",
+				"url": "https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055?i=1000480173558",
+				"sameAs": [
+					"https://open.spotify.com/episode/5sR3iwDArrHPbJSqnQoXa3",
+					"https://soundcloud.com/followupshowdown/ep-104-the-man-from-u-n-c-l-e",
+					"https://www.stitcher.com/podcast/the-followup-showdown/e/73687041"
+				],
+				"partOfSeries": {
+					"@type": "PodcastSeries",
+					"name": "The Follow-Up Showdown",
+					"url": "https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055",
+					"sameAs": [
+						"https://open.spotify.com/show/2VAG0uTwZDxICylzrHedLj",
+						"https://soundcloud.com/followupshowdown",
+						"https://www.instagram.com/thefollowupshowdown"
+					]
+				},
+				"potentialAction": [
+					{
+						"@type": "ListenAction",
+						"target": [
+							"https://podcasts.apple.com/us/podcast/the-follow-up-showdown/id1511814055?i=1000480173558",
+							"https://open.spotify.com/episode/5sR3iwDArrHPbJSqnQoXa3",
+							"https://soundcloud.com/followupshowdown/ep-104-the-man-from-u-n-c-l-e"
+						]
+					}
+				],
+				"actor": [
+					{
+						"@type": "Person",
+						"name": "Paul Goetz",
+						"url": "https://www.imdb.com/name/nm2280028"
+					},
+					{
+						"@type": "Person",
+						"name": "Travis McMaster"
+					},
+					{
+						"@type": "Person",
+						"name": "D.J. Seltzer",
+						"alternateName": "David John Seltzer",
+						"url": "https://www.imdb.com/name/nm9420509"
+					}
+				]
 			}
 		]
 	}
