@@ -2,14 +2,29 @@ $font-family-permanent-marker: "Permanent Marker", Arial, sans-serif !default;
 $font-family-sign-painter: "SignPainter-HouseSlant-Regular", Arial, sans-serif !default;
 $font-family-source-sans-pro: "Source Sans Pro", Arial, sans-serif !default;
 
+h1.font-permanent-marker, .h1.font-permanent-marker,
+h2.font-permanent-marker, .h2.font-permanent-marker,
+h3.font-permanent-marker, .h3.font-permanent-marker,
+h4.font-permanent-marker, .h4.font-permanent-marker,
+h5.font-permanent-marker, .h5.font-permanent-marker,
 .font-permanent-marker {
   font-family: $font-family-permanent-marker;
 }
 
+h1.font-sign-painter, .h1.font-sign-painter,
+h2.font-sign-painter, .h2.font-sign-painter,
+h3.font-sign-painter, .h3.font-sign-painter,
+h4.font-sign-painter, .h4.font-sign-painter,
+h5.font-sign-painter, .h5.font-sign-painter,
 .font-sign-painter {
   font-family: $font-family-sign-painter;
 }
 
+h1.font-source-sans-pro, .h1.font-source-sans-pro,
+h2.font-source-sans-pro, .h2.font-source-sans-pro,
+h3.font-source-sans-pro, .h3.font-source-sans-pro,
+h4.font-source-sans-pro, .h4.font-source-sans-pro,
+h5.font-source-sans-pro, .h5.font-source-sans-pro,
 .font-source-sans-pro {
   font-family: $font-family-source-sans-pro;
 }

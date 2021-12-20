@@ -1,8 +1,8 @@
 {
-	"page-title": "D.J. Seltzer - Actor & Comedian - Official Site",
-	"description": "David John Seltzer is an American actor and comedian.",
+	"page-title": "David Seltzer - Actor & Comedian - Official Site",
+	"description": "David Seltzer is an American actor and comedian.",
 	"profile": {
-		"alt": "D.J. Seltzer Profile Pic",
+		"alt": "David Seltzer Profile Pic",
 		"src": "/img/profile/dj-seltzer-profile-2",
 		"ratio": {
 			"height": 500,
@@ -14,8 +14,8 @@
 	"structured-data": {
 		"@context": "https://schema.org",
 		"@type": "Person",
-		"name": "D.J. Seltzer",
-		"givenName": "D.J.",
+		"name": "David Seltzer",
+		"givenName": "David",
 		"familyName": "Seltzer",
 		"alternateName": "David John Seltzer",
 		"jobTitle": [
@@ -24,19 +24,19 @@
 		],
 		"nationality": "USA",
 		"gender": "Male",
-		"description": "David John Seltzer is an American actor and comedian.",
+		"description": "David Seltzer is an American actor and comedian.",
 		"image": "https://djseltzer.com/img/bio/dj-seltzer-fries-1200w.jpg",
 		"url": "https://djseltzer.com/",
 		"sameAs": [
 			"https://www.imdb.com/name/nm9420509/",
-			"https://www.instagram.com/davidjohnseltzer",
+			"https://www.instagram.com/coolseltzer",
 			"https://www.youtube.com/channel/UCA0jpXWyybLYjVYlpCPs5_Q"
 		]
 	},
 	"open-graph": {
 		"type": "profile",
 		"profile": {
-			"first_name": "D.J.",
+			"first_name": "David",
 			"last_name": "Seltzer",
 			"gender": "male"
 		},
@@ -45,7 +45,7 @@
 			"type": "image/jpg",
 			"width": 1618,
 			"height": 849,
-			"alt": "D.J. Seltzer profile image and banner"
+			"alt": "David Seltzer profile image and banner"
 		}
 	}
 }

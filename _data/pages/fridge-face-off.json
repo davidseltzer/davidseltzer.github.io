@@ -8,8 +8,8 @@
 	"imdb": "https://www.imdb.com/title/tt11079734",
 	"breadcrumbs": [
 		{
-			"label": "Acting",
-			"url": "/acting"
+			"label": "Films",
+			"url": "/films"
 		}
 	],
 	"poster": {
@@ -49,7 +49,7 @@
 		{
 			"title": "Contestants",
 			"names": [
-				"D.J. Seltzer",
+				"David Seltzer",
 				"Sachin Medhekar"
 			]
 		}
@@ -79,7 +79,7 @@
 				"video": {
 					"@type": "VideoObject",
 					"name": "Can You Guess the Fictional Character? Hint: Mayo | Fridge Face-Off",
-					"description": "Angela Kinsey & Josh Snyder host Fridge Face-Off with contestants, David John Seltzer and Sachin Medhekar.",
+					"description": "Angela Kinsey & Josh Snyder host Fridge Face-Off with contestants, David Seltzer and Sachin Medhekar.",
 					"duration": "PT9M17S",
 					"uploadDate": "2019-05-04",
 					"thumbnailUrl": "https://djseltzer.com/img/films/fridge-face-off/video-thumbnail/fridge-face-off-thumbnail.jpg",
@@ -104,7 +104,7 @@
 			},
 			{
 				"@type": "Person",
-				"name": "D.J. Seltzer",
+				"name": "David Seltzer",
 				"alternateName": "David John Seltzer",
 				"url": "https://www.imdb.com/name/nm9420509"
 			},
@@ -141,7 +141,7 @@
 					"role": "Host"
 				},
 				{
-					"first_name": "D.J.",
+					"first_name": "David",
 					"last_name": "Seltzer",
 					"gender": "male",
 					"role": "Contestant"

@@ -7,8 +7,8 @@
 	"youtube": "https://www.youtube.com/watch?v=Y9lhf75_ots",
 	"breadcrumbs": [
 		{
-			"label": "Acting",
-			"url": "/acting"
+			"label": "Films",
+			"url": "/films"
 		}
 	],
 	"poster": {
@@ -84,7 +84,7 @@
 			},
 			"actor": {
 				"@type": "Person",
-				"name": "D.J. Seltzer",
+				"name": "David Seltzer",
 				"alternateName": "David John Seltzer",
 				"url": "https://www.imdb.com/name/nm9420509"
 			}
@@ -104,7 +104,7 @@
 			"release-date": "2019-03-25",
 			"actors": [
 				{
-					"first_name": "D.J.",
+					"first_name": "David",
 					"last_name": "Seltzer",
 					"gender": "male"
 				}

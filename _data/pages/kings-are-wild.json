@@ -8,8 +8,8 @@
 	"imdb": "https://www.imdb.com/title/tt11136042",
 	"breadcrumbs": [
 		{
-			"label": "Acting",
-			"url": "/acting"
+			"label": "Films",
+			"url": "/films"
 		}
 	],
 	"poster": {
@@ -138,7 +138,7 @@
 		"creator": [
 			{
 				"@type": "Person",
-				"name": "D.J. Seltzer",
+				"name": "David Seltzer",
 				"alternateName": "David John Seltzer",
 				"url": "https://www.imdb.com/name/nm9420509"
 			},
@@ -156,7 +156,7 @@
 		"actor": [
 			{
 				"@type": "Person",
-				"name": "D.J. Seltzer",
+				"name": "David Seltzer",
 				"alternateName": "David John Seltzer",
 				"url": "https://www.imdb.com/name/nm9420509"
 			},
