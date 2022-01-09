@@ -1,0 +1,160 @@
+{
+  "url": "/film/blame-it-on-the-elves",
+  "page-title": "Blame it on the Elves - Film",
+  "title": "Blame it on the Elves",
+  "description": "Holiday dark comedy about a mystery involving a rascally elf.",
+  "category": "Film",
+  "youtube": "https://www.youtube.com/watch?v=7wBr6aMunH0",
+  "imdb": "https://www.imdb.com/title/tt16970740",
+  "breadcrumbs": [
+    {
+      "label": "Films",
+      "url": "/films"
+    }
+  ],
+  "poster": {
+    "alt": "Blame it on the Elves",
+    "src": "/img/films/blame-it-on-the-elves/poster/blame-it-on-the-elves-poster",
+    "ratio": {
+      "height": 869,
+      "width": 600
+    },
+    "widths": [600, 400, 300],
+    "ext": ["jpg"]
+  },
+  "still": {
+    "alt": "Blame it on the Elves- Movie Still",
+    "src": "/img/films/blame-it-on-the-elves/still/blame-it-on-the-elves-still",
+    "ratio": {
+      "height": 450,
+      "width": 800
+    },
+    "widths": [800, 600, 500, 400],
+    "ext": ["jpg"]
+  },
+  "videos": [
+    {
+      "title": "Film",
+      "youtube-id": "7wBr6aMunH0"
+    }
+  ],
+  "credits": [
+    {
+      "title": "Actors",
+      "names": [
+        "Ashley Angione",
+        "David Seltzer"
+      ]
+    },
+    {
+      "title": "Director",
+      "names": [
+        "Taylor Behrens"
+      ]
+    },
+    {
+      "title": "Cinematographer",
+      "names": [
+        "Steven Gonzalez"
+      ]
+    },
+    {
+      "title": "Sound Department",
+      "names": [
+        "Costa Ciminiello"
+      ]
+    },
+    {
+      "title": "Writer & Editor",
+      "names": [
+        "David Seltzer"
+      ]
+    }
+  ],
+  "structured-data": {
+    "@context": "https://schema.org",
+    "@type": "Movie",
+    "url": "https://davidseltzer.com/film/blame-it-on-the-elves",
+    "name": "Blame it on the Elves",
+    "description": "Holiday dark comedy about a mystery involving a rascally elf.",
+    "genre": "Comedy",
+    "image": "https://davidseltzer.com/img/films/blame-it-on-the-elves/still/blame-it-on-the-elves-1200w.png",
+    "sameAs": [
+      "https://www.youtube.com/watch?v=7wBr6aMunH0",
+      "https://www.imdb.com/title/tt16970740"
+    ],
+    "video": {
+      "@type": "VideoObject",
+      "name": "Blame it on the Elves",
+      "description": "Holiday dark comedy about a mystery involving a rascally elf.",
+      "duration": "PT8M34S",
+      "uploadDate": "2022-01-07",
+      "thumbnailUrl": "https://davidseltzer.com/img/films/blame-it-on-the-elves/video-thumbnail/blame-it-on-the-elves-thumbnail.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7wBr6aMunH0",
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": "https://www.youtube.com/watch?v=7wBr6aMunH0"
+      }
+    },
+    "creator": [
+      {
+        "@type": "Person",
+        "name": "David Seltzer",
+        "alternateName": "David John Seltzer",
+        "url": "https://www.imdb.com/name/nm9420509"
+      }
+    ],
+    "director": {
+      "@type": "Person",
+      "name": "Taylor Behrens",
+      "url": "https://www.imdb.com/name/nm7311843"
+    },
+    "actor": [
+      {
+        "@type": "Person",
+        "name": "Ashley Angione",
+        "url": "https://www.imdb.com/name/nm7607254"
+      },
+      {
+        "@type": "Person",
+        "name": "David Seltzer",
+        "alternateName": "David John Seltzer",
+        "url": "https://www.imdb.com/name/nm9420509"
+      }
+    ]
+  },
+  "open-graph": {
+    "type": "video.movie",
+    "image": {
+      "url": "https://davidseltzer.com/img/films/blame-it-on-the-elves/still/blame-it-on-the-elves-1200w.png",
+      "type": "image/png",
+      "width": 1200,
+      "height": 675,
+      "alt": "Blame it on the Elves - Movie Still"
+    },
+    "video": {
+      "release-date": "2022-01-07",
+      "writers": [
+        {
+          "first_name": "David",
+          "last_name": "Seltzer",
+          "gender": "male"
+        }
+      ],
+      "actors": [
+        {
+          "first_name": "Ashley",
+          "last_name": "Angione",
+          "gender": "female",
+          "role": "Katherine"
+        },
+        {
+          "first_name": "David",
+          "last_name": "Seltzer",
+          "gender": "male",
+          "role": "Marty"
+        }
+      ]
+    }
+  }
+}

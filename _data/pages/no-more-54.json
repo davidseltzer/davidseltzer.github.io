@@ -59,9 +59,9 @@
 	"structured-data": {
 		"@context": "https://schema.org",
 		"@type": "MusicRecording",
-		"url": "https://djseltzer.com/music-video/no-more-54",
+		"url": "https://davidseltzer.com/music-video/no-more-54",
 		"name": "No More 54",
-		"image": "https://djseltzer.com/img/films/no-more-54/still/no-more-54-still-1016w.jpg",
+		"image": "https://davidseltzer.com/img/films/no-more-54/still/no-more-54-still-1016w.jpg",
 		"byArtist": {
 			"@type" : "MusicGroup",
 			"name" : "Dada Life",
@@ -76,7 +76,7 @@
 			"description": "Official music video for No More 54 by Dada Life.",
 			"duration": "PT3M18S",
 			"uploadDate": "2019-03-25",
-			"thumbnailUrl": "https://djseltzer.com/img/films/no-more-54/video-thumbnail/no-more-54-thumbnail.jpg",
+			"thumbnailUrl": "https://davidseltzer.com/img/films/no-more-54/video-thumbnail/no-more-54-thumbnail.jpg",
 			"embedUrl": "https://www.youtube.com/embed/Y9lhf75_ots",
 			"potentialAction": {
 				"@type": "WatchAction",
@@ -93,7 +93,7 @@
 	"open-graph": {
 		"type": "video.other",
 		"image": {
-			"url": "https://djseltzer.com/img/films/no-more-54/still/no-more-54-still-1016w.jpg",
+			"url": "https://davidseltzer.com/img/films/no-more-54/still/no-more-54-still-1016w.jpg",
 			"type": "image/jpg",
 			"width": 1016,
 			"height": 571,

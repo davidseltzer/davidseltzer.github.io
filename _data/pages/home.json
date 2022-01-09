@@ -25,8 +25,8 @@
 		"nationality": "USA",
 		"gender": "Male",
 		"description": "David Seltzer is an American actor and comedian.",
-		"image": "https://djseltzer.com/img/bio/dj-seltzer-fries-1200w.jpg",
-		"url": "https://djseltzer.com/",
+		"image": "https://davidseltzer.com/img/bio/dj-seltzer-fries-1200w.jpg",
+		"url": "https://davidseltzer.com/",
 		"sameAs": [
 			"https://www.imdb.com/name/nm9420509/",
 			"https://www.instagram.com/coolseltzer",
@@ -41,7 +41,7 @@
 			"gender": "male"
 		},
 		"image": {
-			"url": "https://djseltzer.com/img/og/dj-seltzer-preview.jpg",
+			"url": "https://davidseltzer.com/img/og/dj-seltzer-preview.jpg",
 			"type": "image/jpg",
 			"width": 1618,
 			"height": 849,

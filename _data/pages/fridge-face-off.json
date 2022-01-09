@@ -57,11 +57,11 @@
 	"structured-data": {
 		"@context": "https://schema.org",
 		"@type": "TVSeries",
-		"url": "https://djseltzer.com/game-show/fridge-face-off",
+		"url": "https://davidseltzer.com/game-show/fridge-face-off",
 		"name": "Fridge Face-Off",
 		"description": "Game show hosted by Angela Kinsey and Josh Snyder. Presented by Tastemade and Facebook Watch.",
 		"genre": "Game Show",
-		"image": "https://djseltzer.com/img/films/fridge-face-off/still/fridge-face-off-still-1200w.png",
+		"image": "https://davidseltzer.com/img/films/fridge-face-off/still/fridge-face-off-still-1200w.png",
 		"sameAs": [
 			"https://www.imdb.com/title/tt11075288",
 			"https://www.facebook.com/watch/tastemade/682473785590984"
@@ -82,7 +82,7 @@
 					"description": "Angela Kinsey & Josh Snyder host Fridge Face-Off with contestants, David Seltzer and Sachin Medhekar.",
 					"duration": "PT9M17S",
 					"uploadDate": "2019-05-04",
-					"thumbnailUrl": "https://djseltzer.com/img/films/fridge-face-off/video-thumbnail/fridge-face-off-thumbnail.jpg",
+					"thumbnailUrl": "https://davidseltzer.com/img/films/fridge-face-off/video-thumbnail/fridge-face-off-thumbnail.jpg",
 					"embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftastemade%2Fvideos%2F373690190021411",
 					"potentialAction": {
 						"@type": "WatchAction",
@@ -118,7 +118,7 @@
 	"open-graph": {
 		"type": "video.episode",
 		"image": {
-			"url": "https://djseltzer.com/img/films/fridge-face-off/still/fridge-face-off-still-1200w.png",
+			"url": "https://davidseltzer.com/img/films/fridge-face-off/still/fridge-face-off-still-1200w.png",
 			"type": "image/png",
 			"width": 1200,
 			"height": 675,

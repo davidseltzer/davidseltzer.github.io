@@ -78,11 +78,11 @@
 	"structured-data": {
 		"@context": "https://schema.org",
 		"@type": "TVSeries",
-		"url": "https://djseltzer.com/series/kings-are-wild",
+		"url": "https://davidseltzer.com/series/kings-are-wild",
 		"name": "Kings Are Wild",
 		"description": "Comedy web series created by David John Seltzer and David Shea Henne.",
 		"genre": "Comedy",
-		"image": "https://djseltzer.com/img/films/kings-are-wild/still/kings-are-wild-still-1200w.png",
+		"image": "https://davidseltzer.com/img/films/kings-are-wild/still/kings-are-wild-still-1200w.png",
 		"sameAs": [
 			"https://www.imdb.com/title/tt11136042",
 			"https://www.youtube.com/channel/UCAMIFa_7h77oCULA2ZX80VA"
@@ -104,7 +104,7 @@
 						"description": "Episode 1 of the Kings Are Wild web series.",
 						"duration": "PT7M56S",
 						"uploadDate": "2019-10-17",
-						"thumbnailUrl": "https://djseltzer.com/img/films/kings-are-wild/video-thumbnail/kings-are-wild-s1e1-thumbnail.jpg",
+						"thumbnailUrl": "https://davidseltzer.com/img/films/kings-are-wild/video-thumbnail/kings-are-wild-s1e1-thumbnail.jpg",
 						"embedUrl": "https://www.youtube.com/embed/2oRxiAggzIU",
 						"potentialAction": {
 							"@type": "WatchAction",
@@ -125,7 +125,7 @@
 						"description": "Episode 2 of the Kings Are Wild web series.",
 						"duration": "PT8M50S",
 						"uploadDate": "2019-10-17",
-						"thumbnailUrl": "https://djseltzer.com/img/films/kings-are-wild/video-thumbnail/kings-are-wild-s1e2-thumbnail.jpg",
+						"thumbnailUrl": "https://davidseltzer.com/img/films/kings-are-wild/video-thumbnail/kings-are-wild-s1e2-thumbnail.jpg",
 						"embedUrl": "https://www.youtube.com/embed/dngLrQkZ7YU",
 						"potentialAction": {
 							"@type": "WatchAction",
@@ -195,7 +195,7 @@
 	"open-graph": {
 		"type": "video.tv_show",
 		"image": {
-			"url": "https://djseltzer.com/img/films/kings-are-wild/still/kings-are-wild-still-1200w.png",
+			"url": "https://davidseltzer.com/img/films/kings-are-wild/still/kings-are-wild-still-1200w.png",
 			"type": "image/png",
 			"width": 1200,
 			"height": 675,
