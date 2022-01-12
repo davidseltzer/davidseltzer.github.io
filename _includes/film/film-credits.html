@@ -1,14 +1,14 @@
-{% assign has-actors = false %}
+{% assign has-cast = false %}
 {% for credit in include.credits %}
 
 	{% assign credit-title-lower = credit.title | downcase %}
-	{% if credit-title-lower == 'actors' %}
-		{% assign has-actors = true %}
+	{% if credit-title-lower == 'cast' %}
+		{% assign has-cast = true %}
 	{% endif %}
 {% endfor %}
 
 <h2 class="h3 mb-5 text-center text-md-left">
-	{% if has-actors == true %}
+	{% if has-cast == true %}
 		Cast & crew
 	{% else %}
 		Credits
