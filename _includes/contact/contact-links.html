@@ -2,7 +2,7 @@
 
 	{% for item in include.social-media %}
 
-		<div class="col-6 col-md-2 {% if forloop.first %} offset-md-2 {% endif %} my-4 contact-links">
+		<div class="col-6 col-md-2 {% if forloop.first %} offset-md-3 {% endif %} my-4 contact-links">
 			{% include contact/contact-link.html social-media=item %}
 		</div>
 	{% endfor %}

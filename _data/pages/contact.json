@@ -23,13 +23,6 @@
 			"icon": "icon-imdb",
 			"color": "text-imdb-black",
 			"footer": false
-		},
-		{
-			"label": "Email",
-			"url": "mailto:booking@davidseltzer.com",
-			"icon": "icon-envelope",
-			"color": "text-theme-green",
-			"footer": false
 		}
 	]
 }
