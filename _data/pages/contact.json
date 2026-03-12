@@ -5,14 +5,14 @@
 	"social-media": [
 		{
 			"label": "YouTube",
-			"url": "https://www.youtube.com/@coolseltzer",
+			"url": "https://www.youtube.com/@dvdseltzer",
 			"icon": "icon-youtube",
 			"color": "text-youtube-red",
 			"footer": true
 		},
 		{
 			"label": "Instagram",
-			"url": "https://www.instagram.com/coolseltzer",
+			"url": "https://www.instagram.com/dvdseltzer",
 			"icon": "icon-instagram",
 			"color": "text-instagram-purple",
 			"footer": true
